@@ -14,13 +14,14 @@ PRODUCT_SDK_ADDON_NAME := platform_library
 # Copy the manifest and hardware files for the SDK add-on.
 # The content of those files is manually created for now.
 PRODUCT_SDK_ADDON_COPY_FILES := \
+    vendor/sample/sdk_addon/manifest.ini:manifest.ini \
     vendor/sample/sdk_addon/hardware.ini:hardware.ini \
-    vendor/sample/sdk_addon/manifest.ini:manifest.ini
+	$(call find-copy-subdir-files,*,vendor/sample/skins/WVGAMedDpi,skins/WVGAMedDpi)
 
 
 # Add this to PRODUCT_SDK_ADDON_COPY_FILES to copy the files for an
 # emulator skin (or for samples)
-#    $(call find-copy-subdir-files,*,development/emulator/skins/HVGA,skins/HVGA)
+#$(call find-copy-subdir-files,*,vendor/sample/skins/WVGAMedDpi,skins/WVGAMedDpi)
 
 # Copy the jar files for the optional libraries that are exposed as APIs.
 PRODUCT_SDK_ADDON_COPY_MODULES := \
