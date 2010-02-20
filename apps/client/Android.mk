@@ -34,4 +34,6 @@ LOCAL_SDK_VERSION := current
 # Also link against our own custom library.
 LOCAL_JAVA_LIBRARIES := com.example.android.platform_library
 
+LOCAL_PROGUARD_ENABLED := disabled
+
 include $(BUILD_PACKAGE)

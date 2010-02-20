@@ -28,4 +28,6 @@ LOCAL_SRC_FILES := $(call all-java-files-under, src)
 # Link against the current Android SDK.
 LOCAL_SDK_VERSION := current
 
+LOCAL_PROGUARD_ENABLED := disabled
+
 include $(BUILD_PACKAGE)
