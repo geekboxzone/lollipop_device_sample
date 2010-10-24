@@ -791,9 +791,9 @@
       mcc="228"
       mnc="03"
       apn="mms"
-      proxy="192.168.151.2"
-      port="8080"
       mmsc="http://192.168.151.3:8002"
+      mmsproxy="192.168.151.2"
+      mmsport="8080"
       type="mms"
   />
 
@@ -2883,6 +2883,23 @@
       type="dun"
   />
 
+  <apn carrier="WIND"
+      mcc="302"
+      mnc="490"
+      apn="internet.WINDmobile.ca"
+      type="default,supl"
+  />
+
+  <apn carrier="WIND MMS"
+      mcc="302"
+      mnc="490"
+      apn="mms.WINDmobile.ca"
+      mmsc="http://mms.WINDmobile.ca"
+      mmsproxy="74.115.197.70"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Bell Internet"
       mcc="302"
       mnc="610"
@@ -3095,8 +3112,6 @@
       mcc="310"
       mnc="380"
       apn="proxy"
-      proxy="wireless.cingular.com"
-      port="80"
       mmsc="http://mmsc.cingular.com/"
       mmsproxy="wireless.cingular.com"
       type="default,supl,mms"
@@ -3131,8 +3146,6 @@
       user="WAP@CINGULARGPRS.COM"
       password="CINGULAR1"
       server="cingulargprs.com"
-      proxy="wireless.cingular.com"
-      port="80"
       mmsc="http://mmsc.cingular.com/"
       mmsproxy="wireless.cingular.com"
       type="default,supl,mms"
@@ -3495,7 +3508,7 @@
       mmsport="9093"
   />
 
-  <apn carrier="KT-HSDPA"
+  <apn carrier="KT"
       mcc="450"
       mnc="08"
       apn="alwayson-r6.ktfwing.com"
