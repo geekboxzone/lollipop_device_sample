@@ -1067,49 +1067,32 @@
       type="mms"
   />
 
-  <apn carrier="O2 UK MMS"
-      mcc="234"
-      mnc="10"
-      apn="idata.o2.co.uk"
-      user="vertigo"
-      password="password"
-      mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="O2 UK"
-      mcc="234"
-      mnc="10"
-      apn="mobile.o2.co.uk"
-      user="O2web"
-      password="O2web"
-      type="default,supl"
-  />
-
-  <apn carrier="O2 MMS Prepay"
-      mcc="234"
-      mnc="10"
-      apn="payandgo.o2.co.uk"
-      user="payandgo"
-      password="password"
-      mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="O2 MMS Postpay"
+  <apn carrier="O2 POSTPAY"
       mcc="234"
       mnc="10"
       apn="wap.o2.co.uk"
+      proxy="193.113.200.195"
+      port="8080"
       user="o2wap"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
       mmsproxy="193.113.200.195"
       mmsport="8080"
-      type="mms"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="O2 PREPAY"
+      mcc="234"
+      mnc="10"
+      apn="payandgo.o2.co.uk"
+      proxy="193.113.200.195"
+      port="8080"
+      user="payandgo"
+      password="password"
+      mmsc="http://mmsc.mms.o2.co.uk:8002"
+      mmsproxy="193.113.200.195"
+      mmsport="8080"
+      type="default,supl,mms"
   />
 
   <apn carrier="O2 MOBILE WEB"
@@ -2906,6 +2889,23 @@
       mnc="720"
       apn="isp.apn"
       type="dun"
+  />
+
+  <apn carrier="Wind CA"
+      mcc="302"
+      mnc="490"
+      apn="mms.windmobile.ca"
+      mmsc="http://mms.windmobile.ca"
+      mmsproxy="74.115.197.70"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Wind CA MMS"
+      mcc="302"
+      mnc="490"
+      apn="internet.windmobile.ca"
+      type="default,supl"
   />
 
   <apn carrier="myBlue Pix"
