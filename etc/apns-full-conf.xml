@@ -8306,6 +8306,13 @@
       type="mms"
   />
 
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="813"
+      apn="uninor"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor MMS"
       mcc="405"
       mnc="813"
@@ -8314,6 +8321,13 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="814"
+      apn="uninor"
+      type="default,supl"
   />
 
   <apn carrier="Uninor MMS"
@@ -8326,6 +8340,13 @@
       type="mms"
   />
 
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="815"
+      apn="uninor"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor MMS"
       mcc="405"
       mnc="815"
@@ -8334,6 +8355,13 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="816"
+      apn="uninor"
+      type="default,supl"
   />
 
   <apn carrier="Uninor MMS"
@@ -8346,6 +8374,13 @@
       type="mms"
   />
 
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="817"
+      apn="uninor"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor MMS"
       mcc="405"
       mnc="817"
@@ -8354,6 +8389,13 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="818"
+      apn="uninor"
+      type="default,supl"
   />
 
   <apn carrier="Uninor MMS"
@@ -8366,6 +8408,13 @@
       type="mms"
   />
 
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="819"
+      apn="uninor"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor MMS"
       mcc="405"
       mnc="819"
@@ -8374,6 +8423,13 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="820"
+      apn="uninor"
+      type="default,supl"
   />
 
   <apn carrier="Uninor MMS"
@@ -8386,6 +8442,13 @@
       type="mms"
   />
 
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="821"
+      apn="uninor"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor MMS"
       mcc="405"
       mnc="821"
@@ -8394,6 +8457,13 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Uninor GPRS"
+      mcc="405"
+      mnc="822"
+      apn="uninor"
+      type="default,supl"
   />
 
   <apn carrier="Uninor MMS"
