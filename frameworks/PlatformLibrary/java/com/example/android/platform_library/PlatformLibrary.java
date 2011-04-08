@@ -16,7 +16,6 @@
 
 package com.example.android.platform_library;
 
-import android.util.Config;
 import android.util.Log;
 
 public final class PlatformLibrary {    
