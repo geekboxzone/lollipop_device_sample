@@ -1192,6 +1192,13 @@
       type="mms"
   />
 
+  <apn carrier="CoopMobile"
+      mcc="228"
+      mnc="03"
+      apn="click"
+      type="default,supl"
+  />
+
   <apn carrier="T-Mobile CZ"
       mcc="230"
       mnc="01"
