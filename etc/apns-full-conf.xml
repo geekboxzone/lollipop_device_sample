@@ -1490,7 +1490,7 @@
       user="payandgo"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1502,7 +1502,7 @@
       user="o2wap"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1525,7 +1525,7 @@
       proxy="193.113.200.195"
       port="8080"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1539,7 +1539,7 @@
       user="payandgo"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="default,supl,mms"
   />
@@ -1551,7 +1551,7 @@
       user="tescowap"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="default,supl,mms"
   />
@@ -1572,7 +1572,7 @@
       user="payandgo"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1584,7 +1584,7 @@
       user="o2wap"
       password="password"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1606,7 +1606,7 @@
       user="payandgo"
       password="password"
       mmsc="http://mmsc.mms.02.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
@@ -1618,7 +1618,7 @@
       user="o2wap"
       password="password"
       mmsc="http://mmsc.mms.02.co.uk:8002"
-      mmsproxy="193.113.200.195"
+      mmsproxy="82.132.254.1"
       mmsport="8080"
       type="mms"
   />
