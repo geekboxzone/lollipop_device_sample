@@ -16,8 +16,7 @@
         mcc="310"
         mnc="004"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -41,7 +40,8 @@
         mcc="310"
         mnc="004"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -51,8 +51,7 @@
         mcc="311"
         mnc="480"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -76,7 +75,8 @@
         mcc="311"
         mnc="480"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -84,8 +84,7 @@
         mcc="204"
         mnc="04"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -109,7 +108,8 @@
         mcc="204"
         mnc="04"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -117,8 +117,7 @@
         mcc="001"
         mnc="01"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -142,7 +141,8 @@
         mcc="001"
         mnc="01"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -150,8 +150,7 @@
         mcc="001"
         mnc="010"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -175,7 +174,8 @@
         mcc="001"
         mnc="010"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="hhtp://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -183,8 +183,7 @@
         mcc="246"
         mnc="81"
         apn="VZWINTERNET"
-        type="default,mms,dun"
-        mmsc="http://mms.vtext.com/servlets/mms"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -208,7 +207,8 @@
         mcc="246"
         mnc="81"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -216,8 +216,7 @@
         mcc="246"
         mnc="081"
         apn="VZWINTERNET"
-        mmsc="http://mms.vtext.com/servlets/mms"
-        type="default,mms,dun"
+        type="default,dun"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
@@ -241,7 +240,8 @@
         mcc="246"
         mnc="081"
         apn="VZWAPP"
-        type="cbs"
+        type="cbs,mms"
+        mmsc="http://mms.vtext.com/servlets/mms"
         protocol="IPV4V6"
         roaming_protocol="IPV4V6"
     />
