@@ -9609,18 +9609,14 @@
       type="default,supl"
   />
 
-  <apn carrier="mopera"
+  <apn carrier="SPモード"
       mcc="440"
       mnc="10"
-      apn="mopera.net"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="mopera U(Biz・ホーダイ)"
-      mcc="440"
-      mnc="10"
-      apn="mpr2.bizho.net"
-      type="default,supl,mms"
+      apn="spmode.ne.jp"
+      user="none"
+      server=""
+      password=""
+      mmsc="none"
   />
 
   <apn carrier="SK Telecom (Roaming)"
