@@ -37,10 +37,10 @@
       type="mms"
   />
 
-  <apn carrier="Vf Internet"
+  <apn carrier="Vf Mobile Internet"
       mcc="202"
       mnc="05"
-      apn="internet.vodafone.gr"
+      apn="webonly.vodafone.gr"
       type="default,supl"
   />
 
@@ -50,7 +50,7 @@
       apn="wap.vodafone.gr"
       user="user"
       password="pass"
-      proxy="213.249.019.049"
+      proxy="213.249.19.49"
       port="5080"
       type="default,supl"
   />
@@ -140,7 +140,7 @@
       user="tmobilemms"
       password="tmobilemms"
       mmsc="http://t-mobilemms"
-      mmsproxy="010.010.010.011"
+      mmsproxy="10.10.10.11"
       mmsport="8080"
       type="mms"
   />
@@ -195,7 +195,7 @@
       mnc="10"
       apn="mms.be"
       mmsc="http://mmsc.mobistar.be"
-      mmsproxy="212.065.063.143"
+      mmsproxy="212.65.63.143"
       mmsport="8080"
       type="mms"
   />
@@ -206,7 +206,7 @@
       apn="mworld.be"
       user="mobistar"
       password="mobistar"
-      proxy="212.065.063.143"
+      proxy="212.65.63.143"
       port="8080"
       type="default,supl"
   />
@@ -250,28 +250,26 @@
       user="orange"
       password="orange"
       mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.010.200"
+      mmsproxy="192.168.10.200"
       mmsport="8080"
       type="mms"
   />
 
-  <apn carrier="SFR Full Internet"
+  <apn carrier="SFR webphone"
       mcc="208"
       mnc="10"
       apn="sl2sfr"
       type="default,supl"
   />
 
-  <apn carrier="SFR Internet Mobile"
+  <apn carrier="SFR Mobile"
       mcc="208"
       mnc="10"
       apn="wapsfr"
-      proxy="195.115.25.129"
-      port="8080"
       type="default,supl"
   />
 
-  <apn carrier="SFR MMS"
+  <apn carrier="MMS"
       mcc="208"
       mnc="10"
       apn="mmssfr"
@@ -433,7 +431,7 @@
   <apn carrier="WAP LeclercMobile"
       mcc="208"
       mnc="10"
-      proxy="192.168.021.009"
+      proxy="192.168.21.9"
       port="8080"
       apn="wap66"
       type="default,supl"
@@ -479,7 +477,7 @@
       mcc="208"
       mnc="10"
       mmsc="http://mms68"
-      mmsproxy="010.143.156.011"
+      mmsproxy="10.143.156.11"
       mmsport="8080"
       apn="mms68"
       type="mms"
@@ -488,7 +486,7 @@
   <apn carrier="WEB La Poste Mobile"
       mcc="208"
       mnc="10"
-      proxy="192.168.021.003"
+      proxy="192.168.21.3"
       port="8080"
       apn="wapdebitel"
       type="default,supl"
@@ -498,7 +496,7 @@
       mcc="208"
       mnc="10"
       mmsc="http://mmsdebitel"
-      mmsproxy="010.143.156.003"
+      mmsproxy="10.143.156.3"
       mmsport="8080"
       apn="mmsdebitel"
       type="mms"
@@ -773,7 +771,7 @@
       mnc="01"
       apn="mms.htgprs"
       mmsc="http://mms.t-mobile.hr/servlets/mms"
-      mmsproxy="010.012.000.004"
+      mmsproxy="10.12.0.4"
       mmsport="8080"
       type="mms"
   />
@@ -791,7 +789,7 @@
       mnc="02"
       apn="internet.tele2.hr"
       mmsc="http://mmsc.tele2.hr"
-      mmsproxy="193.012.040.066"
+      mmsproxy="193.12.40.66"
       mmsport="8080"
       type="default,supl,mms"
   />
@@ -802,7 +800,7 @@
       apn="data.vip.hr"
       user="38591"
       password="38591"
-      proxy="212.091.099.091"
+      proxy="212.91.99.91"
       port="8080"
       type="default,supl"
   />
@@ -814,7 +812,7 @@
       user="38591"
       password="38591"
       mmsc="http://mms.vipnet.hr/servlets/mms"
-      mmsproxy="212.091.099.091"
+      mmsproxy="212.91.99.91"
       mmsport="8080"
       type="mms"
   />
@@ -1151,7 +1149,7 @@
       mcc="228"
       mnc="01"
       apn="gprs.swisscom.ch"
-      proxy="192.168.210.001"
+      proxy="192.168.210.1"
       port="8080"
       type="default,supl"
   />
@@ -1177,7 +1175,7 @@
       mcc="228"
       mnc="03"
       apn="internet"
-      proxy="192.168.010.002"
+      proxy="192.168.10.2"
       port="8080"
       type="default,supl"
   />
@@ -1360,7 +1358,7 @@
       user="mobil@aon.at"
       password="ppp"
       mmsc="http://mmsc.aon.at"
-      mmsproxy="194.048.124.134"
+      mmsproxy="194.48.124.134"
       mmsport="8001"
       type="mms"
   />
@@ -1455,7 +1453,7 @@
       user="data@bob.at"
       password="ppp"
       mmsc="http://mmsc.bob.at"
-      mmsproxy="194.048.124.007"
+      mmsproxy="194.48.124.7"
       mmsport="8001"
       type="mms"
   />
@@ -1766,7 +1764,7 @@
       mnc="33"
       apn="orangemms"
       mmsc="http://mms.orange.co.uk/"
-      mmsproxy="192.168.224.010"
+      mmsproxy="192.168.224.10"
       mmsport="8080"
       type="mms"
   />
@@ -1783,7 +1781,7 @@
       mnc="34"
       apn="orangemms"
       mmsc="http://mms.orange.co.uk/"
-      mmsproxy="192.168.224.010"
+      mmsproxy="192.168.224.10"
       mmsport="8080"
       type="mms"
   />
@@ -1932,7 +1930,7 @@
       mcc="238"
       mnc="01"
       apn="wap"
-      proxy="194.182.251.015"
+      proxy="194.182.251.15"
       port="8080"
       type="default,supl"
   />
@@ -1942,7 +1940,7 @@
       mnc="01"
       apn="mms"
       mmsc="htp://192.168.241.114:8002"
-      mmsproxy="194.182.251.015"
+      mmsproxy="194.182.251.15"
       mmsport="8080"
       type="mms"
   />
@@ -2244,7 +2242,7 @@
       mnc="04"
       apn="internet.tele2.no "
       mmsc="http://mmsc.tele2.no"
-      mmsproxy="193.012.040.014"
+      mmsproxy="193.12.40.14"
       mmsport="8080"
       type="mms"
   />
@@ -2458,7 +2456,7 @@
       apn="internet.tele2.lt"
       user="wap"
       password="wap"
-      proxy="130.244.196.090"
+      proxy="130.244.196.90"
       port="8080"
       type="default,supl"
   />
@@ -2470,7 +2468,7 @@
       user="wap"
       password="wap"
       mmsc="http://mmsc.tele2.lt/"
-      mmsproxy="193.012.040.029"
+      mmsproxy="193.12.40.29"
       mmsport="8080"
       type="mms"
   />
@@ -2508,7 +2506,7 @@
       user="wap"
       password="wap"
       mmsc="http://mmsc.tele2.lv/"
-      mmsproxy="193.012.040.038"
+      mmsproxy="193.12.40.38"
       mmsport="8080"
       type="mms"
   />
@@ -2605,7 +2603,7 @@
       mnc="03"
       apn="mms.tele2.ee"
       mmsc="http://mmsc.tele2.ee"
-      mmsproxy="193.12.040.006"
+      mmsproxy="193.12.40.6"
       mmsport="8080"
       type="mms"
   />
@@ -2668,7 +2666,7 @@
       user="beeline"
       password="beeline"
       mmsc="http://mms/"
-      mmsproxy="192.168.094.023"
+      mmsproxy="192.168.94.23"
       mmsport="8080"
       type="mms"
   />
@@ -3059,7 +3057,7 @@
       user="tmn"
       password="tmnnet"
       mmsc="http://mmsc/"
-      mmsproxy="10.111.002.016"
+      mmsproxy="10.111.2.16"
       mmsport="8080"
       type="mms"
   />
@@ -3164,7 +3162,7 @@
       user="my"
       password="wap"
       mmsc="http://mms.mymeteor.ie"
-      mmsproxy="010.085.085.085"
+      mmsproxy="10.85.85.85"
       mmsport="8799"
       type="default,supl,mms"
   />
@@ -3212,15 +3210,6 @@
       mcc="274"
       mnc="02"
       apn="gprs.is"
-      type="default,supl"
-  />
-
-  <apn carrier="Vodafone Live!"
-      mcc="274"
-      mnc="02"
-      apn="live.gprs.is"
-      proxy="10.22.0.22"
-      port="8080"
       type="default,supl"
   />
 
@@ -3311,7 +3300,7 @@
       mcc="284"
       mnc="01"
       apn="inet-gprs.mtel.bg"
-      proxy="213.226.006.065"
+      proxy="213.226.6.65"
       port="8080"
       type="default,supl"
   />
@@ -3323,7 +3312,7 @@
       user=""
       password=""
       mmsc="http://mmsc"
-      mmsproxy="010.150.000.033"
+      mmsproxy="10.150.0.33"
       mmsport="8080"
       type="mms"
   />
@@ -4949,7 +4938,7 @@
       apn="wap.beeline.kz"
       user="@wap.beeline"
       password="beeline"
-      proxy="172.027.006.093"
+      proxy="172.27.6.93"
       port="8080"
       type="default,supl"
   />
@@ -9301,7 +9290,7 @@
       mnc="01"
       apn="mms.net.sa"
       mmsc="http://mms.net.sa:8002"
-      mmsproxy="010.001.001.001"
+      mmsproxy="10.1.1.1"
       mmsport="8080"
       type="mms"
   />
@@ -9320,7 +9309,7 @@
       mnc="03"
       apn="mms2"
       mmsc="http://10.3.3.133:9090/was"
-      mmsproxy="010.003.002.133"
+      mmsproxy="10.3.2.133"
       mmsport="8080"
       type="mms"
   />
@@ -9339,7 +9328,7 @@
       mnc="03"
       apn="mms1"
       mmsc="http://10.3.3.133:9090/was"
-      mmsproxy="010.003.002.133"
+      mmsproxy="10.3.2.133"
       mmsport="8080"
       type="mms"
   />
@@ -9358,7 +9347,7 @@
       mnc="04"
       apn="zain"
       mmsc="http://10.122.200.12:8002/"
-      mmsproxy="10.122.200.010"
+      mmsproxy="10.122.200.10"
       mmsport="8080"
       type="mms"
   />
@@ -9718,7 +9707,7 @@
       mnc="05"
       apn="mms"
       mmsc="http://10.10.128.58/servlets/mms"
-      mmsproxy="010.010.128.044"
+      mmsproxy="10.10.128.44"
       mmsport="8080"
       type="mms"
   />
@@ -10975,7 +10964,7 @@
       user="mms"
       password="mms"
       mmsc="http://172.23.1.12/mms/wapenc"
-      mmsproxy="172.018.254.005"
+      mmsproxy="172.18.254.5"
       mmsport="8080"
       type="mms"
   />
@@ -11136,7 +11125,7 @@
       type="mms"
   />
 
-  <apn carrier="SRR MMS"
+  <apn carrier="MMS"
       mcc="647"
       mnc="10"
       apn="mmssfr"
@@ -11148,10 +11137,14 @@
       type="mms"
   />
 
-  <apn carrier="SRR Full Internet"
+  <apn carrier="GPRS SRR"
       mcc="647"
       mnc="10"
-      apn="sl2sfr"
+      apn="wapsfr"
+      user="wap"
+      password="wap"
+      proxy="10.0.224.161"
+      port="8080"
       type="default,supl"
   />
 
@@ -11166,10 +11159,10 @@
       mcc="651"
       mnc="01"
       apn="mms"
-      proxy="10.113.063.011"
+      proxy="10.113.63.11"
       port="8080"
       mmsc="http://mmsc.vodacom4me.co.ls"
-      mmsproxy="10.113.063.011"
+      mmsproxy="10.113.63.11"
       mmsport="8080"
       type="mms"
   />
@@ -11178,7 +11171,7 @@
       mcc="655"
       mnc="01"
       apn="internet"
-      proxy="196.006.128.012"
+      proxy="196.6.128.12"
       port="8080"
       type="default,supl"
   />
@@ -11187,10 +11180,10 @@
       mcc="655"
       mnc="01"
       apn="mms.vodacom.net"
-      proxy="196.006.128.013"
+      proxy="196.6.128.13"
       port="8080"
       mmsc="http://mmsc.vodacom4me.co.za/"
-      mmsproxy="196.006.128.013"
+      mmsproxy="196.6.128.13"
       mmsport="8080"
       type="mms"
   />
@@ -11239,7 +11232,7 @@
       mcc="655"
       mnc="07"
       apn="vdata"
-      proxy="196.031.116.241"
+      proxy="196.31.116.241"
       port="8080"
       type="default,supl"
   />
@@ -11248,10 +11241,10 @@
       mcc="655"
       mnc="07"
       apn="vmms"
-      proxy="196.031.116.242"
+      proxy="196.31.116.242"
       port="8080"
       mmsc="http://mms.virginmobile.co.za"
-      mmsproxy="196.031.116.242"
+      mmsproxy="196.31.116.242"
       mmsport="8080"
       type="mms"
   />
@@ -11731,7 +11724,7 @@
       apn="wap.gprs.unifon.com.ar"
       user="wap"
       password="wap"
-      proxy="213.249.019.049"
+      proxy="213.249.19.49"
       port="8080"
       type="default,supl,dun"
   />
