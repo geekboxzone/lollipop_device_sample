@@ -1543,7 +1543,7 @@
       apn="wap.o2.co.uk"
       user="o2wap"
       password="password"
-      proxy="193.113.200.195"
+      proxy="82.132.254.1"
       port="8080"
       mmsc="http://mmsc.mms.o2.co.uk:8002"
       mmsproxy="82.132.254.1"
@@ -1551,11 +1551,11 @@
       type="mms"
   />
 
-  <apn carrier="O2 PREPAY"
+  <apn carrier="O2 Pay and Go"
       mcc="234"
       mnc="10"
       apn="payandgo.o2.co.uk"
-      proxy="193.113.200.195"
+      proxy="82.132.254.1"
       port="8080"
       user="payandgo"
       password="password"
@@ -1692,22 +1692,15 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="3 WAP"
-      mcc="234"
-      mnc="20"
-      apn="three.co.uk"
-      user="user"
-      type="default,supl"
-  />
 
-  <apn carrier="3 MMS"
+  <apn carrier="3"
       mcc="234"
       mnc="20"
       apn="three.co.uk"
       mmsc="http://mms.um.three.co.uk:10021/mmsc"
-      mmsproxy="217.171.129.2"
+      mmsproxy="mms.three.co.uk"
       mmsport="8799"
-      type="mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="T-Mobile UK"
@@ -1985,12 +1978,12 @@
       type="mms"
   />
 
-  <apn carrier="3 Locked"
+  <apn carrier="3"
       mcc="238"
       mnc="06"
       apn="data.tre.dk"
       mmsc="http://mms.3.dk/"
-      mmsproxy="172.16.53.12"
+      mmsproxy="mmsproxy.3.dk"
       mmsport="8799"
       type="default,supl,mms"
   />
@@ -2089,7 +2082,7 @@
       mnc="02"
       apn="data.tre.se"
       mmsc="http://mms.tre.se"
-      mmsproxy="172.16.53.11"
+      mmsproxy="mmsproxy.tre.se"
       mmsport="8799"
       type="default,supl,mms"
   />
