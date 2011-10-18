@@ -9845,30 +9845,16 @@
       type="default,supl"
   />
 
-  <apn carrier="spモード"
-      mcc="440"
-      mnc="10"
-      apn="spmode.ne.jp"
-      auth="0"
-      type="default,supl"
+    <!-- APNs for Japanese phone carriers -->
+  <apn carrier="SPモード"
+       mcc="440"
+       mnc="10"
+       apn="spmode.ne.jp"
+       user="none"
+       server=""
+       password=""
+       mmsc="none"
   />
-
-  <apn carrier="mopera U(スマートフォン定額)"
-      mcc="440"
-      mnc="10"
-      apn="mpr2.bizho.net"
-      auth="0"
-      type="default,supl"
-  />
-
-  <apn carrier="mopera U設定"
-      mcc="440"
-      mnc="10"
-      apn="0120.mopera.net"
-      auth="0"
-      type="default,supl"
-  />
-
 
   <apn carrier="SK Telecom (Roaming)"
       mcc="450"
