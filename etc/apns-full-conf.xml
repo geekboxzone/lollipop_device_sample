@@ -1069,14 +1069,9 @@
   <apn carrier="TIM WAP"
       mcc="222"
       mnc="01"
-      apn="wap.tim.it"
-      type="default,supl"
-  />
-
-  <apn carrier="TIM WEB"
-      mcc="222"
-      mnc="01"
       apn="ibox.tim.it"
+      user="WAPTIM"
+      password="WAPTIM"
       type="default,supl"
   />
 
@@ -3380,8 +3375,6 @@
       mcc="284"
       mnc="01"
       apn="wap-gprs.mtel.bg"
-      proxy="213.226.6.65"
-      port="8080"
       type="default,supl"
   />
 
