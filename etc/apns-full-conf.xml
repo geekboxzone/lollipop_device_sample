@@ -307,13 +307,6 @@
       type="default,supl"
   />
 
-  <apn carrier="SFR Option Modem"
-      mcc="208"
-      mnc="10"
-      apn="websfr"
-      type="dun"
-  />
-
   <apn carrier="MMS"
       mcc="208"
       mnc="10"
@@ -566,15 +559,6 @@
       mmsproxy="212.73.32.10"
       mmsport="80"
       type="mms"
-  />
-
-  <apn carrier="INTERNET"
-      mcc="214"
-      mnc="01"
-      apn="airtelnet.es"
-      user="vodafone"
-      password="vodafone"
-      type="dun"
   />
 
   <apn carrier="Orange Internet Móvil"
@@ -1100,13 +1084,6 @@
       mnc="10"
       apn="mobile.vodafone.it"
       type="default,supl"
-  />
-
-  <apn carrier="Tethering Internet"
-      mcc="222"
-      mnc="10"
-      apn="web.omnitel.it"
-      type="dun"
   />
 
   <apn carrier="WIND WEB"
