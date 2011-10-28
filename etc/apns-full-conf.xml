@@ -9816,7 +9816,7 @@
   />
 
   <!-- APNs for Japanese phone carriers -->
-  <apn carrier="SPモード"
+  <apn carrier="spモード"
       mcc="440"
       mnc="10"
       apn="spmode.ne.jp"
