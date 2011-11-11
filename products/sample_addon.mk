@@ -31,7 +31,7 @@ PRODUCT_SDK_ADDON_COPY_MODULES := \
 # in the optional library with the tag
 #    LOCAL_MODULE:= platform_library
 # in the documentation section.
-PRODUCT_SDK_ADDON_DOC_MODULE := platform_library
+PRODUCT_SDK_ADDON_DOC_MODULES := platform_library
 
 # This add-on extends the default sdk product.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/sdk.mk)
