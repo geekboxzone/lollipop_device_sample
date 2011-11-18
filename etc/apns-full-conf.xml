@@ -1069,7 +1069,7 @@
       type="mms"
   />
 
-  <apn carrier="MMS Vodafone"
+  <apn carrier="Vodafone MMS"
       mcc="222"
       mnc="10"
       apn="mms.vodafone.it"
@@ -1079,11 +1079,18 @@
       type="mms"
   />
 
-  <apn carrier="Acc. Internet da cell"
+  <apn carrier="Vodafone Internet"
       mcc="222"
       mnc="10"
       apn="mobile.vodafone.it"
       type="default,supl"
+  />
+
+  <apn carrier="Vodafone WEB"
+      mcc="222"
+      mnc="10"
+      apn="web.omnitel.it"
+      type="dun"
   />
 
   <apn carrier="WIND WEB"
@@ -1523,10 +1530,11 @@
       type="mms"
   />
 
-  <apn carrier="Orange Web"
+
+  <apn carrier="Orange Smartphone"
       mcc="232"
       mnc="05"
-      apn="orange.web"
+      apn="orange.smartphone"
       user="web"
       password="web"
       type="default,supl"
@@ -2442,20 +2450,41 @@
       type="mms"
   />
 
-  <apn carrier="DNA Internet"
+  <apn carrier="DNA Pro Internet"
       mcc="244"
       mnc="12"
-      apn="internet"
+      apn="dnapro.fi"
+      authtype="1"
       type="default,supl"
   />
 
-  <apn carrier="DNA MMS"
+  <apn carrier="DNA Pro MMS"
       mcc="244"
       mnc="12"
-      apn="mms"
-      mmsc="http://mmsc.dnafinland.fi/"
-      mmsproxy="10.1.1.2"
+      apn="mms.dnapro.fi"
+      mmsc="http://mmsc.dnapro.fi/"
+      mmsproxy="10.1.1.21"
       mmsport="8080"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="TDC Internet Finland"
+      mcc="244"
+      mnc="12"
+      apn="inet.tdc.fi"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="TDC MMS Finland"
+      mcc="244"
+      mnc="12"
+      apn="mms.tdc.fi"
+      mmsc="http://mmsc.tdc.fi"
+      mmsproxy="10.1.12.2"
+      mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -3219,7 +3248,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="3 Ireland"
+  <apn carrier="3"
       mcc="272"
       mnc="05"
       apn="3ireland.ie"
@@ -3294,7 +3323,7 @@
       type="default,supl"
   />
 
-<apn carrier="Vodafone MT"
+  <apn carrier="Vodafone MT"
       mcc="278"
       mnc="01"
       apn="internet"
@@ -9969,12 +9998,27 @@
       type="mms"
   />
 
+  <apn carrier="EVNTelecom Email"
+      mcc="452"
+      mnc="08"
+      apn="e-internet"
+      type="default,supl"
+  />
+
+  <apn carrier="EVNTelecom MMS"
+      mcc="452"
+      mnc="08"
+      apn="e-wap"
+      mmsc="http://10.18.2.172:38090"
+      mmsproxy="10.18.2.183"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="CSL Data"
       mcc="454"
       mnc="00"
       apn="hkcsl"
-      proxy="192.168.59.51"
-      port="8080"
       mmsc="http://192.168.58.171:8002"
       mmsproxy="192.168.59.51"
       mmsport="8080"
@@ -9985,8 +10029,6 @@
       mcc="454"
       mnc="02"
       apn="hkcsl"
-      proxy="192.168.59.51"
-      port="8080"
       mmsc="http://192.168.58.171:8002"
       mmsproxy="192.168.59.51"
       mmsport="8080"
@@ -10022,11 +10064,11 @@
       type="default,supl"
   />
 
-  <apn carrier="SMC-Voda"
+  <apn carrier="SmarTone HK"
       mcc="454"
       mnc="06"
-      apn="SmarTone-Vodafone"
-      mmsc="http://mms.smartone-vodafone.com/server"
+      apn="SmarTone"
+      mmsc="http://mms.smartone.com/server"
       mmsproxy="10.9.9.9"
       mmsport="8080"
       type="default,supl,mms"
@@ -10084,8 +10126,6 @@
       mcc="454"
       mnc="18"
       apn="hkcsl"
-      proxy="192.168.59.51"
-      port="8080"
       mmsc="http://192.168.58.171:8002"
       mmsproxy="192.168.59.51"
       mmsport="8080"
@@ -10102,7 +10142,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="SmarTone"
+  <apn carrier="SmarTone MAC"
       mcc="455"
       mnc="00"
       apn="smartgprs"
@@ -10361,17 +10401,17 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="台灣大哥大(TW Mobile) (twm)"
-      mcc="466"
-      mnc="93"
-      apn="TWM"
-      type="default,supl"
-  />
-
   <apn carrier="台灣大哥大(TW Mobile) (Internet)"
       mcc="466"
       mnc="93"
       apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="台灣大哥大(TW Mobile) (twm)"
+      mcc="466"
+      mnc="93"
+      apn="TWM"
       type="default,supl"
   />
 
@@ -10385,18 +10425,17 @@
       type="mms"
   />
 
+  <apn carrier="台灣大哥大(TW Mobile) (Internet)"
+      mcc="466"
+      mnc="97"
+      apn="internet"
+      type="default,supl"
+  />
 
   <apn carrier="台灣大哥大(TW Mobile) (twm)"
       mcc="466"
       mnc="97"
       apn="TWM"
-      type="default,supl"
-  />
-
-  <apn carrier="台灣大哥大(TW Mobile) (Internet)"
-      mcc="466"
-      mnc="97"
-      apn="internet"
       type="default,supl"
   />
 
@@ -10410,18 +10449,17 @@
       type="mms"
   />
 
+  <apn carrier="台灣大哥大(TW Mobile) (Internet)"
+      mcc="466"
+      mnc="99"
+      apn="internet"
+      type="default,supl"
+  />
 
   <apn carrier="台灣大哥大(TW Mobile) (twm)"
       mcc="466"
       mnc="99"
       apn="TWM"
-      type="default,supl"
-  />
-
-  <apn carrier="台灣大哥大(TW Mobile) (Internet)"
-      mcc="466"
-      mnc="99"
-      apn="internet"
       type="default,supl"
   />
 
@@ -10560,14 +10598,14 @@
   <apn carrier="Telstra Internet"
       mcc="505"
       mnc="01"
-      apn="telstra.iph"
+      apn="telstra.wap"
       type="default,supl"
   />
 
-  <apn carrier="Optus Internet"
+  <apn carrier="Optus Yes Internet"
       mcc="505"
       mnc="02"
-      apn="internet"
+      apn="yesinternet"
       type="default,supl"
   />
 
@@ -10585,8 +10623,6 @@
       mcc="505"
       mnc="03"
       apn="live.vodafone.com"
-      proxy="10.202.2.60"
-      port="8080"
       type="default,supl"
   />
 
@@ -10604,8 +10640,6 @@
       mcc="505"
       mnc="06"
       apn="live.vodafone.com"
-      proxy="10.202.2.60"
-      port="8080"
       type="default,supl"
   />
 
@@ -11019,38 +11053,21 @@
       mcc="525"
       mnc="01"
       apn="e-ideas"
-      type="default,supl"
-  />
-
-  <apn carrier="IDEAS MMS"
-      mcc="525"
-      mnc="01"
-      apn="e-ideas"
       mmsc="http://mms.singtel.com:10021/mmsc"
       mmsproxy="165.21.42.84"
       mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="IDEAS MMS"
-      mcc="525"
-      mnc="02"
-      apn="e-ideas"
-      mmsc="http://mms.singtel.com:10021/mmsc"
-      mmsproxy="165.21.42.84"
-      mmsport="8080"
-      type="mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="IDEAS E-mail"
       mcc="525"
       mnc="02"
       apn="e-ideas"
-      type="default,supl"
+      mmsc="http://mms.singtel.com:10021/mmsc"
+      mmsproxy="165.21.42.84"
+      mmsport="8080"
+      type="default,supl,mms"
   />
-
-
-
 
   <apn carrier="M1 MMS"
       mcc="525"
@@ -11713,7 +11730,7 @@
       type="mms"
   />
 
-<apn carrier="El Salvaldor Digicel"
+  <apn carrier="El Salvaldor Digicel"
       mcc="706"
       mnc="02"
       apn="web.digicelsv.com"
