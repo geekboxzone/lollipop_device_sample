@@ -1053,9 +1053,16 @@
   <apn carrier="TIM WAP"
       mcc="222"
       mnc="01"
-      apn="ibox.tim.it"
+      apn="wap.tim.it"
       user="WAPTIM"
       password="WAPTIM"
+      type="default,supl"
+  />
+
+  <apn carrier="TIM WEB"
+      mcc="222"
+      mnc="01"
+      apn="ibox.tim.it"
       type="default,supl"
   />
 
@@ -3653,8 +3660,6 @@
       mcc="302"
       mnc="220"
       apn="sp.telus.com"
-      proxy="74.49.0.18"
-      port="80"
       mmsc="http://aliasredirect.net/proxy/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
@@ -3665,21 +3670,7 @@
       mcc="302"
       mnc="220"
       apn="sp.koodo.com"
-      proxy="74.49.0.18"
-      port="80"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
-      mmsproxy="74.49.0.18"
-      mmsport="80"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="Clearnet"
-      mcc="302"
-      mnc="220"
-      apn="inet.clearnet.com"
-      proxy="74.49.0.18"
-      port="80"
-      mmsc="http://aliasredirect.net/proxy/clearnet/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
       type="default,supl,mms"
@@ -10636,23 +10627,22 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone live!"
+  <apn carrier="Planet 3"
       mcc="505"
       mnc="06"
-      apn="live.vodafone.com"
+      apn="3services"
       type="default,supl"
   />
 
-  <apn carrier="Vodafone PXT"
+  <apn carrier="MMS"
       mcc="505"
       mnc="06"
-      apn="live.vodafone.com"
-      mmsc="http://pxt.vodafone.net.au/pxtsend"
-      mmsproxy="10.202.2.60"
-      mmsport="8080"
+      apn="3services"
+      mmsc="http://mmsc.three.net.au:10021/mmsc"
+      mmsproxy="10.176.57.25"
+      mmsport="8799"
       type="mms"
   />
-
 
   <apn carrier="VF AU PXT"
       mcc="505"
