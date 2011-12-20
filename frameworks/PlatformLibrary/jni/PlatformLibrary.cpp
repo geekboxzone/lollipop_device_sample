@@ -123,7 +123,7 @@ static jstring PlatformLibrary_reverseString(JNIEnv* env, jclass clazz,
      */
     const char* printable = env->GetStringUTFChars(str, NULL);
     if (printable != NULL) {
-        LOGD("Reversing string '%s'\n", printable);
+        ALOGD("Reversing string '%s'\n", printable);
         env->ReleaseStringUTFChars(str, printable);
     }
 
