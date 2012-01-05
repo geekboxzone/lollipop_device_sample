@@ -112,7 +112,7 @@ static jstring PlatformLibrary_reverseString(JNIEnv* env, jclass clazz,
     const jchar* strChars = env->GetStringChars(str, NULL);
     if (strChars == NULL) {
         /* something went wrong */
-        LOGW("Couldn't get string chars\n");
+        ALOGW("Couldn't get string chars\n");
         return NULL;
     }
     jsize strLength = env->GetStringLength(str);
