@@ -147,7 +147,7 @@ static jstring PlatformLibrary_reverseString(JNIEnv* env, jclass clazz,
      */
     jstring result = env->NewString(tempChars, strLength);
     if (result == NULL) {
-        LOGE("NewString failed\n");
+        ALOGE("NewString failed\n");
         return NULL;
     }
 
@@ -190,7 +190,7 @@ static int cacheIds(JNIEnv* env, jclass clazz) {
      */
     gCachedState.platformLibraryClass = (jclass) env->NewGlobalRef(clazz);
     if (clazz == NULL) {
-        LOGE("Can't create new global ref\n");
+        ALOGE("Can't create new global ref\n");
         return -1;
     }
 
@@ -200,14 +200,14 @@ static int cacheIds(JNIEnv* env, jclass clazz) {
      */
     gCachedState.jniInt = env->GetFieldID(clazz, "mJniInt", "I");
     if (gCachedState.jniInt == NULL) {
-        LOGE("Can't find PlatformLibrary.mJniInt\n");
+        ALOGE("Can't find PlatformLibrary.mJniInt\n");
         return -1;
     }
 
     gCachedState.yodel = env->GetStaticMethodID(clazz, "yodel",
         "(Ljava/lang/String;)V");
     if (gCachedState.yodel == NULL) {
-        LOGE("Can't find PlatformLibrary.yodel\n");
+        ALOGE("Can't find PlatformLibrary.yodel\n");
         return -1;
     }
 
@@ -229,7 +229,7 @@ static int registerMethods(JNIEnv* env) {
     /* look up the class */
     clazz = env->FindClass(kClassName);
     if (clazz == NULL) {
-        LOGE("Can't find class %s\n", kClassName);
+        ALOGE("Can't find class %s\n", kClassName);
         return -1;
     }
 
@@ -237,7 +237,7 @@ static int registerMethods(JNIEnv* env) {
     if (env->RegisterNatives(clazz, gMethods,
             sizeof(gMethods) / sizeof(gMethods[0])) != JNI_OK)
     {
-        LOGE("Failed registering methods for %s\n", kClassName);
+        ALOGE("Failed registering methods for %s\n", kClassName);
         return -1;
     }
 
@@ -255,13 +255,13 @@ jint JNI_OnLoad(JavaVM* vm, void* reserved) {
     jint result = -1;
 
     if (vm->GetEnv((void**) &env, JNI_VERSION_1_4) != JNI_OK) {
-        LOGE("ERROR: GetEnv failed\n");
+        ALOGE("ERROR: GetEnv failed\n");
         goto bail;
     }
     assert(env != NULL);
 
     if (registerMethods(env) != 0) {
-        LOGE("ERROR: PlatformLibrary native registration failed\n");
+        ALOGE("ERROR: PlatformLibrary native registration failed\n");
         goto bail;
     }
 
