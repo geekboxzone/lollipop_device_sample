@@ -3647,6 +3647,23 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="MMS"
+      mcc="302"
+      mnc="270"
+      apn="mms.mobi.eastlink.ca"
+      mmsc="http://mmss.mobi.eastlink.ca"
+      mmsproxy="10.232.12.49"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Internet"
+      mcc="302"
+      mnc="270"
+      apn="wisp.mobi.eastlink.ca"
+      type="default,supl"
+  />
+
   <apn carrier="MOWAP"
       mcc="302"
       mnc="320"
@@ -3724,6 +3741,33 @@
       mmsc="http://mms.bell.ca/mms/wapenc"
       mmsproxy="web.wireless.bell.ca"
       mmsport="80"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="MTS"
+      mcc="302"
+      mnc="660"
+      apn="sp.mts"
+      mmsc="http://mmsc2.mts.net/"
+      mmsproxy="209.4.229.90"
+      mmsport="9401"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="MTS -Tethering"
+      mcc="302"
+      mnc="660"
+      apn="internet.mts"
+      type="dun"
+  />
+
+  <apn carrier="MTS-Roaming"
+      mcc="302"
+      mnc="370"
+      apn="sp.mts"
+      mmsc="http://mmsc2.mts.net/"
+      mmsproxy="209.4.229.90"
+      mmsport="9401"
       type="default,supl,mms"
   />
 
@@ -5932,8 +5976,8 @@
       mcc="404"
       mnc="44"
       apn="mmsc"
-      mmsc="http://10.200.200.3:8514"
-      mmsproxy="10.200.200.3"
+      mmsc="http://10.4.42.21:8002"
+      mmsproxy="10.4.42.15"
       mmsport="8080"
       type="mms"
   />
@@ -9123,6 +9167,97 @@
       type="mms"
   />
 
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="912"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="913"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="914"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="915"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="916"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="917"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="918"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="919"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="920"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="921"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="922"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="923"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="924"
+      apn="internet"
+      type="default,supl"
+  />
+
   <apn carrier="Uninor GPRS"
       mcc="405"
       mnc="925"
@@ -9206,6 +9341,20 @@
       mmsproxy="10.58.10.59"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="930"
+      apn="internet"
+      type="default,supl"
+  />
+
+  <apn carrier="Cheers"
+      mcc="405"
+      mnc="931"
+      apn="internet"
+      type="default,supl"
   />
 
   <apn carrier="Videocon MMS"
@@ -11536,26 +11685,16 @@
       type="mms"
   />
 
-  <apn carrier="MTN MMS"
-      mcc="655"
-      mnc="10"
-      apn="myMTN"
-      user="mtnmms"
-      password="mtnmms"
-      proxy="196.11.240.241"
-      port="8080"
-      mmsc="http://mms.mtn.co.za/mms/wapenc"
-      mmsproxy="196.11.240.241"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="MTN Data"
       mcc="655"
       mnc="10"
       apn="myMTN"
       user="mtn"
-      type="default,supl"
+      password="mtn"
+      mmsc="http://mms.mtn.co.za/mms/wapenc"
+      mmsproxy="196.11.240.241"
+      mmsport="8080"
+      type="default,supl,mms"
   />
 
   <apn carrier="INTERNET CLARO"
