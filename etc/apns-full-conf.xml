@@ -1075,7 +1075,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="MMS Vodafone"
       mcc="222"
       mnc="10"
       apn="mms.vodafone.it"
@@ -1085,14 +1085,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Internet"
+  <apn carrier="Acc. Internet da cell"
       mcc="222"
       mnc="10"
       apn="mobile.vodafone.it"
       type="default,supl"
   />
 
-  <apn carrier="Vodafone WEB"
+  <apn carrier="Tethering Internet"
       mcc="222"
       mnc="10"
       apn="web.omnitel.it"
