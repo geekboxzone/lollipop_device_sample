@@ -31,7 +31,6 @@ LOCAL_SRC_FILES:= \
 
 # All of the shared libraries we link against.
 LOCAL_SHARED_LIBRARIES := \
-	libandroid_runtime \
 	libnativehelper \
 	libcutils \
 	libutils
