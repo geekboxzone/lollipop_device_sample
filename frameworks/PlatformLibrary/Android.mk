@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+ifneq ($(TARGET_BUILD_PDK),true)
+
 # This makefile shows how to build your own shared library that can be
 # shipped on the system of a phone, and included additional examples of
 # including JNI code with the library and writing client applications against it.
@@ -55,3 +57,4 @@ include $(CLEAR_VARS)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
+endif # !PDK
