@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifneq ($(TARGET_BUILD_PDK),true)
+
 # This is the makefile for the Email Policy package contained elsewhere in this sample.
 # When deploying to an actual device, you must change LOCAL_PACKAGE_NAME to the name desired for
 # your local version, e.g. LOCAL_PACKAGE_NAME := MyDeviceEmailPolicy  This will cause the build
@@ -31,3 +33,5 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
+
+endif # !PDK

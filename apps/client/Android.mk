@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+ifneq ($(TARGET_BUILD_PDK),true)
+
 # This makefile is an example of writing an application that will link against
 # a custom shared library included with an Android system.
 
@@ -37,3 +39,5 @@ LOCAL_JAVA_LIBRARIES := com.example.android.platform_library
 LOCAL_PROGUARD_ENABLED := disabled
 
 include $(BUILD_PACKAGE)
+
+endif # !PDK
