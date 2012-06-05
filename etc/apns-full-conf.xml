@@ -3717,16 +3717,6 @@
       type="dun"
   />
 
-  <apn carrier="Chatr Internet"
-      mcc="302"
-      mnc="720"
-      apn="chatrweb.apn"
-      mmsc="http://mms.chatrwireless.com"
-      mmsproxy="205.151.11.11"
-      mmsport="80"
-      type="default,mms"
-  />
-
   <apn carrier="Internet"
       mcc="302"
       mnc="490"
@@ -3804,6 +3794,16 @@
       mmsproxy="10.128.1.69"
       mmsport="80"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Chatr Internet"
+      mcc="302"
+      mnc="720"
+      apn="chatrweb.apn"
+      mmsc="http://mms.chatrwireless.com"
+      mmsproxy="205.151.11.11"
+      mmsport="80"
+      type="default,mms"
   />
 
   <apn carrier="SaskTel"
