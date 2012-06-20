@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-ifneq ($(TARGET_BUILD_PDK),true)
+ifneq ($(TARGET_BUILD_JAVA_SUPPORT_LEVEL),)
 
 # This is the makefile for the Email Policy package contained elsewhere in this sample.
 # When deploying to an actual device, you must change LOCAL_PACKAGE_NAME to the name desired for
@@ -34,4 +34,4 @@ LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 include $(BUILD_PACKAGE)
 
-endif # !PDK
+endif # JAVA_SUPPORT

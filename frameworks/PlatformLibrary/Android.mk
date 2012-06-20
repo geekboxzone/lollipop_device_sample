@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(TARGET_BUILD_PDK),true)
+ifneq ($(TARGET_BUILD_JAVA_SUPPORT_LEVEL),)
 
 # This makefile shows how to build your own shared library that can be
 # shipped on the system of a phone, and included additional examples of
@@ -57,4 +57,4 @@ include $(CLEAR_VARS)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
 
-endif # !PDK
+endif # JAVA_SUPPORT

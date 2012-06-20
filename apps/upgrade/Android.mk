@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(TARGET_BUILD_PDK),true)
+ifneq ($(TARGET_BUILD_JAVA_SUPPORT_LEVEL),)
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
@@ -34,4 +34,4 @@ LOCAL_PROGUARD_ENABLED := disabled
 
 include $(BUILD_PACKAGE)
 
-endif # !PDK
+endif # JAVA_SUPPORT
