@@ -540,6 +540,21 @@
       type="mms"
   />
 
+  <apn carrier="Free"
+      mcc="208"
+      mnc="15"
+      apn="free"
+      type="default,supl"
+  />
+
+  <apn carrier="Free MMS"
+      mcc="208"
+      mnc="15"
+      mmsc="http://mms.free.fr"
+      apn="mmsfree"
+      type="mms"
+  />
+
   <apn carrier="Internet movil"
       mcc="214"
       mnc="01"
@@ -3663,21 +3678,16 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="Koodo"
       mcc="302"
-      mnc="270"
-      apn="mms.mobi.eastlink.ca"
-      mmsc="http://mmss.mobi.eastlink.ca"
-      mmsproxy="10.232.12.49"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Internet"
-      mcc="302"
-      mnc="270"
-      apn="wisp.mobi.eastlink.ca"
-      type="default,supl"
+      mnc="220"
+      apn="sp.koodo.com"
+      proxy="74.49.0.18"
+      port="80"
+      mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      type="default,supl,mms"
   />
 
   <apn carrier="MOWAP"
@@ -3699,6 +3709,22 @@
       type="mms"
   />
 
+  <apn carrier="MMS"
+      mcc="302"
+      mnc="270"
+      apn="mms.mobi.eastlink.ca"
+      mmsc="http://mmss.mobi.eastlink.ca"
+      mmsproxy="10.232.12.49"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Internet"
+      mcc="302"
+      mnc="270"
+      apn="wisp.mobi.eastlink.ca"
+      type="default,supl"
+  />
 
   <apn carrier="Fido Internet"
       mcc="302"
