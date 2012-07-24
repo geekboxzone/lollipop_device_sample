@@ -273,26 +273,6 @@
       type="default"
   />
 
-  <apn carrier="Orange Internet"
-      apn="orange.fr"
-      user="orange"
-      password="orange"
-      mcc="208"
-      mnc="01"
-      authtype="0"
-      type="dun"
-  />
-
-  <apn carrier="Orange Internet Entreprise"
-      apn="internet-entreprise"
-      user="orange"
-      password="orange"
-      mcc="208"
-      mnc="01"
-      authtype="0"
-      type="dun"
-  />
-
   <apn carrier="SFR webphone"
       mcc="208"
       mnc="10"
@@ -588,16 +568,6 @@
       type="default"
   />
 
-  <apn carrier="Orange Internet PC"
-      mcc="214"
-      mnc="03"
-      apn="internet"
-      user="orange"
-      password="orange"
-      authtype="0"
-      type="dun"
-  />
-
   <apn carrier="Orange MMS"
       mcc="214"
       mnc="03"
@@ -733,15 +703,6 @@
       proxy="10.138.255.133"
       port="8080"
       type="default,supl"
-  />
-
-  <apn carrier="Conexión compartida"
-      mcc="214"
-      mnc="07"
-      apn="movistar.es"
-      user="MOVISTAR"
-      password="MOVISTAR"
-      type="dun"
   />
 
   <apn carrier="Euskaltel MMS"
@@ -1105,13 +1066,6 @@
       mnc="10"
       apn="mobile.vodafone.it"
       type="default,supl"
-  />
-
-  <apn carrier="Tethering Internet"
-      mcc="222"
-      mnc="10"
-      apn="web.omnitel.it"
-      type="dun"
   />
 
   <apn carrier="WIND WEB"
@@ -1909,14 +1863,6 @@
       mmsport="8080"
       authtype="2"
       type="mms"
-  />
-
-  <apn carrier="Consumer Broadband"
-      apn="consumerbroadband"
-      mcc="234"
-      mnc="33"
-      authtype="0"
-      type="dun"
   />
 
   <apn carrier="Orange internet"
@@ -3736,13 +3682,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Fido Tethering"
-      mcc="302"
-      mnc="370"
-      apn="isp.fido.apn"
-      type="dun"
-  />
-
   <apn carrier="Internet"
       mcc="302"
       mnc="490"
@@ -3788,13 +3727,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="MTS -Tethering"
-      mcc="302"
-      mnc="660"
-      apn="internet.mts"
-      type="dun"
-  />
-
   <apn carrier="MTS-Roaming"
       mcc="302"
       mnc="370"
@@ -3803,13 +3735,6 @@
       mmsproxy="209.4.229.90"
       mmsport="9401"
       type="default,supl,mms"
-  />
-
-  <apn carrier="Rogers Tethering"
-      mcc="302"
-      mnc="720"
-      apn="isp.apn"
-      type="dun"
   />
 
   <apn carrier="Rogers"
@@ -13495,16 +13420,6 @@
       mmsc="http://mms.ctimovil.com.uy"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="Orangeweb" 
-      apn="orangeweb" 
-      user="orange" 
-      password="orange" 
-      mcc="340" 
-      mnc="01" 
-      authtype="1" 
-      type="dun" 
   />
 
   <apn carrier="Orange Armenia MMS" 
