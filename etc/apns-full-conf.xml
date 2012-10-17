@@ -9845,6 +9845,20 @@
       type="default,supl"
   />
 
+  <apn carrier="YouPhone 3G"
+      mcc="425"
+      mnc="14"
+      apn="data.youphone.co.il"
+      type="default,supl"
+  />
+
+  <apn carrier="YouPhone MMS"
+      mcc="425"
+      mnc="14"
+      apn="data.youphone.co.il"
+      mmsc="http://192.168.220.15/servlets/mms"
+      type="mms"
+  />
 
   <apn carrier="Internet"
       mcc="426"
