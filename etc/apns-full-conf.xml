@@ -3911,12 +3911,12 @@
       type="mms"
   />
 
-  <apn carrier="Cingular 410"
+  <apn carrier="ATT WAP"
       mcc="310"
       mnc="410"
       apn="wap.cingular"
-      user="WAP@CINGULARGPRS.COM"
-      password="CINGULAR1"
+      proxy="wireless.cingular.com"
+      port="80"
       server="cingulargprs.com"
       mmsc="http://mmsc.cingular.com/"
       mmsproxy="wireless.cingular.com"
