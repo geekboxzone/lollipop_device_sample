@@ -535,6 +535,25 @@
       type="mms"
   />
 
+  <apn carrier="Darty Surf&amp;Mails"
+      mcc="208"
+      mnc="10"
+      apn="wap68"
+      proxy="192.168.21.11"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="Darty MMS"
+      mcc="208"
+      mnc="10"
+      apn="mms68"
+      mmsc="http://mms68/"
+      mmsproxy="10.143.156.11"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Internet movil"
       mcc="214"
       mnc="01"
@@ -739,6 +758,86 @@
       password="telecable"
       mmsc="http://mms.telecable.es/mms/"
       mmsproxy="212.89.0.84"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Jazztel Internet"
+      mcc="214"
+      mnc="07"
+      apn="jazzinternet"
+      type="default,supl"
+  />
+
+  <apn carrier="Jazztel MMS"
+      mcc="214"
+      mnc="07"
+      apn="jazzmms"
+      user=""
+      password=""
+      mmsc="http://jazztelmms.com/servlets/mms/"
+      mmsproxy="37.132.0.10"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
+  />
+
+  <apn carrier="Jazztel Internet"
+      mcc="214"
+      mnc="21"
+      apn="jazzinternet"
+      type="default,supl"
+  />
+
+  <apn carrier="Jazztel MMS"
+      mcc="214"
+      mnc="21"
+      apn="jazzmms"
+      user=""
+      password=""
+      authtype="1"
+      mmsc="http://jazztelmms.com/servlets/mms/"
+      mmsproxy="37.132.0.10"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="TeleCable Internet"
+      mcc="214"
+      mnc="06"
+      apn="internet.telecable.es"
+      user="telecable"
+      password="telecable"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="TeleCable MMS"
+      mcc="214"
+      mnc="06"
+      apn="mms.telecable.es"
+      user="telecable"
+      password="telecable"
+      authtype="1"
+      mmsc="http://mms.telecable.es/mms/"
+      mmsproxy="212.89.0.84"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="ONO Internet"
+      mcc="214"
+      mnc="18"
+      apn="internet.ono.com"
+      type="default,supl"
+  />
+
+  <apn carrier="ONO MMS"
+      mcc="214"
+      mnc="18"
+      apn="mms.ono.com"
+      mmsc="http://mms.ono.com/"
+      mmsproxy="10.126.0.50"
       mmsport="8080"
       type="mms"
   />
@@ -13467,6 +13566,38 @@
       user="orange" 
       password="orange" 
       type="default"
+  />
+
+  <apn carrier="Full Internet SRR"
+      mcc="647"
+      mnc="10"
+      apn="sl2sfr"
+      type="default,supl"
+  />
+
+  <apn carrier="OnlyWap"
+      mcc="647"
+      mnc="02"
+      apn="onlywap"
+      user="only"
+      password="only"
+      authtype="1"
+      proxy="10.4.85.50"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="OnlyMMS"
+      mcc="647"
+      mnc="02"
+      apn="onlymms"
+      user="only"
+      password="only"
+      authtype="1"
+      mmsc="http://10.4.85.50:8514"
+      mmsproxy="10.4.85.50"
+      mmsport="8080"
+      type="mms"
   />
 
   <apn carrier="Orange MG MMS" 
