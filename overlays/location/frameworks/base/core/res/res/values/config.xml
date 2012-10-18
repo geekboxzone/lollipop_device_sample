@@ -24,5 +24,6 @@
     -->
     <string-array name="config_locationProviderPackageNames" translatable="false">
         <item>com.google.android.location</item>
+        <item>com.android.location.fused</item>
     </string-array>
 </resources>
