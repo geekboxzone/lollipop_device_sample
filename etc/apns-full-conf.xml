@@ -2165,12 +2165,10 @@
       type="mms"
   />
 
-  <apn carrier="Telia SE WAP"
+  <apn carrier="Telia SurfPort"
       mcc="240"
       mnc="01"
       apn="online.telia.se"
-      proxy="10.254.254.254"
-      port="8080"
       type="default,supl"
   />
 
