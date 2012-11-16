@@ -46,6 +46,44 @@
         roaming_protocol="IPV4V6"
     />
 
+    <!-- VZW CDMA -->
+    <apn carrier="LTE - Verizon Internet"
+        mcc="311"
+        mnc="480"
+        apn="VZWINTERNET"
+        type="default,dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="6"
+    />
+    <apn carrier="LTE - Verizon Internet"
+        mcc="311"
+        mnc="480"
+        apn="VZWINTERNET"
+        type="default,dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="7"
+    />
+    <apn carrier="LTE - Verizon Internet"
+        mcc="311"
+        mnc="480"
+        apn="VZWINTERNET"
+        type="default,dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="8"
+    />
+    <apn carrier="LTE - Verizon Internet"
+        mcc="311"
+        mnc="480"
+        apn="VZWINTERNET"
+        type="default,dun"
+        protocol="IPV4V6"
+        roaming_protocol="IPV4V6"
+        bearer="12"
+    />
+
     <!-- Modify Apn database for VZW LTE support -->
     <apn carrier="LTE - Verizon Internet"
         mcc="311"
