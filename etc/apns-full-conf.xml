@@ -2809,6 +2809,7 @@
       apn="internet.mts.ru"
       user="mts"
       password="mts"
+      authtype="1"
       type="default,supl"
   />
 
@@ -2821,6 +2822,7 @@
       mmsc="http://mmsc"
       mmsproxy="192.168.192.192"
       mmsport="9201"
+      authtype="1"
       type="mms"
   />
 
@@ -2830,6 +2832,7 @@
       apn="internet"
       user="gdata"
       password="gdata"
+      authtype="1"
       type="default,supl"
   />
 
@@ -2842,6 +2845,7 @@
       mmsc="http://mmsc:8002"
       mmsproxy="10.10.10.10"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -2851,6 +2855,7 @@
       apn="internet.beeline.ru"
       user="beeline"
       password="beeline"
+      authtype="1"
       type="default,supl"
   />
 
@@ -2863,6 +2868,7 @@
       mmsc="http://mms/"
       mmsproxy="192.168.94.23"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -5285,6 +5291,13 @@
       type="mms"
   />
 
+  <apn carrier="DOS Internet"
+      mcc="401"
+      mnc="01"
+      apn="internet.dos.kz"
+      type="default,supl"
+  />
+
   <apn carrier="Kcell Internet"
       mcc="401"
       mnc="02"
@@ -5313,7 +5326,7 @@
       mcc="401"
       mnc="77"
       apn="mms"
-      mmsc="http://mms.neogsm.kz/mms/wapenc"
+      mmsc="http://mms.tele2.kz/mms/wapenc"
       mmsproxy="10.1.26.10"
       mmsport="8080"
       type="mms"
