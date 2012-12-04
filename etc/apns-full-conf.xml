@@ -14051,6 +14051,93 @@
       type="mms"
   />
 
+  <apn carrier="Internet"
+      mcc="604"
+      mnc="00"
+      apn="internet1.meditel.ma"
+      user="MEDINET"
+      password="MEDINET"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="Imedia"
+      mcc="604"
+      mnc="00"
+      apn="wap.meditel.ma"
+      proxy="10.8.8.8"
+      port="8080"
+      user="MEDIWAP"
+      password="MEDIWAP"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="GPRS MMS"
+      mcc="604"
+      mnc="00"
+      apn="mms.meditel.ma"
+      user="MEDIMMS"
+      password="MEDIMMS"
+      authtype="1"
+      mmsc="http://mms.meditel.ma:8088/mms"
+      mmsproxy="10.8.8.9"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="MobileZone"
+      mcc="604"
+      mnc="01"
+      apn="wap.iamgprs.ma"
+      proxy="212.217.54.133"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="Internet Mobile"
+      mcc="604"
+      mnc="01"
+      apn="www.iamgprs1.ma"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS IAM"
+      mcc="604"
+      mnc="01"
+      apn="mmsiam"
+      mmsc="http://mms:8002/"
+      mmsproxy="10.16.35.50"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="WEB"
+      mcc="604"
+      mnc="02"
+      apn="www.wana.ma"
+      type="default,supl"
+  />
+
+  <apn carrier="WAP"
+      mcc="604"
+      mnc="02"
+      apn="www.wana.ma"
+      proxy="10.86.0.10"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="604"
+      mnc="02"
+      apn="mms.wana.ma"
+      mmsc="http://mms.wana.ma:38090"
+      mmsproxy="10.86.0.10"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="weborange"
       mcc="605"
       mnc="01"
@@ -14068,7 +14155,14 @@
       type="mms"
   />
 
-  <apn carrier="mobinet"
+  <apn carrier="Internet"
+      mcc="605"
+      mnc="02"
+      apn="internet.tn"
+      type="default,supl"
+  />
+
+  <apn carrier="Internet Portail"
       mcc="605"
       mnc="02"
       apn="gprs.tn"
@@ -14077,13 +14171,13 @@
       type="default,supl"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="Tunisie Telecom MMS"
       mcc="605"
       mnc="02"
       apn="mms.tn"
       user="mms@tt1"
       password="mms"
-      mmsc="http://"
+      mmsc="http://192.168.0.3:19090/was"
       mmsproxy="192.168.0.2"
       mmsport="8080"
       type="mms"
