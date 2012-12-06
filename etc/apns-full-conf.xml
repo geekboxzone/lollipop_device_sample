@@ -9942,6 +9942,23 @@
       type="default,supl"
   />
 
+  <apn carrier="Net HOT mobile"
+      mcc="425"
+      mnc="07"
+      apn="net.hotm"
+      type="default,supl"
+  />
+
+  <apn carrier="Mms HOT mobile"
+      mcc="425"
+      mnc="07"
+      apn="mms.hotm"
+      mmsc="http://mms.hotmobile.co.il"
+      mmsproxy="80.246.131.99"
+      mmsport="80"
+      type="mms"
+  />
+
   <apn carrier="YouPhone 3G"
       mcc="425"
       mnc="14"
