@@ -11939,14 +11939,14 @@
       type="mms"
   />
 
-  <apn carrier="Internet HOT mobile"
+  <apn carrier="Net HOT mobile"
       mcc="425"
       mnc="07"
       apn="net.hotm"
       type="default,supl"
   />
 
-  <apn carrier="MMS HOT mobile"
+  <apn carrier="Mms HOT mobile"
       mcc="425"
       mnc="07"
       apn="mms.hotm"
@@ -12002,21 +12002,6 @@
       mmsc="http://mmsu.pelephone.net.il"
       mmsproxy="10.170.252.104"
       mmsport="9093"
-      type="mms"
-  />
-
-  <apn carrier="YouPhone 3G"
-      mcc="425"
-      mnc="14"
-      apn="data.youphone.co.il"
-      type="default,supl"
-  />
-
-  <apn carrier="YouPhone MMS"
-      mcc="425"
-      mnc="14"
-      apn="data.youphone.co.il"
-      mmsc="http://192.168.220.15/servlets/mms"
       type="mms"
   />
 
