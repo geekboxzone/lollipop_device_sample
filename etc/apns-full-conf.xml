@@ -4107,14 +4107,14 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="CBW MMS"
+  <apn carrier="CBW Data"
       mcc="310"
       mnc="420"
       apn="wap.gocbw.com"
       mmsc="http://mms.gocbw.com:8088/mms"
       mmsproxy="216.68.79.202"
       mmsport="80"
-      type="mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="DataConnect"
