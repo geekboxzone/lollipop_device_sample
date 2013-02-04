@@ -19,7 +19,7 @@
 
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
-<apns version="7">
+<apns version="8">
   <apn carrier="Cosmote Wireless Internet"
       mcc="202"
       mnc="01"
@@ -139,6 +139,8 @@
       mnc="16"
       apn="internet.ben"
       type="default,supl"
+      mvno_match_data="BEN NL"
+      mvno_type="spn"
   />
 
   <apn carrier="Ben Internet PrePaid"
@@ -146,6 +148,8 @@
       mnc="16"
       apn="basic.internet.ben.data"
       type="default,supl"
+      mvno_match_data="BEN NL"
+      mvno_type="spn"
   />
 
   <apn carrier="Ben MMS"
@@ -156,6 +160,8 @@
       mmsproxy="10.10.10.11"
       mmsport="8080"
       type="mms"
+      mvno_match_data="BEN NL"
+      mvno_type="spn"
   />
 
   <apn carrier="Rabo Mobiel"
@@ -189,6 +195,8 @@
        mnc="01"
        apn="telenetwap.be"
        type="default,supl"
+       mvno_match_data="2060188"
+       mvno_type="imsi"
   />
 
   <apn carrier="Telenet MMS"
@@ -199,6 +207,8 @@
        mmsproxy="195.130.149.100"
        mmsport="80"
        type="mms"
+       mvno_match_data="2060188"
+       mvno_type="imsi"
   />
 
   <apn carrier="Telenet"
@@ -297,6 +307,102 @@
       type="default"
   />
 
+  <apn carrier="Carrefour WAP"
+      mcc="208"
+      mnc="01"
+      apn="ofnew.fr"
+      user="orange"
+      password="orange"
+      type="default,supl"
+      mvno_match_data="33"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Carrefour MMS"
+      mcc="208"
+      mnc="01"
+      apn="orange.acte"
+      user="orange"
+      password="orange"
+      mmsc="http://mms.orange.fr"
+      mmsproxy="192.168.10.200"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="33"
+      mvno_type="gid"
+  />
+
+  <apn carrier="VM WAP"
+      mcc="208"
+      mnc="01"
+      apn="ofnew.fr"
+      user="orange"
+      password="orange"
+      type="default,supl"
+      mvno_match_data="52"
+      mvno_type="gid"
+  />
+
+  <apn carrier="VM MMS"
+      mcc="208"
+      mnc="01"
+      apn="orange.acte"
+      user="orange"
+      password="orange"
+      mmsc="http://mms.orange.fr"
+      mmsproxy="192.168.10.200"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="52"
+      mvno_type="gid"
+  />
+
+  <apn carrier="NRJWEB"
+      mcc="208"
+      mnc="01"
+      apn="ofnew.fr"
+      user="orange"
+      password="orange"
+      type="default,supl"
+      mvno_match_data="4E"
+      mvno_type="gid"
+  />
+
+  <apn carrier="NRJMMS"
+      mcc="208"
+      mnc="01"
+      apn="orange.acte"
+      user="orange"
+      password="orange"
+      mmsc="http://mms.orange.fr"
+      mmsproxy="192.168.10.200"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="4E"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Tele2 WAP"
+      mcc="208"
+      mnc="01"
+      apn="ofnew.fr"
+      user="orange"
+      password="orange"
+      type="default,supl"
+  />
+
+  <apn carrier="Tele2 MMS"
+      mcc="208"
+      mnc="01"
+      apn="orange.acte"
+      user="orange"
+      password="orange"
+      mmsc="http://mms.orange.fr"
+      mmsproxy="192.168.10.200"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="SFR webphone"
       mcc="208"
       mnc="10"
@@ -321,21 +427,13 @@
       type="mms"
   />
 
-  <apn carrier="Bouygues Telecom"
-      mcc="208"
-      mnc="20"
-      apn="mmsbouygtel.com"
-      mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
-      mmsproxy="62.201.129.226"
-      mmsport="8080"
-      type="default,supl,mms"
-  />
-
   <apn carrier="NRJWEB"
       mcc="208"
       mnc="10"
       apn="fnetnrj"
       type="default,supl"
+      mvno_match_data="4E"
+      mvno_type="gid"
   />
 
   <apn carrier="NRJMMS"
@@ -346,69 +444,8 @@
       mmsport="8080"
       apn="mmsnrj"
       type="mms"
-  />
-
-  <apn carrier="VM WAP"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
-  <apn carrier="VM MMS"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Tele2 WAP"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
-  <apn carrier="Tele2 MMS"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Carrefour WAP"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
-  <apn carrier="Carrefour MMS"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      type="mms"
+      mvno_match_data="4E"
+      mvno_type="gid"
   />
 
   <apn carrier="Auchan WAP"
@@ -418,6 +455,8 @@
       port="8080"
       apn="wap65"
       type="default,supl"
+      mvno_match_data="A MOBILE"
+      mvno_type="spn"
   />
 
   <apn carrier="Auchan MMS"
@@ -428,27 +467,8 @@
       mmsport="8080"
       apn="mms65"
       type="mms"
-  />
-
-  <apn carrier="NRJWEB"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
-  <apn carrier="NRJMMS"
-      mcc="208"
-      mnc="01"
-      apn="orange.acte"
-      user="orange"
-      password="orange"
-      mmsc="http://mms.orange.fr"
-      mmsproxy="192.168.10.200"
-      mmsport="8080"
-      type="mms"
+      mvno_match_data="A MOBILE"
+      mvno_type="spn"
   />
 
   <apn carrier="WAP Simplicime"
@@ -477,6 +497,8 @@
       port="8080"
       apn="wap66"
       type="default,supl"
+      mvno_match_data="LeclercMobile"
+      mvno_type="spn"
   />
 
   <apn carrier="MMS LeclercMobile"
@@ -487,6 +509,8 @@
       mmsport="8080"
       apn="mms66"
       type="mms"
+      mvno_match_data="LeclercMobile"
+      mvno_type="spn"
   />
 
   <apn carrier="Coriolis WAP"
@@ -496,6 +520,8 @@
       port="8080"
       apn="wapcoriolis"
       type="default,supl"
+      mvno_match_data="12"
+      mvno_type="gid"
   />
 
   <apn carrier="Coriolis MMS"
@@ -506,6 +532,8 @@
       mmsport="8080"
       apn="mmscoriolis"
       type="mms"
+      mvno_match_data="12"
+      mvno_type="gid"
   />
 
   <apn carrier="Keyyo Mobile Internet"
@@ -532,6 +560,8 @@
       port="8080"
       apn="wapdebitel"
       type="default,supl"
+      mvno_match_data="4C"
+      mvno_type="gid"
   />
 
   <apn carrier="MMS La Poste Mobile"
@@ -542,6 +572,41 @@
       mmsport="8080"
       apn="mmsdebitel"
       type="mms"
+      mvno_match_data="4C"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Darty Surf&amp;Mails"
+      mcc="208"
+      mnc="10"
+      apn="wap68"
+      proxy="192.168.21.11"
+      port="8080"
+      type="default,supl"
+      mvno_match_data="44"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Darty MMS"
+      mcc="208"
+      mnc="10"
+      apn="mms68"
+      mmsc="http://mms68/"
+      mmsproxy="10.143.156.11"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="44"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Bouygues Telecom"
+      mcc="208"
+      mnc="20"
+      apn="mmsbouygtel.com"
+      mmsc="http://mms.bouyguestelecom.fr/mms/wapenc"
+      mmsproxy="62.201.129.226"
+      mmsport="8080"
+      type="default,supl,mms"
   />
 
   <apn carrier="Free"
@@ -559,25 +624,6 @@
       type="mms"
   />
 
-  <apn carrier="Darty Surf&amp;Mails"
-      mcc="208"
-      mnc="10"
-      apn="wap68"
-      proxy="192.168.21.11"
-      port="8080"
-      type="default,supl"
-  />
-
-  <apn carrier="Darty MMS"
-      mcc="208"
-      mnc="10"
-      apn="mms68"
-      mmsc="http://mms68/"
-      mmsproxy="10.143.156.11"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="Virgin mobile"
       mcc="208"
       mnc="23"
@@ -585,6 +631,8 @@
       proxy="10.6.10.1"
       port="8080"
       type="default,supl"
+      mvno_match_data="52"
+      mvno_type="gid"
   />
 
   <apn carrier="VM MMS"
@@ -595,6 +643,8 @@
       mmsproxy="10.6.10.1"
       mmsport="8080"
       type="mms"
+      mvno_match_data="52"
+      mvno_type="gid"
   />
 
   <apn carrier="NRJ WEB"
@@ -686,65 +736,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Euskaltel MMS"
-      mcc="214"
-      mnc="06"
-      apn="euskaltelmms.euskaltel.mobi"
-      user="MMS"
-      password="EUSKALTEL"
-      mmsc="http://mms.euskaltel.mobi"
-      mmsproxy="172.16.18.74"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="Euskaltel Internet"
-      mcc="214"
-      mnc="06"
-      apn="internet.euskaltel.mobi"
-      user="CLIENTE"
-      password="EUSKALTEL"
-      type="default,supl"
-  />
-
-  <apn carrier="Internet R"
-      mcc="214"
-      mnc="06"
-      apn="internet.mundo-r.com"
-      type="default,supl"
-  />
-
-  <apn carrier="TeleCable Internet"
-      mcc="214"
-      mnc="06"
-      apn="internet.telecable.es"
-      user="telecable"
-      password="telecable"
-      type="default,supl"
-  />
-
-  <apn carrier="MMS R"
-      mcc="214"
-      mnc="06"
-      apn="euskaltelmms.euskaltel.mobi"
-      mmsc="http://mms.mundo-r.com"
-      mmsproxy="10.0.157.169"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="TeleCable MMS"
-      mcc="214"
-      mnc="06"
-      apn="mms.telecable.es"
-      user="telecable"
-      password="telecable"
-      mmsc="http://mms.telecable.es/mms/"
-      mmsproxy="212.89.0.84"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="MMS Vodafone"
       mcc="214"
       mnc="06"
@@ -757,6 +748,77 @@
       type="mms"
   />
 
+  <apn carrier="Euskaltel MMS"
+      mcc="214"
+      mnc="06"
+      apn="euskaltelmms.euskaltel.mobi"
+      user="MMS"
+      password="EUSKALTEL"
+      mmsc="http://mms.euskaltel.mobi"
+      mmsproxy="172.16.18.74"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="0008"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Euskaltel Internet"
+      mcc="214"
+      mnc="06"
+      apn="internet.euskaltel.mobi"
+      user="CLIENTE"
+      password="EUSKALTEL"
+      type="default,supl"
+      mvno_match_data="0008"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Internet R"
+      mcc="214"
+      mnc="06"
+      apn="internet.mundo-r.com"
+      type="default,supl"
+      mvno_match_data="2140612"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="MMS R"
+      mcc="214"
+      mnc="06"
+      apn="euskaltelmms.euskaltel.mobi"
+      mmsc="http://mms.mundo-r.com"
+      mmsproxy="10.0.157.169"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2140612"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="TeleCable Internet"
+      mcc="214"
+      mnc="06"
+      apn="internet.telecable.es"
+      user="telecable"
+      password="telecable"
+      type="default,supl"
+      mvno_match_data="2140613"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="TeleCable MMS"
+      mcc="214"
+      mnc="06"
+      apn="mms.telecable.es"
+      user="telecable"
+      password="telecable"
+      mmsc="http://mms.telecable.es/mms/"
+      mmsproxy="212.89.0.84"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="2140613"
+      mvno_type="imsi"
+  />
+
   <apn carrier="Eroski Movil GPRS"
       mcc="214"
       mnc="06"
@@ -764,6 +826,8 @@
       user="wap@wap"
       password="wap125"
       type="default,supl"
+      mvno_match_data="2140606"
+      mvno_type="imsi"
   />
 
   <apn carrier="Eroski Movil MMS"
@@ -776,6 +840,8 @@
       mmsproxy="212.73.32.10"
       mmsport="80"
       type="mms"
+      mvno_match_data="2140606"
+      mvno_type="imsi"
   />
 
   <apn carrier="Movistar MMS"
@@ -801,6 +867,30 @@
       type="default,supl"
   />
 
+  <apn carrier="Jazztel Internet"
+      mcc="214"
+      mnc="07"
+      apn="jazzinternet"
+      type="default,supl"
+      mvno_match_data="JAZZTEL"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Jazztel MMS"
+      mcc="214"
+      mnc="07"
+      apn="jazzmms"
+      user=""
+      password=""
+      mmsc="http://jazztelmms.com/servlets/mms/"
+      mmsproxy="37.132.0.10"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
+      mvno_match_data="JAZZTEL"
+      mvno_type="spn"
+  />
+
   <apn carrier="Euskaltel MMS"
       mcc="214"
       mnc="08"
@@ -843,69 +933,6 @@
       type="mms"
   />
 
-  <apn carrier="Jazztel Internet"
-      mcc="214"
-      mnc="07"
-      apn="jazzinternet"
-      type="default,supl"
-  />
-
-  <apn carrier="Jazztel MMS"
-      mcc="214"
-      mnc="07"
-      apn="jazzmms"
-      user=""
-      password=""
-      mmsc="http://jazztelmms.com/servlets/mms/"
-      mmsproxy="37.132.0.10"
-      mmsport="8080"
-      authtype="1"
-      type="mms"
-  />
-
-  <apn carrier="Jazztel Internet"
-      mcc="214"
-      mnc="21"
-      apn="jazzinternet"
-      type="default,supl"
-  />
-
-  <apn carrier="Jazztel MMS"
-      mcc="214"
-      mnc="21"
-      apn="jazzmms"
-      user=""
-      password=""
-      authtype="1"
-      mmsc="http://jazztelmms.com/servlets/mms/"
-      mmsproxy="37.132.0.10"
-      mmsport="8080"
-      type="mms"
-  />
-
-  <apn carrier="TeleCable Internet"
-      mcc="214"
-      mnc="06"
-      apn="internet.telecable.es"
-      user="telecable"
-      password="telecable"
-      authtype="1"
-      type="default,supl"
-  />
-
-  <apn carrier="TeleCable MMS"
-      mcc="214"
-      mnc="06"
-      apn="mms.telecable.es"
-      user="telecable"
-      password="telecable"
-      authtype="1"
-      mmsc="http://mms.telecable.es/mms/"
-      mmsproxy="212.89.0.84"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="ONO Internet"
       mcc="214"
       mnc="18"
@@ -919,6 +946,26 @@
       apn="mms.ono.com"
       mmsc="http://mms.ono.com/"
       mmsproxy="10.126.0.50"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Jazztel Internet"
+      mcc="214"
+      mnc="21"
+      apn="jazzinternet"
+      type="default,supl"
+  />
+
+  <apn carrier="Jazztel MMS"
+      mcc="214"
+      mnc="21"
+      apn="jazzmms"
+      user=""
+      password=""
+      authtype="1"
+      mmsc="http://jazztelmms.com/servlets/mms/"
+      mmsproxy="37.132.0.10"
       mmsport="8080"
       type="mms"
   />
@@ -1293,6 +1340,8 @@
       mmsproxy="10.0.65.9"
       mmsport="8080"
       type="default,supl,mms"
+      mvno_match_data="FASTWEB"
+      mvno_type="spn"
   />
 
   <apn carrier="Vodafone live!"
@@ -1769,7 +1818,7 @@
       type="default,supl,mms"
   />
 
- <apn carrier="O2 MOBILE WEB"
+  <apn carrier="O2 MOBILE WEB"
       mcc="234"
       mnc="02"
       apn="mobile.o2.co.uk"
@@ -1849,6 +1898,8 @@
       mmsproxy="82.132.254.1"
       mmsport="8080"
       type="default,supl,mms"
+      mvno_match_data="0A"
+      mvno_type="gid"
   />
 
   <apn carrier="O2 MOBILE WEB"
@@ -1961,6 +2012,8 @@
       mmsproxy="193.30.166.2"
       mmsport="8080"
       type="default,supl,mms"
+      mvno_match_data="28"
+      mvno_type="gid"
   />
 
   <apn carrier="EE Internet"
@@ -2834,7 +2887,7 @@
       type="mms"
   />
 
- <apn carrier="MTS Internet"
+  <apn carrier="MTS Internet"
       mcc="250"
       mnc="01"
       apn="internet.mts.ru"
@@ -2964,17 +3017,6 @@
       type="mms"
   />
 
-  <apn carrier="Djuice MMS"
-      mcc="255"
-      mnc="03"
-      apn="mms.djuice.com.ua"
-      user="djuice"
-      password="mms"
-      mmsc="http://mms.kyivstar.net"
-      mmsproxy="10.10.10.10"
-      mmsport="8080"
-      type="mms"
-  />
 
   <apn carrier="Kyivstar MMS"
       mcc="255"
@@ -2993,6 +3035,29 @@
       mnc="03"
       apn="www.kyivstar.net"
       type="default,supl"
+  />
+
+  <apn carrier="Djuice MMS"
+      mcc="255"
+      mnc="03"
+      apn="mms.djuice.com.ua"
+      user="djuice"
+      password="mms"
+      mmsc="http://mms.kyivstar.net"
+      mmsproxy="10.10.10.10"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="DJUICE"
+      mvno_type="spn"
+  />
+
+  <apn carrier="Djuice Internet"
+      mcc="255"
+      mnc="03"
+      apn="www.kyivstar.net"
+      type="default,supl"
+      mvno_match_data="DJUICE"
+      mvno_type="spn"
   />
 
   <apn carrier="life:) internet"
@@ -3906,6 +3971,18 @@
       mmsproxy="205.151.11.11"
       mmsport="80"
       type="default,mms"
+  />
+
+  <apn carrier="Chatr Internet"
+      mcc="302"
+      mnc="720"
+      apn="chatrweb.apn"
+      mmsc="http://mms.chatrwireless.com"
+      mmsproxy="205.151.11.11"
+      mmsport="80"
+      type="default,mms"
+      mvno_match_data="302720x94"
+      mvno_type="imsi"
   />
 
   <apn carrier="SaskTel"
@@ -4876,7 +4953,7 @@
       type="mms"
   />
 
- <apn carrier="INTERNET Aruba"
+  <apn carrier="INTERNET Aruba"
       mcc="363"
       mnc="020"
       apn="web.digicelaruba.com"
@@ -13182,7 +13259,7 @@
       type="mms"
   />
 
- <apn carrier="Maxis 3G"
+  <apn carrier="Maxis 3G"
       mcc="502"
       mnc="12"
       apn="unet"
@@ -13811,27 +13888,6 @@
       type="mms"
   />
 
-  <apn carrier="TRUE-H INTERNET"
-      mcc="520"
-      mnc="00"
-      apn="internet"
-      user="true"
-      password="true"
-      type="default,supl"
-  />
-
-  <apn carrier="TRUE-H MMS"
-      mcc="520"
-      mnc="00"
-      apn="hmms"
-      user="true"
-      password="true"
-      mmsc="http://mms.trueh.com:8002/"
-      mmsproxy="10.4.7.39"
-      mmsport="8080"
-      type="mms"
-  />
-
   <apn carrier="CAT3G INTERNET"
       mcc="520"
       mnc="00"
@@ -13847,6 +13903,31 @@
       mmsproxy="10.4.7.39"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="TRUE-H INTERNET"
+      mcc="520"
+      mnc="00"
+      apn="internet"
+      user="true"
+      password="true"
+      type="default,supl"
+      mvno_match_data="01"
+      mvno_type="gid"
+  />
+
+  <apn carrier="TRUE-H MMS"
+      mcc="520"
+      mnc="00"
+      apn="hmms"
+      user="true"
+      password="true"
+      mmsc="http://mms.trueh.com:8002/"
+      mmsproxy="10.4.7.39"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="01"
+      mvno_type="gid"
   />
 
   <apn carrier="AIS Internet"
@@ -14572,6 +14653,31 @@
       type="mms"
   />
 
+  <apn carrier="OnlyWap"
+      mcc="647"
+      mnc="02"
+      apn="onlywap"
+      user="only"
+      password="only"
+      authtype="1"
+      proxy="10.4.85.50"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="OnlyMMS"
+      mcc="647"
+      mnc="02"
+      apn="onlymms"
+      user="only"
+      password="only"
+      authtype="1"
+      mmsc="http://10.4.85.50:8514"
+      mmsproxy="10.4.85.50"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="Full Internet SRR"
       mcc="647"
       mnc="10"
@@ -14727,6 +14833,75 @@
       mmsproxy="196.31.116.250"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="VIRGIN_INTERNET_1"
+      mcc="655"
+      mnc="07"
+      apn="vdata"
+      proxy="196.31.116.241"
+      port="8080"
+      type="default,supl"
+      mvno_match_data="6550710"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="VIRGIN_INTERNET_2"
+      mcc="655"
+      mnc="07"
+      apn="vdata"
+      proxy="196.31.116.241"
+      port="9201"
+      type="default,supl"
+      mvno_match_data="6550710"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Virgin_MMS_1"
+      mcc="655"
+      mnc="07"
+      apn="vmms"
+      mmsc="http://mms.virginmobile.co.za"
+      mmsproxy="196.31.116.242"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="6550710"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Virgin_MMS_2"
+      mcc="655"
+      mnc="07"
+      apn="vmms"
+      mmsc="http://mms.virginmobile.co.za"
+      mmsproxy="196.31.116.242"
+      mmsport="9201"
+      type="mms"
+      mvno_match_data="6550710"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="RBM Internet"
+      mcc="655"
+      mnc="07"
+      apn="mobile.redbullmobile.co.za"
+      proxy="196.31.116.250"
+      port="8080"
+      type="default,supl"
+      mvno_match_data="6550713"
+      mvno_type="imsi"
+  />
+
+  <apn carrier="Redbull MMS"
+      mcc="655"
+      mnc="07"
+      apn="mms"
+      mmsc="http://mms.cmobile.co.za/"
+      mmsproxy="196.31.116.250"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="6550713"
+      mvno_type="imsi"
   />
 
   <apn carrier="MTN GPRS"
@@ -15145,7 +15320,7 @@
       type="mms"
   />
 
- <apn carrier="INTERNET CLARO"
+  <apn carrier="INTERNET CLARO"
       mcc="712"
       mnc="03"
       apn="internet.ideasclaro"
@@ -16532,31 +16707,6 @@
       user="orange" 
       password="orange" 
       type="default"
-  />
-
-  <apn carrier="OnlyWap"
-      mcc="647"
-      mnc="02"
-      apn="onlywap"
-      user="only"
-      password="only"
-      authtype="1"
-      proxy="10.4.85.50"
-      port="8080"
-      type="default,supl"
-  />
-
-  <apn carrier="OnlyMMS"
-      mcc="647"
-      mnc="02"
-      apn="onlymms"
-      user="only"
-      password="only"
-      authtype="1"
-      mmsc="http://10.4.85.50:8514"
-      mmsproxy="10.4.85.50"
-      mmsport="8080"
-      type="mms"
   />
 
   <apn carrier="Orange MG MMS" 
