@@ -3463,14 +3463,12 @@
       type="mms"
   />
 
-    <apn carrier="Vivacom WAP"
+  <apn carrier="VIVACOM Internet"
       mcc="284"
       mnc="03"
-      apn="wap.vivacom.bg"
-      user="wap"
-      password="wap"
-      proxy="192.168.123.123"
-      port="8080"
+      apn="internet.vivacom.bg"
+      user="vivacom"
+      password="vivacom"
       type="default,supl"
   />
 
