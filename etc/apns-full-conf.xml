@@ -1952,6 +1952,29 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Internet"
+      mcc="234"
+      mnc="30"
+      apn="everywhere"
+      user="eesecure"
+      password="secure"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="234"
+      mnc="30"
+      apn="eezone"
+      user="eesecure"
+      password="secure"
+      mmsc="http://mms/"
+      mmsproxy="149.254.201.135"
+      mmsport="8080"
+      authtype="1"
+      type="mms"
+  />
+
   <apn carrier="T-Mobile UK"
       mcc="234"
       mnc="30"
@@ -2014,6 +2037,29 @@
       mmsc="http://mmsc.t-mobile.co.uk:8002"
       mmsproxy="149.254.201.135"
       mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="Internet"
+      mcc="234"
+      mnc="33"
+      apn="everywhere"
+      user="eesecure"
+      password="secure"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="MMS"
+      mcc="234"
+      mnc="33"
+      apn="eezone"
+      user="eesecure"
+      password="secure"
+      mmsc="http://mms/"
+      mmsproxy="149.254.201.135"
+      mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -3740,9 +3786,17 @@
       mcc="302"
       mnc="220"
       apn="sp.koodo.com"
-      proxy="74.49.0.18"
-      port="80"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
+      mmsproxy="74.49.0.18"
+      mmsport="80"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="PC Mobile"
+      mcc="302"
+      mnc="220"
+      apn="sp.mb.com"
+      mmsc="http://aliasredirect.net/proxy/mb/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
       type="default,supl,mms"
@@ -4093,6 +4147,15 @@
       type="mms"
   />
 
+  <apn carrier="ATT Phone"
+      mcc="310"
+      mnc="410"
+      apn="phone"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      type="default,supl,mms"
+  />
+
   <apn carrier="ATT WAP"
       mcc="310"
       mnc="410"
@@ -4102,6 +4165,31 @@
       server="cingulargprs.com"
       mmsc="http://mmsc.cingular.com/"
       mmsproxy="wireless.cingular.com"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="TracFone"
+      mcc="310"
+      mnc="410"
+      apn="tfdata"
+      mmsc="http://mms-tf.net"
+      mmsproxy="mms3.tracfone.com"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="TracFone"
+      mcc="310"
+      mnc="260"
+      apn="wap.tracfone"
+      mmsc="http://mms.tracfone.com"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="TracFone"
+      mcc="310"
+      mnc="260"
+      apn="simple"
+      mmsc="http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
   />
 
