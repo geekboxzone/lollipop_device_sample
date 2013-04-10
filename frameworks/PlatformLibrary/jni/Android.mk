@@ -33,7 +33,8 @@ LOCAL_SRC_FILES:= \
 LOCAL_SHARED_LIBRARIES := \
 	libnativehelper \
 	libcutils \
-	libutils
+	libutils \
+	liblog
 
 # No static libraries.
 LOCAL_STATIC_LIBRARIES :=
