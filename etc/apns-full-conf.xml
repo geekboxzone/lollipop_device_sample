@@ -12260,33 +12260,69 @@
   />
 
   <!-- APNs for Japanese phone carriers -->
-  <apn carrier="spモード"
+
+  <apn carrier="mopera U"
       mcc="440"
       mnc="10"
-      apn="spmode.ne.jp"
+      apn="mopera.net"
       user=""
       server=""
       password=""
       mmsc=""
   />
 
-  <apn carrier="mopera U（スマートフォン定額）"
+  <apn carrier="b-mobile 3G・4G 1GB/Fair"
       mcc="440"
       mnc="10"
-      apn="mpr2.bizho.net"
-      user=""
+      apn="bmobile.ne.jp"
+      user="bmobile@fr"
       server=""
-      password=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+   />
+
+  <apn carrier="b-mobile 3G・4G U300"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@u300"
+      server=""
+      password="bmobile"
+      authtype="3"
       mmsc=""
   />
 
-  <apn carrier="mopera U設定"
+  <apn carrier="b-mobile スマホ電話"
       mcc="440"
       mnc="10"
-      apn="0120.mopera.net"
-      user=""
+      apn="bmobile.ne.jp"
+      user="bmobile@spd"
       server=""
-      password=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="b-mobile 4G カメレオンSIM"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@cm"
+      server=""
+      password="bmobile"
+      authtype="3"
+      mmsc=""
+  />
+
+  <apn carrier="IIJmio"
+      mcc="440"
+      mnc="10"
+      apn="iijmio.jp"
+      user="mio@iij"
+      server=""
+      password="iij"
+      authtype="3"
       mmsc=""
   />
 
