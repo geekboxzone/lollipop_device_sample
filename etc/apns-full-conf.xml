@@ -4160,6 +4160,8 @@
       apn="epc.tmobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 270"
