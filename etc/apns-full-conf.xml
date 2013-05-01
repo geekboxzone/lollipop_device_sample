@@ -4211,13 +4211,25 @@
       type="mms"
   />
 
-  <apn carrier="ATT"
+  <apn carrier="ATT Phone"
       mcc="310"
       mnc="410"
       apn="phone"
       mmsc="http://mmsc.mobile.att.net"
       mmsproxy="proxy.mobile.att.net"
-      type="default,supl,mms,fota,hipri"
+      type="default,supl,mms,fota"
+  />
+
+  <apn carrier="ATT WAP"
+      mcc="310"
+      mnc="410"
+      apn="wap.cingular"
+      proxy="wireless.cingular.com"
+      port="80"
+      server="cingulargprs.com"
+      mmsc="http://mmsc.cingular.com/"
+      mmsproxy="wireless.cingular.com"
+      type="default,supl,mms"
   />
 
   <apn carrier="TracFone"
