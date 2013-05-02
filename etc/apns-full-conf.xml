@@ -12409,8 +12409,6 @@
       type="mms"
   />
 
-  <!-- APNs for Japanese phone carriers -->
-
   <apn carrier="mopera U"
       mcc="440"
       mnc="10"
@@ -12421,44 +12419,11 @@
       mmsc=""
   />
 
-  <apn carrier="b-mobile 3G・4G 1GB/Fair"
+  <apn carrier="b-mobile"
       mcc="440"
       mnc="10"
       apn="bmobile.ne.jp"
-      user="bmobile@fr"
-      server=""
-      password="bmobile"
-      authtype="3"
-      mmsc=""
-   />
-
-  <apn carrier="b-mobile 3G・4G U300"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@u300"
-      server=""
-      password="bmobile"
-      authtype="3"
-      mmsc=""
-  />
-
-  <apn carrier="b-mobile スマホ電話"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@spd"
-      server=""
-      password="bmobile"
-      authtype="3"
-      mmsc=""
-  />
-
-  <apn carrier="b-mobile 4G カメレオンSIM"
-      mcc="440"
-      mnc="10"
-      apn="bmobile.ne.jp"
-      user="bmobile@cm"
+      user="bmobile@nx"
       server=""
       password="bmobile"
       authtype="3"
@@ -12473,16 +12438,6 @@
       server=""
       password="iij"
       authtype="3"
-      mmsc=""
-  />
-
-  <apn carrier="plus.softbank"
-      mcc="440"
-      mnc="20"
-      apn="plus.softbank"
-      user="plus"
-      server=""
-      password="softbank"
       mmsc=""
   />
 
