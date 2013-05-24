@@ -12484,26 +12484,6 @@
       mmsc=""
   />
 
-  <apn carrier="plus.softbank"
-      mcc="440"
-      mnc="20"
-      apn="plus.softbank"
-      user="plus"
-      server=""
-      password="softbank"
-      mmsc=""
-  />
-
-  <apn carrier="plus.softbank"
-      mcc="440"
-      mnc="20"
-      apn="plus.softbank"
-      user="plus"
-      server=""
-      password="softbank"
-      mmsc=""
-  />
-
   <apn carrier="SK Telecom"
       mcc="450"
       mnc="05"
