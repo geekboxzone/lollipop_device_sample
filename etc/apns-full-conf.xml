@@ -1289,6 +1289,8 @@
       mmsc="http://mms.sasktel.com/"
       mmsproxy="mig.sasktel.com"
       mmsport="80"
+      mvno_match_data="5A"
+      mvno_type="gid"
   />
 
   <apn carrier="Vip GPRS"
@@ -2213,7 +2215,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl"
+      type="default,supl,dun"
   />
 
   <apn carrier="EE MMS"
@@ -2227,16 +2229,6 @@
       mmsport="8080"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="EE IMS"
-      mcc="234"
-      mnc="33"
-      apn="ims"
-      user="eesecure"
-      password="secure"
-      authtype="1"
-      type="default,supl"
   />
 
   <apn carrier="EE Internet"
@@ -3179,6 +3171,7 @@
       apn="mms.kyivstar.net"
       user="mms"
       password="mms"
+      authtype="1"
       mmsc="http://mms.kyivstar.net"
       mmsproxy="10.10.10.10"
       mmsport="8080"
@@ -3201,6 +3194,7 @@
       apn="mms.djuice.com.ua"
       user="djuice"
       password="mms"
+      authtype="1"
       mmsc="http://mms.kyivstar.net"
       mmsproxy="10.10.10.10"
       mmsport="8080"
@@ -3212,7 +3206,7 @@
   <apn carrier="Djuice Internet"
       mcc="255"
       mnc="03"
-      apn="www.kyivstar.net"
+      apn="www.djuice.com.ua"
       type="default,supl"
       mvno_match_data="DJUICE"
       mvno_type="spn"
@@ -6075,6 +6069,7 @@
       apn="internet.beeline.kz"
       user="@internet.beeline"
       password="beeline"
+      authtype="1"
       type="default,supl"
   />
 
@@ -6084,6 +6079,7 @@
       apn="mms.beeline.kz"
       user="@mms.beeline"
       password="beeline"
+      authtype="1"
       mmsc="http://mms.beeline.kz/mms/wapenc"
       mmsproxy="172.27.6.93"
       mmsport="8080"
@@ -12511,6 +12507,7 @@
       mcc="424"
       mnc="02"
       apn="etisalat.ae"
+      authtype="1"
       type="default,supl"
   />
 
@@ -12520,6 +12517,7 @@
       apn="etisalat"
       proxy="10.12.0.32"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -12530,6 +12528,7 @@
       mmsc="http://mms/servlets/mms"
       mmsproxy="10.12.0.32"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -12557,22 +12556,6 @@
       mmsproxy="10.19.18.4"
       mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="3G Portal"
-      mcc="425"
-      mnc="01"
-      apn="uwap.orange.co.il"
-      mmsc="http://192.168.220.15/servlets/mms"
-      mmsport="8080"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="DUN"
-      mcc="425"
-      mnc="01"
-      apn="modem.orange.net.il"
-      type="default,supl"
   />
 
   <apn carrier="Orange Internet UG" 
@@ -12646,6 +12629,15 @@
       mcc="614" 
       mnc="04" 
       type="default" 
+  />
+
+  <apn carrier="3G Portal"
+      mcc="425"
+      mnc="01"
+      apn="uwap.orange.co.il"
+      mmsc="http://192.168.220.15/servlets/mms"
+      mmsport="8080"
+      type="default,supl,mms"
   />
 
   <apn carrier="Cellcom Internet"
@@ -12773,6 +12765,23 @@
       apn="data.youphone.co.il"
       mmsc="http://192.168.220.15/servlets/mms"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Home Cellular Internet"
+      mcc="425"
+      mnc="15"
+      apn="hcminternet"
+      type="default,supl"
+  />
+
+  <apn carrier="Home Cellular MMS"
+      mcc="425"
+      mnc="15"
+      apn="hcmMMS"
+      mmsc="http://82.166.164.229:9000/mmsc"
+      mmsproxy="82.166.164.229"
+      mmsport="8898"
+      type="mms"
   />
 
   <apn carrier="Rami Levi 3G"
@@ -13280,16 +13289,6 @@
       server="*"
   />
 
-  <apn carrier="Mobi-wap-gprs 2"
-      mcc="452"
-      mnc="01"
-      apn="m-wap"
-      user="mms"
-      password="mms"
-      authtype="1"
-      type="default,supl"
-  />
-
   <apn carrier="Mobi-wap-gprs 1"
       mcc="452"
       mnc="01"
@@ -13299,6 +13298,16 @@
       authtype="1"
       proxy="203.162.21.107"
       port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="Mobi-wap-gprs 2"
+      mcc="452"
+      mnc="01"
+      apn="m-wap"
+      user="mms"
+      password="mms"
+      authtype="1"
       type="default,supl"
   />
 
@@ -13364,13 +13373,6 @@
       type="mms"
   />
 
-  <apn carrier="Vietnamobile_GPRS3"
-      mcc="452"
-      mnc="05"
-      apn="internet"
-      type="default,supl"
-  />
-
   <apn carrier="Vietnamobile_GPRS1"
       mcc="452"
       mnc="05"
@@ -13384,6 +13386,13 @@
       mcc="452"
       mnc="05"
       apn="wap"
+      type="default,supl"
+  />
+
+  <apn carrier="Vietnamobile_GPRS3"
+      mcc="452"
+      mnc="05"
+      apn="internet"
       type="default,supl"
   />
 
@@ -13462,7 +13471,7 @@
       type="mms"
   />
 
-  <apn carrier="one2free"
+  <apn carrier="1O1O"
       mcc="454"
       mnc="00"
       apn="hkcsl"
@@ -13472,7 +13481,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="1O1O"
+  <apn carrier="one2free"
       mcc="454"
       mnc="00"
       apn="hkcsl"
@@ -13494,6 +13503,27 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="1O1O"
+      mcc="454"
+      mnc="00"
+      apn="mobile"
+      mmsproxy="192.168.59.51"
+      mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
+      type="default,supl,mms,hipri"
+  />
+
+  <apn carrier="one2free"
+      mcc="454"
+      mnc="00"
+      apn="mobile"
+      mmsproxy="192.168.59.51"
+      mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      type="default,supl,mms,hipri"
+  />
+
   <apn carrier="one2free"
       mcc="454"
       mnc="02"
@@ -13504,6 +13534,17 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="3 LTE"
+      mcc="454"
+      mnc="03"
+      apn="mobile.lte.three.com.hk"
+      mmsc="http://mms.um.three.com.hk:10021/mmsc"
+      mmsproxy="mms.three.com.hk"
+      mmsport="8799"
+      authtype="1"
+      type="default,supl,mms"
+  />
+
   <apn carrier="3"
       mcc="454"
       mnc="03"
@@ -13511,6 +13552,17 @@
       mmsc="http://mms.um.three.com.hk:10021/mmsc"
       mmsproxy="172.20.97.116"
       mmsport="8799"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="3"
+      mcc="454"
+      mnc="03"
+      apn="mobile.three.com.hk"
+      mmsc="http://mms.um.three.com.hk:10021/mmsc"
+      mmsproxy="mms.three.com.hk"
+      mmsport="8799"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -13540,6 +13592,7 @@
       mmsc="http://mms.smartone.com/server"
       mmsproxy="10.9.9.9"
       mmsport="8080"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -13575,6 +13628,7 @@
       mmsproxy="10.9.9.9"
       mmsport="8080"
       mmsc="http://mms.smartone.com/server"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -13604,6 +13658,7 @@
       mmsproxy="10.9.9.9"
       mmsport="8080"
       mmsc="http://mms.smartone.com/server"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -13633,9 +13688,10 @@
       apn="smartgprs"
       proxy="10.9.9.29"
       port="8080"
-      mmsc="http://mms.smartone.com.mo/dmog/mo"
+      mmsc="http://momms.smartone.com/dmog/mo"
       mmsproxy="10.9.9.29"
       mmsport="8080"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -13718,6 +13774,7 @@
       mmsc="http://mms.three.com.mo:10021/mmsc"
       mmsproxy="mms.three.com.mo"
       mmsport="8080"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14007,6 +14064,18 @@
       type="mms"
   />
 
+  <apn carrier="Maxis 4G"
+      mcc="502"
+      mnc="12"
+      apn="max4g"
+      user="maxis"
+      password="wap"
+      mmsproxy="202.75.133.49"
+      mmsport="80"
+      mmsc="http://172.16.74.100:10021/mmsc"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Maxis 3G"
       mcc="502"
       mnc="12"
@@ -14019,6 +14088,16 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Celcom 4G"
+      mcc="502"
+      mnc="13"
+      apn="celcom4g"
+      mmsproxy="10.128.1.242"
+      mmsport="8080"
+      mmsc="http://mms.celcom.net.my"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Celcom 3G"
       mcc="502"
       mnc="13"
@@ -14026,6 +14105,18 @@
       mmsproxy="10.128.1.242"
       mmsport="8080"
       mmsc="http://mms.celcom.net.my"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="Maxis 4G"
+      mcc="502"
+      mnc="142"
+      apn="max4g"
+      user="maxis"
+      password="wap"
+      mmsproxy="202.75.133.49"
+      mmsport="80"
+      mmsc="http://172.16.74.100:10021/mmsc"
       type="default,supl,mms"
   />
 
@@ -14060,6 +14151,16 @@
       type="mms"
   />
 
+  <apn carrier="Celcom 4G"
+      mcc="502"
+      mnc="145"
+      apn="celcom4g"
+      mmsproxy="10.128.1.242"
+      mmsport="8080"
+      mmsc="http://mms.celcom.net.my"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Celcom 3G"
       mcc="502"
       mnc="145"
@@ -14089,6 +14190,18 @@
       type="mms"
   />
 
+  <apn carrier="Maxis 4G"
+      mcc="502"
+      mnc="147"
+      apn="max4g"
+      user="maxis"
+      password="wap"
+      mmsproxy="202.75.133.49"
+      mmsport="80"
+      mmsc="http://172.16.74.100:10021/mmsc"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Maxis 3G"
       mcc="502"
       mnc="147"
@@ -14098,6 +14211,16 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="Celcom 4G"
+      mcc="502"
+      mnc="148"
+      apn="celcom4g"
+      mmsproxy="10.128.1.242"
+      mmsport="8080"
+      mmsc="http://mms.celcom.net.my"
       type="default,supl,mms"
   />
 
@@ -14120,6 +14243,7 @@
       mmsc="http://mms.digi.com.my/servlets/mms"
       mmsproxy="203.92.128.160"
       mmsport="80"
+      authtype="1"
       type="mms"
   />
 
@@ -14128,6 +14252,18 @@
       mnc="16"
       apn="diginet"
       type="default,supl"
+  />
+
+  <apn carrier="Maxis 4G"
+      mcc="502"
+      mnc="17"
+      apn="max4g"
+      user="maxis"
+      password="wap"
+      mmsproxy="202.75.133.49"
+      mmsport="80"
+      mmsc="http://172.16.74.100:10021/mmsc"
+      type="default,supl,mms"
   />
 
   <apn carrier="Maxis 3G"
@@ -14152,6 +14288,16 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Celcom 4G"
+      mcc="502"
+      mnc="19"
+      apn="celcom4g"
+      mmsproxy="10.128.1.242"
+      mmsport="8080"
+      mmsc="http://mms.celcom.net.my"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Celcom 3G"
       mcc="502"
       mnc="19"
@@ -14160,16 +14306,6 @@
       mmsport="8080"
       mmsc="http://mms.celcom.net.my"
       type="default,supl,mms"
-  />
-
-  <apn carrier="Telstra MMS"
-      mcc="505"
-      mnc="01"
-      apn="telstra.mms"
-      mmsc="http://mmsc.telstra.com:8002"
-      mmsproxy="10.1.1.180"
-      mmsport="80"
-      type="mms"
   />
 
   <apn carrier="Telstra Internet"
@@ -14189,6 +14325,13 @@
       mmsport="80"
   />
 
+  <apn carrier="Optus Yes Internet"
+      mcc="505"
+      mnc="02"
+      apn="yesinternet"
+      type="default,supl"
+  />
+
   <apn carrier="Optus Business Mobile Broadband"
       mcc="505"
       mnc="02"
@@ -14200,13 +14343,6 @@
       mnc="02"
       apn="internet"
       type="default"
-  />
-
-  <apn carrier="Optus Yes Internet"
-      mcc="505"
-      mnc="02"
-      apn="yesinternet"
-      type="default,supl"
   />
 
   <apn carrier="Optus MMS"
@@ -14226,6 +14362,8 @@
       type="default"
       proxy="202.139.83.152"
       port="8070"
+      mvno_match_data="505029"
+      mvno_type="imsi"
   />
 
   <apn carrier="Virgin MMS"
@@ -14236,6 +14374,8 @@
       mmsc="http://mms.virginvibe.com.au:8002"
       mmsproxy="202.139.83.152"
       mmsport="8070"
+      mvno_match_data="505029"
+      mvno_type="imsi"
   />
 
   <apn carrier="Vodafone live!"
@@ -14248,20 +14388,13 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Planet 3"
-      mcc="505"
-      mnc="03"
-      apn="3services"
-      mmsc="http://mmsc.three.net.au:10021/mmsc"
-      mmsproxy="mmscprox.three.net.au"
-      mmsport="8799"
-  />
-
   <apn carrier="Crazy Internet"
       mcc="505"
       mnc="03"
       apn="purtona.net"
       type="default"
+      mvno_match_data="50503823"
+      mvno_type="imsi"
   />
 
   <apn carrier="Crazy MMS"
@@ -14272,15 +14405,8 @@
       mmsc="http://purtona.mms/mmssend"
       mmsproxy="10.202.2.20"
       mmsport="8080"
-  />
-
-  <apn carrier="Vodafone Live!"
-      mcc="505"
-      mnc="06"
-      apn="live.vodafone.com"
-      mmsc="http://pxt.vodafone.net.au/pxtsend"
-      mmsproxy="10.202.2.60"
-      mmsport="8080"
+      mvno_match_data="50503823"
+      mvno_type="imsi"
   />
 
   <apn carrier="Planet 3"
@@ -14433,6 +14559,7 @@
       mcc="510"
       mnc="01"
       apn="indosatgprs"
+      authtype="1"
       type="default,supl"
   />
 
@@ -14465,6 +14592,7 @@
       mcc="510"
       mnc="08"
       apn="AXIS"
+      authtype="1"
       type="default,supl"
   />
 
@@ -14529,6 +14657,7 @@
       mcc="510"
       mnc="11"
       apn="internet"
+      authtype="1"
       type="default,supl"
   />
 
@@ -14582,6 +14711,7 @@
       mcc="510"
       mnc="89"
       apn="3gprs"
+      authtype="1"
       type="default,supl"
   />
 
@@ -14633,6 +14763,13 @@
       type="default,supl"
   />
 
+  <apn carrier="myGlobe Stream"
+      mcc="515"
+      mnc="02"
+      apn="real.globe.com.ph"
+      type="default,supl"
+  />
+
   <apn carrier="myGlobe MMS"
       mcc="515"
       mnc="02"
@@ -14641,6 +14778,13 @@
       mmsproxy="203.177.42.214"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="SMARTLTE"
+      mcc="515"
+      mnc="03"
+      apn="smartlte"
+      type="default,supl"
   />
 
   <apn carrier="SMART INTERNET"
@@ -14654,6 +14798,15 @@
       mcc="515"
       mnc="03"
       apn="Smart1"
+      proxy="10.102.61.46"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="SMART Internet"
+      mcc="515"
+      mnc="03"
+      apn="internet"
       proxy="10.102.61.46"
       port="8080"
       type="default,supl"
@@ -14707,13 +14860,6 @@
       mmsproxy="202.138.159.78"
       mmsport="8080"
       type="mms"
-  />
-
-  <apn carrier="Sun Streaming"
-      mcc="515"
-      mnc="05"
-      apn="minterenet"
-      type="default,supl"
   />
 
   <apn carrier="Redinternet"
@@ -14847,14 +14993,13 @@
       type="mms"
   />
 
-
-
   <apn carrier="IDEAS (PostPaid)"
       mcc="525"
       mnc="01"
       apn="e-ideas"
       user="65IDEAS"
       password="IDEAS"
+      authtype="1"
       mmsproxy="165.21.42.84"
       mmsport="8080"
       mmsc="http://mms.singtel.com:10021/mmsc"
@@ -14868,6 +15013,7 @@
       mmsproxy="165.21.42.84"
       mmsport="8080"
       mmsc="http://mms.singtel.com:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14877,6 +15023,7 @@
       apn="e-ideas"
       user="65IDEAS"
       password="IDEAS"
+      authtype="1"
       mmsproxy="165.21.42.84"
       mmsport="8080"
       mmsc="http://mms.singtel.com:10021/mmsc"
@@ -14890,6 +15037,7 @@
       mmsproxy="165.21.42.84"
       mmsport="8080"
       mmsc="http://mms.singtel.com:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14908,6 +15056,7 @@
       password="user123"
       proxy="172.16.1.23"
       port="8081"
+      authtype="1"
       type="default,supl"
   />
 
@@ -14920,6 +15069,7 @@
       mmsc="http://mmsgw:8002"
       mmsproxy="172.16.14.10"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -14959,6 +15109,7 @@
       apn="shwap"
       user="star"
       password="hub"
+      authtype="1"
       proxy="10.12.1.2"
       port="80"
       type="default,supl"
@@ -14971,6 +15122,7 @@
       mmsc="http://mms.starhubgee.com.sg:8002/"
       mmsproxy="10.12.1.80"
       mmsport="80"
+      authtype="1"
       type="mms"
   />
 
@@ -15030,6 +15182,32 @@
       apn="mms"
       mmsc="http://mms.2degreesmobile.net.nz:48090"
       mmsproxy="118.148.1.118"
+      mmsport="8080"
+      type="mms"
+  />
+
+  <apn carrier="PNG WAP"
+      mcc="537"
+      mnc="03"
+      apn="wap.digicelpng.com"
+      proxy="10.149.83.116"
+      port="8080"
+      type="default,supl"
+  />
+
+  <apn carrier="PNG WEB"
+      mcc="537"
+      mnc="03"
+      apn="internet.digicelpng.com"
+      type="default,supl"
+  />
+
+  <apn carrier="PNG MMS"
+      mcc="537"
+      mnc="03"
+      apn="wap.digicelpng.com"
+      mmsc="http://mms.digicelpng.com:8990"
+      mmsproxy="10.149.83.116"
       mmsport="8080"
       type="mms"
   />
@@ -16192,7 +16370,6 @@
       apn="internet.ideasclaro"
       user=""
       password=""
-      authtype="1"
       type="default,supl,dun"
   />
 
@@ -16205,7 +16382,6 @@
       mmsproxy="216.230.133.66"
       mmsport="8080"
       mmsc="http://mms.ideasclaro.com:8002"
-      authtype="1"
       type="mms"
   />
 
