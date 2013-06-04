@@ -4565,7 +4565,7 @@
   />
 
 
-  <apn carrier="movistar Internet"
+  <apn carrier="Movistar INTERNET"
       mcc="334"
       mnc="03"
       apn="internet.movistar.mx"
@@ -4575,7 +4575,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="334"
       mnc="03"
       apn="mms.movistar.mx"
@@ -4588,7 +4588,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar Internet"
+  <apn carrier="Movistar Internet"
       mcc="334"
       mnc="030"
       apn="internet.movistar.mx"
@@ -4598,7 +4598,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="334"
       mnc="030"
       apn="mms.movistar.mx"
@@ -14972,7 +14972,7 @@
       type="mms"
   />
 
-  <apn carrier="Internet GT"
+  <apn carrier="Movistar INTERNET"
       mcc="704"
       mnc="03"
       apn="internet.movistar.gt"
@@ -14982,7 +14982,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="MMS2 GPRS"
+  <apn carrier="Movistar MMS"
       mcc="704"
       mnc="03"
       apn="mms.movistar.gt"
@@ -14995,7 +14995,7 @@
       type="mms"
   />
 
-  <apn carrier="Internet GT"
+  <apn carrier="Movistar INTERNET"
       mcc="704"
       mnc="030"
       apn="internet.movistar.gt"
@@ -15005,7 +15005,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="MMS2 GPRS"
+  <apn carrier="Movistar MMS"
       mcc="704"
       mnc="030"
       apn="mms.movistar.gt"
@@ -15087,7 +15087,7 @@
       type="mms"
   />
 
-  <apn carrier="Internet SV"
+  <apn carrier="Movistar INTERNET"
       mcc="706"
       mnc="04"
       apn="internet.movistar.sv"
@@ -15097,7 +15097,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="MMS2 GPRS"
+  <apn carrier="Movistar MMS"
       mcc="706"
       mnc="04"
       apn="mms.movistar.sv"
@@ -15110,7 +15110,7 @@
       type="mms"
   />
 
-  <apn carrier="Internet SV"
+  <apn carrier="Movistar INTERNET"
       mcc="706"
       mnc="040"
       apn="internet.movistar.sv"
@@ -15120,7 +15120,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="MMS2 GPRS"
+  <apn carrier="Movistar MMS2"
       mcc="706"
       mnc="040"
       apn="mms.movistar.sv"
@@ -15226,7 +15226,7 @@
       type="mms"
   />
 
-  <apn carrier="Internet GPRS"
+  <apn carrier="Movistar INTERNET"
       mcc="710"
       mnc="300"
       apn="internet.movistar.ni"
@@ -15236,7 +15236,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="710"
       mnc="300"
       apn="mms.movistar.ni"
@@ -15342,7 +15342,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar INTERNET"
+  <apn carrier="Movistar INTERNET"
       mcc="712"
       mnc="04"
       apn="internet.movistar.cr"
@@ -15352,7 +15352,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="712"
       mnc="04"
       apn="mms.movistar.cr"
@@ -15390,7 +15390,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar INTERNET"
+  <apn carrier="Movistar INTERNET"
       mcc="714"
       mnc="020"
       apn="internet.movistar.pa"
@@ -15400,7 +15400,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="714"
       mnc="020"
       apn="mms.movistar.pa"
@@ -15459,7 +15459,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar Internet"
+  <apn carrier="Movistar INTERNET"
       mcc="716"
       mnc="06"
       apn="movistar.pe"
@@ -15469,7 +15469,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="716"
       mnc="06"
       apn="mms.movistar.pe"
@@ -15918,7 +15918,7 @@
       type="mms"
   />
 
-  <apn carrier="NEM"
+  <apn carrier="Movistar APLICACIONES"
       mcc="730"
       mnc="02"
       apn="wap.tmovil.cl"
@@ -15930,7 +15930,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="MMS"
+  <apn carrier="Movistar MMS"
       mcc="730"
       mnc="02"
       apn="mms.tmovil.cl"
@@ -16113,7 +16113,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar INTERNET"
+  <apn carrier="Movistar INTERNET"
       mcc="732"
       mnc="123"
       apn="internet.movistar.com.co"
@@ -16123,7 +16123,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="732"
       mnc="123"
       apn="mms.movistar.com.co"
@@ -16193,7 +16193,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar INTERNET"
+  <apn carrier="Movistar INTERNET"
       mcc="734"
       mnc="04"
       apn="internet.movistar.ve"
@@ -16201,7 +16201,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="734"
       mnc="04"
       apn="mms.movistar.ve"
@@ -16212,7 +16212,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar WAP"
+  <apn carrier="Movistar WAP"
       mcc="734"
       mnc="04"
       apn="wap.movistar.ve"
@@ -16316,7 +16316,7 @@
       type="mms"
   />
 
-  <apn carrier="movistar INTERNET"
+  <apn carrier="Movistar INTERNET"
       mcc="740"
       mnc="00"
       apn="internet.movistar.com.ec"
@@ -16326,7 +16326,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="movistar MMS"
+  <apn carrier="Movistar MMS"
       mcc="740"
       mnc="00"
       apn="mms.movistar.com.ec"
@@ -16529,7 +16529,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="Movistar Emoción"
+  <apn carrier="Movistar INTERNET"
       mcc="748"
       mnc="07"
       apn="webapn.movistar.com.uy"
@@ -16539,7 +16539,7 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="FOTOS MMS"
+  <apn carrier="Movistar MMS"
       mcc="748"
       mnc="07"
       apn="apnmms.movistar.com.uy"
