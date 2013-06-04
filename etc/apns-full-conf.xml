@@ -4497,6 +4497,25 @@
       type="mms"
   />
 
+  <apn carrier="GCI WEB"
+      mcc="311"
+      mnc="370"
+      apn="web.gci"
+      type="default,supl"
+  />
+
+  <apn carrier="GCI MMS"
+      mcc="311"
+      mnc="370"
+      apn="mms.gci"
+      proxy="209.4.229.92"
+      port="9201"
+      mmsc="http://mmsc.gci.csky.us:6672"
+      mmsproxy="209.4.229.92"
+      mmsport="9201"
+      type="mms"
+  />
+
   <apn carrier="INTERNET CLARO"
       mcc="330"
       mnc="110"
