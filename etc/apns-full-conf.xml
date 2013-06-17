@@ -175,9 +175,10 @@
   <apn carrier="Proximus MMS"
       mcc="206"
       mnc="01"
-      apn="event.proximus.be"
+      apn="EVENT.PROXIMUS.BE"
       user="mms"
       password="mms"
+      authtype="1"
       mmsc="http://mmsc.proximus.be/mms"
       mmsproxy="10.55.14.75"
       mmsport="8080"
@@ -187,7 +188,7 @@
   <apn carrier="Proximus Internet"
       mcc="206"
       mnc="01"
-      apn="internet.proximus.be"
+      apn="INTERNET.PROXIMUS.BE"
       type="default,supl"
   />
 
@@ -6127,7 +6128,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="01"
       apn="portalnmms"
@@ -6137,14 +6138,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="01"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="01"
       apn="portalnmms"
@@ -6207,7 +6208,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="04"
       apn="internet"
@@ -6233,7 +6234,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="05"
       apn="portalnmms"
@@ -6243,14 +6244,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="05"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="05"
       apn="portalnmms"
@@ -6259,7 +6260,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="07"
       apn="internet"
@@ -6308,6 +6309,7 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -6338,7 +6340,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="11"
       apn="portalnmms"
@@ -6348,14 +6350,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="11"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="11"
       apn="portalnmms"
@@ -6364,7 +6366,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="12"
       apn="internet"
@@ -6390,7 +6392,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="13"
       apn="portalnmms"
@@ -6400,14 +6402,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="13"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="13"
       apn="portalnmms"
@@ -6416,7 +6418,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA Punjab MMS"
+  <apn carrier="IDEA MMS"
       mcc="404"
       mnc="14"
       apn="mmsc"
@@ -6426,7 +6428,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA Punjab"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="14"
       apn="internet"
@@ -6442,7 +6444,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="15"
       apn="portalnmms"
@@ -6452,14 +6454,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="15"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="15"
       apn="portalnmms"
@@ -6527,7 +6529,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="17"
       apn="aircelmms"
@@ -6537,7 +6539,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="18"
       apn="mms"
@@ -6560,10 +6562,11 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="19"
       apn="internet"
@@ -6589,7 +6592,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="20"
       apn="portalnmms"
@@ -6599,14 +6602,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="20"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="20"
       apn="portalnmms"
@@ -6633,7 +6636,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="22"
       apn="internet"
@@ -6659,7 +6662,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="24"
       apn="internet"
@@ -6717,7 +6720,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="25"
       apn="aircelmms"
@@ -6727,7 +6730,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="27"
       apn="portalnmms"
@@ -6737,14 +6740,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="27"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="27"
       apn="portalnmms"
@@ -6785,7 +6788,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="28"
       apn="aircelmms"
@@ -6827,7 +6830,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="29"
       apn="aircelmms"
@@ -6837,7 +6840,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="30"
       apn="portalnmms"
@@ -6847,14 +6850,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="30"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="30"
       apn="portalnmms"
@@ -6922,7 +6925,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="33"
       apn="aircelmms"
@@ -6991,7 +6994,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="35"
       apn="aircelmms"
@@ -7001,7 +7004,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="36"
       apn="mms"
@@ -7024,6 +7027,7 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -7059,7 +7063,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="37"
       apn="aircelmms"
@@ -7226,7 +7230,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="43"
       apn="portalnmms"
@@ -7236,14 +7240,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="43"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="43"
       apn="portalnmms"
@@ -7252,7 +7256,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA Karnataka"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="44"
       apn="internet"
@@ -7268,7 +7272,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA Karnataka MMS"
+  <apn carrier="IDEA MMS"
       mcc="404"
       mnc="44"
       apn="mmsc"
@@ -7305,7 +7309,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="46"
       apn="portalnmms"
@@ -7315,14 +7319,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="46"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="46"
       apn="portalnmms"
@@ -7358,7 +7362,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="50"
       apn="mms"
@@ -7368,7 +7372,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel"
+  <apn carrier="Reliance Net"
       mcc="404"
       mnc="50"
       apn="smartnet"
@@ -7381,6 +7385,7 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -7410,7 +7415,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="52"
       apn="mms"
@@ -7420,7 +7425,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel"
+  <apn carrier="Reliance Net"
       mcc="404"
       mnc="52"
       apn="smartnet"
@@ -7433,6 +7438,7 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -7514,7 +7520,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="56"
       apn="internet"
@@ -7618,7 +7624,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="60"
       apn="portalnmms"
@@ -7628,14 +7634,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="60"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="60"
       apn="portalnmms"
@@ -7722,7 +7728,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="67"
       apn="mms"
@@ -7732,7 +7738,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel"
+  <apn carrier="Reliance Net"
       mcc="404"
       mnc="67"
       apn="smartnet"
@@ -7745,6 +7751,7 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
@@ -8041,7 +8048,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="78"
       apn="internet"
@@ -8145,7 +8152,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="82"
       apn="internet"
@@ -8171,7 +8178,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="83"
       apn="mms"
@@ -8181,7 +8188,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel"
+  <apn carrier="Reliance Net"
       mcc="404"
       mnc="83"
       apn="smartnet"
@@ -8194,10 +8201,11 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="84"
       apn="portalnmms"
@@ -8207,14 +8215,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="84"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="84"
       apn="portalnmms"
@@ -8223,7 +8231,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Reliance RTel MMS"
+  <apn carrier="Reliance MMS"
       mcc="404"
       mnc="85"
       apn="mms"
@@ -8233,7 +8241,7 @@
       type="mms"
   />
 
-  <apn carrier="Reliance RTel"
+  <apn carrier="Reliance Net"
       mcc="404"
       mnc="85"
       apn="smartnet"
@@ -8246,10 +8254,11 @@
       apn="smartwap"
       proxy="10.239.221.7"
       port="8080"
+      authtype="1"
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="86"
       apn="portalnmms"
@@ -8259,14 +8268,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="86"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="86"
       apn="portalnmms"
@@ -8275,7 +8284,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="87"
       apn="internet"
@@ -8301,7 +8310,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="404"
       mnc="88"
       apn="portalnmms"
@@ -8311,14 +8320,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="404"
       mnc="88"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="404"
       mnc="88"
       apn="portalnmms"
@@ -8327,7 +8336,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="404"
       mnc="89"
       apn="internet"
@@ -8412,7 +8421,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL NE MMS"
+  <apn carrier="Aircel-MMS"
       mcc="404"
       mnc="91"
       apn="aircelmms"
@@ -9917,7 +9926,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="66"
       apn="portalnmms"
@@ -9927,14 +9936,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="66"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="66"
       apn="portalnmms"
@@ -9943,7 +9952,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="67"
       apn="portalnmms"
@@ -9953,14 +9962,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="67"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="67"
       apn="portalnmms"
@@ -9969,7 +9978,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="70"
       apn="internet"
@@ -9995,7 +10004,7 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="750"
       apn="portalnmms"
@@ -10005,14 +10014,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="750"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="750"
       apn="portalnmms"
@@ -10021,7 +10030,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="751"
       apn="portalnmms"
@@ -10031,14 +10040,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="751"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="751"
       apn="portalnmms"
@@ -10047,7 +10056,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="752"
       apn="portalnmms"
@@ -10057,14 +10066,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="752"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="752"
       apn="portalnmms"
@@ -10073,7 +10082,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="753"
       apn="portalnmms"
@@ -10083,14 +10092,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="753"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="753"
       apn="portalnmms"
@@ -10099,7 +10108,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="754"
       apn="portalnmms"
@@ -10109,14 +10118,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="754"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="754"
       apn="portalnmms"
@@ -10125,7 +10134,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="755"
       apn="portalnmms"
@@ -10135,14 +10144,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="755"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="755"
       apn="portalnmms"
@@ -10151,7 +10160,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Vodafone MMS"
+  <apn carrier="Vodafone_MMS"
       mcc="405"
       mnc="756"
       apn="portalnmms"
@@ -10161,14 +10170,14 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Connect"
+  <apn carrier="Vodafonemobileconnect"
       mcc="405"
       mnc="756"
       apn="www"
       type="default,supl"
   />
 
-  <apn carrier="VodafoneLive!"
+  <apn carrier="Vodafone live"
       mcc="405"
       mnc="756"
       apn="portalnmms"
@@ -10177,7 +10186,7 @@
       type="default,supl"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="799"
       apn="internet"
@@ -10203,7 +10212,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL ROI"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="800"
       apn="aircelgprs"
@@ -10219,7 +10228,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL ROI MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="800"
       apn="aircelmms"
@@ -10255,7 +10264,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL Central"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="802"
       apn="aircelgprs"
@@ -10271,7 +10280,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL Central MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="802"
       apn="aircelmms"
@@ -10307,7 +10316,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL ROI"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="804"
       apn="aircelgprs"
@@ -10323,7 +10332,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL ROI MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="804"
       apn="aircelmms"
@@ -10333,7 +10342,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL ROI"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="805"
       apn="aircelgprs"
@@ -10349,7 +10358,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL ROI MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="805"
       apn="aircelmms"
@@ -10359,7 +10368,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL Central"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="806"
       apn="aircelgprs"
@@ -10375,7 +10384,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL Central MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="806"
       apn="aircelmms"
@@ -10385,7 +10394,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL Central"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="807"
       apn="aircelgprs"
@@ -10401,7 +10410,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL Central MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="807"
       apn="aircelmms"
@@ -10411,7 +10420,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL Central"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="808"
       apn="aircelgprs"
@@ -10427,7 +10436,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL Central MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="808"
       apn="aircelmms"
@@ -10463,7 +10472,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL ROI"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="810"
       apn="aircelgprs"
@@ -10479,7 +10488,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL ROI MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="810"
       apn="aircelmms"
@@ -10489,7 +10498,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL ROI"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="811"
       apn="aircelgprs"
@@ -10505,7 +10514,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL ROI MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="811"
       apn="aircelmms"
@@ -10515,7 +10524,7 @@
       type="mms"
   />
 
-  <apn carrier="AIRCEL Central"
+  <apn carrier="Aircel-GPRS"
       mcc="405"
       mnc="812"
       apn="aircelgprs"
@@ -10531,7 +10540,7 @@
       type="default,supl"
   />
 
-  <apn carrier="AIRCEL Central MMS"
+  <apn carrier="Aircel-MMS"
       mcc="405"
       mnc="812"
       apn="aircelmms"
@@ -10541,10 +10550,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="813"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10567,10 +10577,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="814"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10593,10 +10604,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="815"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10619,10 +10631,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="816"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10645,10 +10658,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="817"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10671,10 +10685,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="818"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10697,10 +10712,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="819"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10723,10 +10739,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="820"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10749,10 +10766,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="821"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -10775,10 +10793,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="822"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11158,10 +11177,11 @@
       type="default,supl"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="844"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11184,7 +11204,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="845"
       apn="internet"
@@ -11210,7 +11230,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="846"
       apn="internet"
@@ -11236,7 +11256,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="847"
       apn="internet"
@@ -11262,7 +11282,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="848"
       apn="internet"
@@ -11288,7 +11308,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="849"
       apn="internet"
@@ -11314,7 +11334,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="850"
       apn="internet"
@@ -11340,7 +11360,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="851"
       apn="internet"
@@ -11366,7 +11386,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="852"
       apn="internet"
@@ -11392,7 +11412,7 @@
       type="mms"
   />
 
-  <apn carrier="IDEA"
+  <apn carrier="Idea_Internet"
       mcc="405"
       mnc="853"
       apn="internet"
@@ -11418,10 +11438,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="875"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11444,10 +11465,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="876"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11470,10 +11492,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="877"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11496,10 +11519,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="878"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11522,10 +11546,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="879"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11548,10 +11573,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="880"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11775,10 +11801,11 @@
       type="default,supl"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="925"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11801,10 +11828,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="926"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11827,10 +11855,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="927"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11853,10 +11882,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="928"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -11879,10 +11909,11 @@
       type="mms"
   />
 
-  <apn carrier="Uninor GPRS"
+  <apn carrier="Uninor Internet"
       mcc="405"
       mnc="929"
       apn="uninor"
+      authtype="1"
       type="default,supl"
   />
 
@@ -12643,7 +12674,7 @@
   <apn carrier="Cellcom Internet"
       mcc="425"
       mnc="02"
-      apn="Sphone"
+      apn="sphone"
       type="default,supl"
   />
 
@@ -12718,14 +12749,14 @@
       type="mms"
   />
 
-  <apn carrier="Net HOT mobile"
+  <apn carrier="Internet HOT mobile"
       mcc="425"
       mnc="07"
       apn="net.hotm"
       type="default,supl"
   />
 
-  <apn carrier="Mms HOT mobile"
+  <apn carrier="MMS HOT mobile"
       mcc="425"
       mnc="07"
       apn="mms.hotm"
@@ -12733,13 +12764,6 @@
       mmsproxy="80.246.131.99"
       mmsport="80"
       type="mms"
-  />
-
-  <apn carrier="PC HOT mobile"
-      mcc="425"
-      mnc="07"
-      apn="pc.hotm"
-      type="default,supl"
   />
 
   <apn carrier="GolanTelecom Internet"
@@ -13406,14 +13430,14 @@
       type="mms"
   />
 
-  <apn carrier="Beeline-wap-gprs2"
+  <apn carrier="Gmobile-wap-gprs2"
       mcc="452"
       mnc="07"
       apn="internet"
       type="default,supl"
   />
 
-  <apn carrier="Beeline-wap-gprs"
+  <apn carrier="Gmobile-wap-gprs"
       mcc="452"
       mnc="07"
       apn="internet"
@@ -13422,7 +13446,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Beeline-gprs-mms"
+  <apn carrier="Gmobile-gprs-mms"
       mcc="452"
       mnc="07"
       apn="mms"
@@ -13432,7 +13456,7 @@
       type="mms"
   />
 
-  <apn carrier="Beeline MMS"
+  <apn carrier="Gmobile MMS"
       mcc="452"
       mnc="07"
       apn="mms"
@@ -13488,6 +13512,7 @@
       mmsproxy="192.168.59.51"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -13682,12 +13707,21 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="PCCW"
+      mcc="454"
+      mnc="19"
+      apn="pccw"
+      mmsc="http://3gmms.pccwmobile.com:8080/was"
+      mmsproxy="10.140.14.10"
+      mmsport="8080"
+      authtype="1"
+      type="default,supl,mms"
+  />
+
   <apn carrier="SmarTone Macau"
       mcc="455"
       mnc="00"
       apn="smartgprs"
-      proxy="10.9.9.29"
-      port="8080"
       mmsc="http://momms.smartone.com/dmog/mo"
       mmsproxy="10.9.9.29"
       mmsport="8080"
@@ -13733,6 +13767,7 @@
       mmsc="http://mms.three.com.mo:10021/mmsc"
       mmsproxy="mms.three.com.mo"
       mmsport="8080"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14061,10 +14096,11 @@
       mmsc="http://mms.digi.com.my/servlets/mms"
       mmsproxy="203.92.128.160"
       mmsport="80"
+      authtype="1"
       type="mms"
   />
 
-  <apn carrier="Maxis 4G"
+  <apn carrier="Maxis Internet"
       mcc="502"
       mnc="12"
       apn="max4g"
@@ -14073,6 +14109,7 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14085,10 +14122,11 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 4G"
+  <apn carrier="Celcom Internet"
       mcc="502"
       mnc="13"
       apn="celcom4g"
@@ -14108,7 +14146,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Maxis 4G"
+  <apn carrier="Maxis Internet"
       mcc="502"
       mnc="142"
       apn="max4g"
@@ -14117,6 +14155,7 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14129,6 +14168,7 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14148,10 +14188,11 @@
       mmsc="http://mms.digi.com.my/servlets/mms"
       mmsproxy="203.92.128.160"
       mmsport="80"
+      authtype="1"
       type="mms"
   />
 
-  <apn carrier="Celcom 4G"
+  <apn carrier="Celcom Internet"
       mcc="502"
       mnc="145"
       apn="celcom4g"
@@ -14187,10 +14228,11 @@
       mmsc="http://mms.digi.com.my/servlets/mms"
       mmsproxy="203.92.128.160"
       mmsport="80"
+      authtype="1"
       type="mms"
   />
 
-  <apn carrier="Maxis 4G"
+  <apn carrier="Maxis Internet"
       mcc="502"
       mnc="147"
       apn="max4g"
@@ -14199,6 +14241,7 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14211,10 +14254,11 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 4G"
+  <apn carrier="Celcom Internet"
       mcc="502"
       mnc="148"
       apn="celcom4g"
@@ -14254,7 +14298,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Maxis 4G"
+  <apn carrier="Maxis Internet"
       mcc="502"
       mnc="17"
       apn="max4g"
@@ -14263,6 +14307,7 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
@@ -14275,10 +14320,11 @@
       mmsproxy="202.75.133.49"
       mmsport="80"
       mmsc="http://172.16.74.100:10021/mmsc"
+      authtype="1"
       type="default,supl,mms"
   />
 
-  <apn carrier="U Mobile 3G"
+  <apn carrier="U Mobile Internet"
       mcc="502"
       mnc="18"
       apn="my3g"
@@ -14288,7 +14334,7 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 4G"
+  <apn carrier="Celcom Internet"
       mcc="502"
       mnc="19"
       apn="celcom4g"
@@ -14822,13 +14868,6 @@
       type="mms"
   />
 
-  <apn carrier="Streaming"
-      mcc="515"
-      mnc="03"
-      apn="internet"
-      type="default,supl"
-  />
-
   <apn carrier="Sun Internet"
       mcc="515"
       mnc="05"
@@ -14849,6 +14888,13 @@
       mcc="515"
       mnc="05"
       apn="fbband"
+      type="default,supl"
+  />
+
+  <apn carrier="Sun Streaming"
+      mcc="515"
+      mnc="05"
+      apn="minternet"
       type="default,supl"
   />
 
@@ -15086,6 +15132,7 @@
       apn="miworld"
       user="65"
       password="user123"
+      authtype="1"
       proxy="172.16.1.23"
       port="8081"
       type="default,supl"
@@ -15097,6 +15144,7 @@
       apn="miworld"
       user="65"
       password="user123"
+      authtype="1"
       mmsc="http://mmsgw:8002"
       mmsproxy="172.16.14.10"
       mmsport="8080"
