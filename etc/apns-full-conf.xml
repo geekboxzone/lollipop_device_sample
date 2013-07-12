@@ -2436,9 +2436,11 @@
       mcc="240"
       mnc="01"
       apn="mms.telia.se"
+      user="mms"
+      password="telia"
       mmsc="http://mmss/"
       mmsproxy="193.209.134.132"
-      mmsport="80"
+      mmsport="8080"
       type="mms"
   />
 
