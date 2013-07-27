@@ -295,6 +295,27 @@
       mvno_type="gid"
   />
 
+  <apn carrier="MMS"
+      mcc="206"
+      mnc="01"
+      apn="mms.mobi.eastlink.ca"
+      mmsc="http://mmss.mobi.eastlink.ca"
+      mmsproxy="10.232.12.49"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="B6"
+      mvno_type="gid"
+  />
+
+  <apn carrier="Internet"
+      mcc="206"
+      mnc="01"
+      apn="wisp.mobi.eastlink.ca"
+      type="default,supl,dun"
+      mvno_match_data="B6"
+      mvno_type="gid"
+  />
+
   <apn carrier="Telenet Internet"
       mcc="206"
       mnc="05"
@@ -1476,6 +1497,28 @@
       type="mms"
   />
 
+  <apn carrier="Internet"
+      mcc="222"
+      mnc="01"
+      apn="internet.windmobile.ca"
+      type="default,supl"
+      protocol="IPV4V6"
+      mvno_match_data="FFFF"
+      mvno_type="gid"
+  />
+
+  <apn carrier="MMS"
+      mcc="222"
+      mnc="01"
+      apn="mms.windmobile.ca"
+      mmsc="http://mms.windmobile.ca"
+      mmsproxy="74.115.197.70"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="FFFF"
+      mvno_type="gid"
+  />
+
   <apn carrier="MMS Vodafone"
       mcc="222"
       mnc="10"
@@ -1515,6 +1558,28 @@
       mmsproxy="212.245.244.100"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Internet"
+      mcc="222"
+      mnc="88"
+      apn="internet.windmobile.ca"
+      type="default,supl"
+      protocol="IPV4V6"
+      mvno_match_data="FFFF"
+      mvno_type="gid"
+  />
+
+  <apn carrier="MMS"
+      mcc="222"
+      mnc="88"
+      apn="mms.windmobile.ca"
+      mmsc="http://mms.windmobile.ca"
+      mmsproxy="74.115.197.70"
+      mmsport="8080"
+      type="mms"
+      mvno_match_data="FFFF"
+      mvno_type="gid"
   />
 
   <apn carrier="3"
@@ -4688,7 +4753,7 @@
       apn="pda.bell.ca"
       type="default,mms,dun,supl"
       mmsc="http://mms.bell.ca/mms/wapenc"
-      mvno_match_data="61"
+      mvno_match_data="3D"
       mvno_type="gid"
   />
 
@@ -4698,7 +4763,7 @@
       apn="pda.bell.ca"
       type="default,mms,dun,supl"
       mmsc="http://mms.bell.ca/mms/wapenc"
-      mvno_match_data="62"
+      mvno_match_data="3E"
       mvno_type="gid"
   />
 
@@ -4708,7 +4773,7 @@
       apn="pda.bell.ca"
       type="default,mms,dun,supl"
       mmsc="http://mms.bell.ca/mms/wapenc"
-      mvno_match_data="63"
+      mvno_match_data="3F"
       mvno_type="gid"
   />
 
@@ -4718,7 +4783,7 @@
       apn="pda.bell.ca"
       type="default,mms,dun,supl"
       mmsc="http://mms.bell.ca/mms/wapenc"
-      mvno_match_data="64"
+      mvno_match_data="40"
       mvno_type="gid"
   />
 
