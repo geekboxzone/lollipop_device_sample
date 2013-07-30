@@ -20,6 +20,14 @@
 <!-- use empty string to specify no proxy or port -->
 <!-- This version must agree with that in apps/common/res/apns.xml -->
 <apns version="8">
+
+  <apn carrier="Cosmote Wireless Internet"
+      mcc="202"
+      mnc="01"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="Cosmote Wireless Internet"
       mcc="202"
       mnc="01"
@@ -35,6 +43,13 @@
       mmsproxy="10.10.10.20"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Vf Mobile Internet"
+      mcc="202"
+      mnc="05"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Vf Mobile Internet"
@@ -161,6 +176,13 @@
   <apn carrier="T-Mobile Internet"
       mcc="204"
       mnc="16"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="T-Mobile Internet"
+      mcc="204"
+      mnc="16"
       apn="internet"
       authtype="1"
       type="default,supl"
@@ -208,6 +230,13 @@
       type="mms"
       mvno_match_data="BEN NL"
       mvno_type="spn"
+  />
+
+  <apn carrier="T-Mobile Internet"
+      mcc="204"
+      mnc="20"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="T-Mobile Internet"
@@ -378,6 +407,13 @@
   <apn carrier="Orange World"
       mcc="208"
       mnc="01"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="Orange World"
+      mcc="208"
+      mnc="01"
       apn="orange"
       user="orange"
       password="orange"
@@ -512,6 +548,13 @@
       mmsproxy="192.168.10.200"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="SFR webphone"
+      mcc="208"
+      mnc="10"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="SFR webphone"
@@ -801,6 +844,13 @@
   <apn carrier="Orange Internet Móvil"
       mcc="214"
       mnc="03"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="Orange Internet Móvil"
+      mcc="214"
+      mnc="03"
       apn="orangeworld"
       user="orange"
       password="orange"
@@ -819,6 +869,13 @@
       mmsport="8080"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Yoigo Navegador"
+      mcc="214"
+      mnc="04"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Yoigo Navegador"
@@ -1145,6 +1202,13 @@
       mvno_type="spn"
   />
 
+  <apn carrier="T-Mobile H"
+      mcc="216"
+      mnc="30"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="T-Mobile H MMS"
       mcc="216"
       mnc="30"
@@ -1312,11 +1376,17 @@
   <apn carrier="T-Mobile"
       mcc="219"
       mnc="01"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="T-Mobile"
+      mcc="219"
+      mnc="01"
       apn="web.htgprs"
       authtype="1"
       type="default,supl"
   />
-
 
   <apn carrier="Tele2"
       mcc="219"
@@ -1519,6 +1589,13 @@
       mvno_type="gid"
   />
 
+  <apn carrier="Acc. Internet da cell"
+      mcc="222"
+      mnc="10"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="MMS Vodafone"
       mcc="222"
       mnc="10"
@@ -1630,6 +1707,13 @@
   <apn carrier="Cosmote Connect Mobile"
       mcc="226"
       mnc="03"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="Cosmote Connect Mobile"
+      mcc="226"
+      mnc="03"
       apn="broadband"
       type="default,supl"
   />
@@ -1657,6 +1741,13 @@
       type="default,supl"
   />
 
+  <apn carrier="Digi.Mobil"
+      mcc="226"
+      mnc="05"
+      apn=""
+      type="ia"
+  />
+
   <apn carrier="MMS"
       mcc="226"
       mnc="05"
@@ -1673,6 +1764,13 @@
       apn="internet"
       authtype="1"
       type="default,supl"
+  />
+
+  <apn carrier="Cosmote Connect Mobile"
+      mcc="226"
+      mnc="06"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Cosmote Connect Mobile"
@@ -1701,6 +1799,13 @@
       user="wnw"
       password="wnw"
       type="default,supl"
+  />
+
+  <apn carrier="Orange Internet"
+      mcc="226"
+      mnc="10"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Orange MMS"
@@ -1806,6 +1911,13 @@
       mmsproxy="192.168.151.2"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="T-Mobile CZ"
+      mcc="230"
+      mnc="01"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="T-Mobile CZ"
@@ -1963,6 +2075,13 @@
   <apn carrier="T-Mobile Internet"
       mcc="232"
       mnc="03"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="T-Mobile Internet"
+      mcc="232"
+      mnc="03"
       apn="gprsinternet"
       user="t-mobile"
       password="tm"
@@ -1995,7 +2114,6 @@
       authtype="1"
       type="mms"
   />
-
 
   <apn carrier="Orange Smartphone"
       mcc="232"
@@ -2348,6 +2466,13 @@
   <apn carrier="EE Internet"
       mcc="234"
       mnc="30"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="EE Internet"
+      mcc="234"
+      mnc="30"
       apn="everywhere"
       user="eesecure"
       password="secure"
@@ -2412,6 +2537,13 @@
       mmsport="8080"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="EE Internet"
+      mcc="234"
+      mnc="33"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="EE Internet"
@@ -3865,6 +3997,13 @@
   <apn carrier="T-mobile.pl"
       mcc="260"
       mnc="02"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="T-mobile.pl"
+      mcc="260"
+      mnc="02"
       apn="internet"
       type="default,supl"
   />
@@ -3936,7 +4075,6 @@
       type="mms"
   />
 
-
   <apn carrier="Telekom Internet"
       mcc="262"
       mnc="01"
@@ -3948,6 +4086,13 @@
       mmsport="8008"
       authtype="1"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Vodafone DE"
+      mcc="262"
+      mnc="02"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="Vodafone DE-MMS"
@@ -4015,6 +4160,13 @@
   <apn carrier="Vodafone Net2"
       mcc="268"
       mnc="01"
+      apn=""
+      type="ia"
+  />
+
+  <apn carrier="Vodafone Net2"
+      mcc="268"
+      mnc="01"
       apn="net2.vodafone.pt"
       user="vodafone"
       password="vodafone"
@@ -4025,6 +4177,15 @@
       mmsproxy="iproxy.vodafone.pt"
       mmsport="80"
       type="default,supl,mms"
+  />
+
+  <apn carrier="ZON Internet"
+      mcc="268"
+      mnc="01"
+      apn=""
+      type="ia"
+      mvno_match_data="ZON"
+      mvno_type="spn"
   />
 
   <apn carrier="ZON Internet"
@@ -4059,6 +4220,13 @@
       mmsproxy="62.169.66.5"
       mmsport="8799"
       type="default,supl,mms"
+  />
+
+  <apn carrier="tmn internet"
+      mcc="268"
+      mnc="06"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="tmn internet"
@@ -4513,6 +4681,13 @@
       mmsproxy="213.229.249.40"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="T-Mobile MK Internet"
+      mcc="294"
+      mnc="01"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="T-Mobile MK Internet"
@@ -5123,6 +5298,13 @@
       type="default,supl,mms"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="T-Mobile GPRS"
+      mcc="310"
+      mnc="260"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="T-Mobile GPRS"
@@ -13744,7 +13926,7 @@
       mcc="450"
       mnc="05"
       apn="lte.sktelecom.com"
-      type="default,mms,dun,hipri,supl,fota,cbs"
+      type="ia,default,mms,dun,hipri,supl,fota,cbs"
       mmsc="http://omms.nate.com:9082/oma_mms"
       mmsproxy="smart.nate.com"
       mmsport="9093"
@@ -13776,7 +13958,7 @@
       mcc="450"
       mnc="06"
       apn="ims.lguplus.co.kr"
-      type="ims"
+      type="ia,ims"
       mmsc="http://omammsc.uplus.co.kr:9084"
       protocol="IPV4V6"
   />
