@@ -5933,7 +5933,7 @@
       type="mms"
   />
 
-  <apn carrier="Movistar Internet"
+  <apn carrier="Movistar INTERNET"
       mcc="334"
       mnc="030"
       apn="internet.movistar.mx"
@@ -5962,7 +5962,6 @@
       apn="web.iusacellgsm.mx"
       user="Iusacellgsm"
       password="Iusacellgsm"
-      authtype="0"
       type="default,supl,dun"
   />
 
@@ -5973,9 +5972,6 @@
       user="mmsiusacellgsm"
       password="mmsiusacellgsm"
       mmsc="http://mms.iusacell3g.com/"
-      mmsproxy="192.200.1.40"
-      mmsport="80"
-      authtype="0"
       type="mms"
   />
 
@@ -14295,17 +14291,7 @@
   <apn carrier="1O1O"
       mcc="454"
       mnc="00"
-      apn="hkcsl"
-      mmsproxy="192.168.59.51"
-      mmsport="8080"
-      mmsc="http://192.168.58.171:8002"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="one2free"
-      mcc="454"
-      mnc="00"
-      apn="hkcsl"
+      apn="mobile"
       mmsproxy="192.168.59.51"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
@@ -14313,7 +14299,18 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="NWMobile Data"
+  <apn carrier="one2free"
+      mcc="454"
+      mnc="00"
+      apn="mobile"
+      mmsproxy="192.168.59.51"
+      mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="NWMOBILE"
       mcc="454"
       mnc="00"
       apn="NWMOBILE"
@@ -14322,37 +14319,42 @@
       mmsproxy="192.168.59.61"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
+      authtype="3"
       type="default,supl,mms"
   />
 
   <apn carrier="1O1O"
       mcc="454"
-      mnc="00"
+      mnc="02"
       apn="mobile"
       mmsproxy="192.168.59.51"
       mmsport="8080"
       mmsc="http://192.168.58.171:8002"
       authtype="3"
-      type="default,supl,mms,hipri"
-  />
-
-  <apn carrier="one2free"
-      mcc="454"
-      mnc="00"
-      apn="mobile"
-      mmsproxy="192.168.59.51"
-      mmsport="8080"
-      mmsc="http://192.168.58.171:8002"
-      type="default,supl,mms,hipri"
+      type="default,supl,mms"
   />
 
   <apn carrier="one2free"
       mcc="454"
       mnc="02"
-      apn="hkcsl"
-      mmsc="http://192.168.58.171:8002"
+      apn="mobile"
       mmsproxy="192.168.59.51"
       mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
+      type="default,supl,mms"
+  />
+
+  <apn carrier="NWMOBILE"
+      mcc="454"
+      mnc="02"
+      apn="NWMOBILE"
+      proxy="192.168.59.61"
+      port="8080"
+      mmsproxy="192.168.59.61"
+      mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -14364,16 +14366,6 @@
       mmsproxy="mms.three.com.hk"
       mmsport="8799"
       authtype="1"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="3"
-      mcc="454"
-      mnc="03"
-      apn="mobile.three.com.hk"
-      mmsc="http://mms.um.three.com.hk:10021/mmsc"
-      mmsproxy="172.20.97.116"
-      mmsport="8799"
       type="default,supl,mms"
   />
 
@@ -14425,6 +14417,7 @@
       mmsc="http://192.168.58.171:8002"
       mmsproxy="192.168.59.51"
       mmsport="8080"
+      authtype="3"
       type="default,supl,mms"
   />
 
@@ -14443,6 +14436,21 @@
       type="default,supl"
   />
 
+  <apn carrier="CMHK MMS"
+      mcc="454"
+      mnc="13"
+      apn="cmhk"
+      mmsc="http://mms.hk.chinamobile.com/mms"
+      type="mms"
+  />
+
+  <apn carrier="CMHK Data"
+      mcc="454"
+      mnc="13"
+      apn="cmhk"
+      type="default,supl"
+  />
+
   <apn carrier="SmarTone"
       mcc="454"
       mnc="15"
@@ -14454,23 +14462,15 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="PCCW 2G GPRS"
+  <apn carrier="PCCW-HKT"
       mcc="454"
       mnc="16"
-      apn="pccwdata"
-      proxy="10.131.2.8"
-      port="8080"
-      type="default,supl"
-  />
-
-  <apn carrier="PCCW 2G MMS"
-      mcc="454"
-      mnc="16"
-      apn="pccwmms"
-      mmsc="http://mmsc.mms.pccwmobile.com:8002/"
-      mmsproxy="10.131.2.8"
+      apn="pccw"
+      mmsc="http://3gmms.pccwmobile.com:8080/was"
+      mmsproxy="10.140.14.10"
       mmsport="8080"
-      type="mms"
+      authtype="1"
+      type="default,supl,mms"
   />
 
   <apn carrier="SmarTone"
@@ -14484,27 +14484,42 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="1O1O"
+      mcc="454"
+      mnc="18"
+      apn="mobile"
+      mmsproxy="192.168.59.51"
+      mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
+      type="default,supl,mms"
+  />
+
   <apn carrier="one2free"
       mcc="454"
       mnc="18"
-      apn="hkcsl"
-      mmsc="http://192.168.58.171:8002"
+      apn="mobile"
       mmsproxy="192.168.59.51"
       mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
       type="default,supl,mms"
   />
 
-  <apn carrier="PCCW 3G"
+  <apn carrier="NWMOBILE"
       mcc="454"
-      mnc="19"
-      apn="pccw"
-      mmsc="http://3gmms.pccwmobile.com:8080/was"
-      mmsproxy="10.140.14.10"
+      mnc="18"
+      apn="NWMOBILE"
+      proxy="192.168.59.61"
+      port="8080"
+      mmsproxy="192.168.59.61"
       mmsport="8080"
+      mmsc="http://192.168.58.171:8002"
+      authtype="3"
       type="default,supl,mms"
   />
 
-  <apn carrier="PCCW"
+  <apn carrier="PCCW-HKT"
       mcc="454"
       mnc="19"
       apn="pccw"
@@ -14530,8 +14545,6 @@
       mcc="455"
       mnc="01"
       apn="ctm-mobile"
-      proxy="192.168.99.2"
-      port="8080"
       type="default,supl"
   />
 
@@ -14549,8 +14562,6 @@
       mcc="455"
       mnc="01"
       apn="ctmprepaid"
-      proxy="192.168.99.2"
-      port="8080"
       mmsc="http://mms.wap.ctm.net:8002"
       mmsproxy="192.168.99.3"
       mmsport="8080"
@@ -14572,8 +14583,6 @@
       mcc="455"
       mnc="04"
       apn="ctm-mobile"
-      proxy="192.168.99.2"
-      port="8080"
       type="default,supl"
   />
 
@@ -14591,8 +14600,6 @@
       mcc="455"
       mnc="04"
       apn="ctmprepaid"
-      proxy="192.168.99.2"
-      port="8080"
       mmsc="http://mms.wap.ctm.net:8002"
       mmsproxy="192.168.99.3"
       mmsport="8080"
@@ -14743,7 +14750,7 @@
       apn="fetnet01"
       mmsc="http://mms"
       mmsproxy="210.241.199.199"
-      mmsport="8080"
+      mmsport="9201"
       type="mms"
   />
 
@@ -14836,13 +14843,6 @@
       type="mms"
   />
 
-  <apn carrier="台灣大哥大(TW Mobile) (twm)"
-      mcc="466"
-      mnc="97"
-      apn="twm"
-      type="default,supl"
-  />
-
   <apn carrier="台灣大哥大(TW Mobile) (Internet)"
       mcc="466"
       mnc="97"
@@ -14910,19 +14910,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Maxis 3G"
-      mcc="502"
-      mnc="12"
-      apn="unet"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
-  />
-
   <apn carrier="Celcom Internet"
       mcc="502"
       mnc="13"
@@ -14933,33 +14920,10 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 3G"
-      mcc="502"
-      mnc="13"
-      apn="celcom3g"
-      mmsproxy="10.128.1.242"
-      mmsport="8080"
-      mmsc="http://mms.celcom.net.my"
-      type="default,supl,mms"
-  />
-
   <apn carrier="Maxis Internet"
       mcc="502"
       mnc="142"
       apn="max4g"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="Maxis 3G"
-      mcc="502"
-      mnc="142"
-      apn="unet"
       user="maxis"
       password="wap"
       mmsproxy="202.75.133.49"
@@ -14999,16 +14963,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 3G"
-      mcc="502"
-      mnc="145"
-      apn="celcom3g"
-      mmsproxy="10.128.1.242"
-      mmsport="8080"
-      mmsc="http://mms.celcom.net.my"
-      type="default,supl,mms"
-  />
-
   <apn carrier="DiGi Internet"
       mcc="502"
       mnc="146"
@@ -15033,19 +14987,6 @@
       mcc="502"
       mnc="147"
       apn="max4g"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="Maxis 3G"
-      mcc="502"
-      mnc="147"
-      apn="unet"
       user="maxis"
       password="wap"
       mmsproxy="202.75.133.49"
@@ -15065,16 +15006,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Celcom 3G"
-      mcc="502"
-      mnc="148"
-      apn="celcom3g"
-      mmsproxy="10.128.1.242"
-      mmsport="8080"
-      mmsc="http://mms.celcom.net.my"
-      type="default,supl,mms"
-  />
-
   <apn carrier="DiGi MMS"
       mcc="502"
       mnc="16"
@@ -15099,19 +15030,6 @@
       mcc="502"
       mnc="17"
       apn="max4g"
-      user="maxis"
-      password="wap"
-      mmsproxy="202.75.133.49"
-      mmsport="80"
-      mmsc="http://172.16.74.100:10021/mmsc"
-      authtype="1"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="Maxis 3G"
-      mcc="502"
-      mnc="17"
-      apn="unet"
       user="maxis"
       password="wap"
       mmsproxy="202.75.133.49"
@@ -15135,16 +15053,6 @@
       mcc="502"
       mnc="19"
       apn="celcom4g"
-      mmsproxy="10.128.1.242"
-      mmsport="8080"
-      mmsc="http://mms.celcom.net.my"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="Celcom 3G"
-      mcc="502"
-      mnc="19"
-      apn="celcom3g"
       mmsproxy="10.128.1.242"
       mmsport="8080"
       mmsc="http://mms.celcom.net.my"
@@ -15603,13 +15511,6 @@
       apn="www.globe.com.ph"
       proxy="203.177.42.214"
       port="8080"
-      type="default,supl"
-  />
-
-  <apn carrier="myGlobe Stream"
-      mcc="515"
-      mnc="02"
-      apn="real.globe.com.ph"
       type="default,supl"
   />
 
@@ -16463,7 +16364,7 @@
       type="mms"
   />
 
-  <apn carrier="safaricom Wap"
+  <apn carrier="safaricom GPRS"
       mcc="639"
       mnc="02"
       apn="safaricom"
@@ -16503,6 +16404,7 @@
       mmsc="http://mms.ke.airtel.com:8002"
       mmsproxy="172.30.9.8"
       mmsport="8080"
+      authtype="1"
       type="mms"
   />
 
@@ -16566,6 +16468,7 @@
       mmsproxy="10.36.17.130"
       mmsport="8080"
       mmsc="http://10.36.16.5/servlets/mms"
+      authtype="1"
       type="mms"
   />
 
@@ -17551,6 +17454,7 @@
       mmsproxy="200.179.66.242"
       mmsport="8080"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl,mms"
   />
 
@@ -17564,6 +17468,7 @@
       mmsproxy="200.179.66.242"
       mmsport="8080"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl,mms"
   />
 
@@ -17577,6 +17482,7 @@
       mmsproxy="200.179.66.242"
       mmsport="8080"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl,mms"
   />
 
@@ -17586,7 +17492,6 @@
       apn="java.claro.com.br"
       user="claro"
       password="claro"
-      authtype="1"
       type="default,supl"
   />
 
@@ -17613,6 +17518,7 @@
       mmsproxy="200.142.130.104"
       mmsport="80"
       authtype="1"
+      protocol="IPV4V6"
       type="mms"
   />
 
@@ -17623,6 +17529,7 @@
       user="vivo"
       password="vivo"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl"
   />
 
@@ -17654,6 +17561,8 @@
       apn="zap.vivo.com.br"
       user="vivo"
       password="vivo"
+      authtype="1"
+      protocol="IPV4V6"
       type="default,supl"
   />
 
@@ -17667,6 +17576,7 @@
       mmsproxy="200.142.130.104"
       mmsport="80"
       authtype="1"
+      protocol="IPV4V6"
       type="mms"
   />
 
@@ -17680,6 +17590,7 @@
       mmsproxy="200.142.130.104"
       mmsport="80"
       authtype="1"
+      protocol="IPV4V6"
       type="mms"
   />
 
@@ -17690,29 +17601,27 @@
       user="vivo"
       password="vivo"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl"
   />
 
 
-  <apn carrier="BrT Modem"
+  <apn carrier="Oi GPRS Internet"
       mcc="724"
       mnc="16"
-      apn="brt.br"
-      user="brt"
-      password="brt"
-      authtype="1"
+      apn="gprs.oi.com.br"
       type="default,supl"
   />
 
-  <apn carrier="BrT MMS"
+  <apn carrier="MMS GPRS"
       mcc="724"
       mnc="16"
-      apn="mms.brt.br"
-      user="brt"
-      password="brt"
-      mmsc="http://mms.brasiltelecom.com.br/"
-      mmsproxy="200.96.8.29"
-      mmsport="8080"
+      apn="mmsgprs.oi.com.br"
+      user="oimms"
+      password="oioioi"
+      mmsc="http://200.222.42.204:8002"
+      mmsproxy="192.168.10.50"
+      mmsport="3128"
       authtype="1"
       type="mms"
   />
@@ -17745,6 +17654,7 @@
       user="vivo"
       password="vivo"
       authtype="1"
+      protocol="IPV4V6"
       type="default,supl"
   />
 
@@ -17759,6 +17669,7 @@
       mmsproxy="200.142.130.104"
       mmsport="80"
       authtype="1"
+      protocol="IPV4V6"
       type="mms"
   />
 
@@ -17785,15 +17696,14 @@
       type="mms"
   />
 
-  <apn carrier="OI GPRS"
+  <apn carrier="Oi GPRS Internet"
       mcc="724"
       mnc="31"
       apn="gprs.oi.com.br"
-      authtype="1"
       type="default,supl"
   />
 
-  <apn carrier="OI MMS"
+  <apn carrier="MMS GPRS"
       mcc="724"
       mnc="31"
       apn="mmsgprs.oi.com.br"
