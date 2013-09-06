@@ -5141,18 +5141,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Sprint"
-      mcc="310"
-      mnc="120"
-      apn="sprint"
-      type="default,supl,mms"
-      user="null"
-      password="null"
-      mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="8080"
-  />
-
   <apn carrier="OTA"
       mcc="310"
       mnc="120"
