@@ -13389,7 +13389,7 @@
       apn="orange.ug"
       type="default"
   />
- 
+
   <apn carrier="Orange MMS"
       mcc="641"
       mnc="14"
@@ -14007,22 +14007,11 @@
       mmsc=""
   />
 
-  <apn carrier="SKT IMS"
-      mcc="450"
-      mnc="05"
-      apn="ims"
-      type="ims"
-      mmsc="http://omms.nate.com:9082/oma_mms"
-      mmsproxy="smart.nate.com"
-      mmsport="9093"
-      server="*"
-  />
-
   <apn carrier="SKT LTE INTERNET"
       mcc="450"
       mnc="05"
       apn="lte.sktelecom.com"
-      type="ia,default,mms,dun,supl,fota,cbs"
+      type="ia,default,mms,supl,fota,cbs"
       mmsc="http://omms.nate.com:9082/oma_mms"
       mmsproxy="smart.nate.com"
       mmsport="9093"
@@ -14033,16 +14022,68 @@
       mcc="450"
       mnc="05"
       apn="web.sktelecom.com"
-      type="default,mms,dun,supl,fota,cbs"
+      type="default,mms,supl,fota,cbs"
       mmsc="http://omms.nate.com:9082/oma_mms"
       mmsproxy="smart.nate.com"
       mmsport="9093"
       server="*"
   />
 
-  <apn carrier="SKT Roaming"
+  <apn carrier="SKT LTE Roaming"
       mcc="450"
       mnc="05"
+      apn="lte-roaming.sktelecom.com"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+      server="*"
+  />
+
+  <apn carrier="SKT 3G Roaming"
+      mcc="450"
+      mnc="05"
+      apn="roaming.sktelecom.com"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+      server="*"
+  />
+
+  <apn carrier="SKT LTE INTERNET"
+      mcc="450"
+      mnc="11"
+      apn="lte.sktelecom.com"
+      type="ia,default,mms,supl,fota,cbs"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+      server="*"
+  />
+
+  <apn carrier="SKT 3G INTERNET"
+      mcc="450"
+      mnc="11"
+      apn="web.sktelecom.com"
+      type="default,mms,supl,fota,cbs"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+      server="*"
+  />
+
+  <apn carrier="SKT LTE Roaming"
+      mcc="450"
+      mnc="11"
+      apn="lte-roaming.sktelecom.com"
+      mmsc="http://omms.nate.com:9082/oma_mms"
+      mmsproxy="smart.nate.com"
+      mmsport="9093"
+      server="*"
+  />
+
+  <apn carrier="SKT 3G Roaming"
+      mcc="450"
+      mnc="11"
       apn="roaming.sktelecom.com"
       mmsc="http://omms.nate.com:9082/oma_mms"
       mmsproxy="smart.nate.com"
@@ -14063,9 +14104,17 @@
       mcc="450"
       mnc="06"
       apn="internet.lguplus.co.kr"
-      type="default,mms,dun,supl,fota,cbs"
+      type="default,mms,supl,fota,cbs"
       mmsc="http://omammsc.uplus.co.kr:9084"
       protocol="IPV4V6"
+  />
+
+  <apn carrier="LG uplus LTE Roaming"
+      mcc="450"
+      mnc="06"
+      apn="lte-roaming.lguplus.co.kr"
+      mmsc="http://omammsc.uplus.co.kr:9084"
+      authtype="0"
   />
 
   <apn carrier="LG uplus Roaming"
@@ -14076,21 +14125,11 @@
       authtype="0"
   />
 
-  <apn carrier="KT IMS"
-      mcc="450"
-      mnc="08"
-      apn="ims.ktfwing.com"
-      type="ims"
-      mmsc="http://mmsc.ktfwing.com:9082"
-      port="80"
-      server="*"
-  />
-
   <apn carrier="KT LTE INTERNET"
       mcc="450"
       mnc="08"
       apn="lte.ktfwing.com"
-      type="default,mms,dun,supl,fota,cbs"
+      type="ia,default,mms,supl,fota,cbs"
       mmsc="http://mmsc.ktfwing.com:9082"
       port="80"
       server="*"
@@ -14100,7 +14139,7 @@
       mcc="450"
       mnc="08"
       apn="alwayson-r6.ktfwing.com"
-      type="default,mms,dun,supl,fota,cbs"
+      type="default,mms,supl,fota,cbs"
       mmsc="http://mmsc.ktfwing.com:9082"
       port="80"
       server="*"
