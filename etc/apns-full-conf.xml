@@ -5148,8 +5148,6 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="8080"
       bearer="6"
   />
 
@@ -5160,8 +5158,6 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="8080"
       bearer="7"
   />
 
@@ -5172,8 +5168,6 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="8080"
       bearer="8"
   />
 
@@ -5184,9 +5178,27 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
-      mmsproxy="68.28.31.7"
-      mmsport="8080"
       bearer="12"
+  />
+
+<!-- IS95A -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      bearer="4"
+  />
+
+<!-- IS95B -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      bearer="5"
   />
 
   <apn carrier="OTA"
