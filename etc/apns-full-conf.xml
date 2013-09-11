@@ -13907,14 +13907,17 @@
       mmsc=""
   />
 
-  <apn carrier="plus.softbank"
+  <apn carrier="Application"
       mcc="440"
       mnc="20"
-      apn="plus.softbank"
-      user="plus"
-      server=""
-      password="softbank"
-      mmsc=""
+      apn="plus.acs.jp"
+      user="plusw6q9tattkmpk"
+      password="msfbbam83bsdetxb"
+      mmsproxy="andmms.plusacs.ne.jp"
+      mmsport="8080"
+      mmsc="http://mms-s"
+      type="default,mms,supl,hipri"
+      authtype="3"
   />
 
   <apn carrier="SKT LTE INTERNET"
