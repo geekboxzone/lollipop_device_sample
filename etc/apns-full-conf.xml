@@ -5141,6 +5141,54 @@
       type="default,supl"
   />
 
+<!-- 1xRTT -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="8080"
+      bearer="6"
+  />
+
+<!-- EVDO_0 -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="8080"
+      bearer="7"
+  />
+
+<!-- EVDO_A -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="8080"
+      bearer="8"
+  />
+
+<!-- EVDO_B -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="8080"
+      bearer="12"
+  />
+
   <apn carrier="OTA"
       mcc="310"
       mnc="120"
