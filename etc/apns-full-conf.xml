@@ -14048,8 +14048,8 @@
       mmsproxy="andmms.plusacs.ne.jp"
       mmsport="8080"
       mmsc="http://mms-s"
-      type="default,mms,supl,hipri"
-      authtype="3"
+      type="default,mms,supl"
+      authtype="2"
   />
 
   <apn carrier="SKT LTE INTERNET"
