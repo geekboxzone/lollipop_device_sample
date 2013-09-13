@@ -5148,6 +5148,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="6"
   />
 
@@ -5158,6 +5160,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="7"
   />
 
@@ -5168,6 +5172,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="8"
   />
 
@@ -5178,6 +5184,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="12"
   />
 
@@ -5188,6 +5196,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="4"
   />
 
@@ -5198,6 +5208,8 @@
       apn="sprint"
       type="default,supl,mms,ims,cbs"
       mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
       bearer="5"
   />
 
