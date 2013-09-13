@@ -5223,6 +5223,15 @@
   <apn carrier="T-Mobile US 160"
       mcc="310"
       mnc="160"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 160"
+      mcc="310"
+      mnc="160"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5264,6 +5273,15 @@
   <apn carrier="T-Mobile US 200"
       mcc="310"
       mnc="200"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 200"
+      mcc="310"
+      mnc="200"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5281,6 +5299,15 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="T-Mobile US 210"
+      mcc="310"
+      mnc="210"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 210"
@@ -5308,6 +5335,15 @@
   <apn carrier="T-Mobile US 220"
       mcc="310"
       mnc="220"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 220"
+      mcc="310"
+      mnc="220"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5325,6 +5361,15 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="T-Mobile US 230"
+      mcc="310"
+      mnc="230"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 230"
@@ -5352,6 +5397,15 @@
   <apn carrier="T-Mobile US 240"
       mcc="310"
       mnc="240"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 240"
+      mcc="310"
+      mnc="240"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5369,6 +5423,15 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="T-Mobile US 250"
+      mcc="310"
+      mnc="250"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 250"
@@ -5427,6 +5490,15 @@
   <apn carrier="T-Mobile US 270"
       mcc="310"
       mnc="270"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 270"
+      mcc="310"
+      mnc="270"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5466,6 +5538,15 @@
       roaming_protocol="IP"
       mvno_match_data="6D"
       mvno_type="gid"
+  />
+
+  <apn carrier="T-Mobile US 310"
+      mcc="310"
+      mnc="310"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 310"
@@ -5636,6 +5717,15 @@
   <apn carrier="T-Mobile US 490"
       mcc="310"
       mnc="490"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 490"
+      mcc="310"
+      mnc="490"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5715,6 +5805,15 @@
       mmsproxy="204.181.155.195"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="T-Mobile US 580"
+      mcc="310"
+      mnc="580"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 580"
@@ -5813,6 +5912,15 @@
   <apn carrier="T-Mobile US 660"
       mcc="310"
       mnc="660"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
+  />
+
+  <apn carrier="T-Mobile US 660"
+      mcc="310"
+      mnc="660"
       apn="fast.t-mobile.com"
       mmsc="http://mms.msg.eng.t-mobile.com/mms/wapenc"
       type="default,supl,mms"
@@ -5857,6 +5965,15 @@
       mmsproxy="209.4.229.32"
       mmsport="9401"
       type="mms"
+  />
+
+  <apn carrier="T-Mobile US 800"
+      mcc="310"
+      mnc="800"
+      apn=""
+      type="ia"
+      protocol="IPV6"
+      roaming_protocol="IP"
   />
 
   <apn carrier="T-Mobile US 800"
