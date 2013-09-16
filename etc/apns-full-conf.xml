@@ -5232,11 +5232,13 @@
       bearer="5"
   />
 
+  <!-- this APN will be deleted and replaced by a new ia APN by the HFA provisioning process.
+       This is just a bootstrap APN to enable HFA -->
   <apn carrier="OTA"
       mcc="310"
       mnc="120"
       apn="otasn"
-      type="fota"
+      type="fota,ia"
       user="null"
       password="null"
   />
