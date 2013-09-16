@@ -5624,31 +5624,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="TracFone"
-      mcc="310"
-      mnc="410"
-      apn="tfdata"
-      mmsc="http://mms-tf.net"
-      mmsproxy="mms3.tracfone.com"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="TracFone"
-      mcc="310"
-      mnc="260"
-      apn="wap.tracfone"
-      mmsc="http://mms.tracfone.com"
-      type="default,supl,mms"
-  />
-
-  <apn carrier="TracFone"
-      mcc="310"
-      mnc="260"
-      apn="simple"
-      mmsc="http://smpl.mms.msg.eng.t-mobile.com/mms/wapenc"
-      type="default,supl,mms"
-  />
-
   <apn carrier="CBW Data"
       mcc="310"
       mnc="420"
