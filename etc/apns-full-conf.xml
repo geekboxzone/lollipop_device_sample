@@ -5160,7 +5160,7 @@
       type="default,supl"
   />
 
-<!-- 1xRTT -->
+  <!-- 1xRTT -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5172,7 +5172,7 @@
       bearer="6"
   />
 
-<!-- EVDO_0 -->
+  <!-- EVDO_0 -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5184,7 +5184,7 @@
       bearer="7"
   />
 
-<!-- EVDO_A -->
+  <!-- EVDO_A -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5196,7 +5196,7 @@
       bearer="8"
   />
 
-<!-- EVDO_B -->
+  <!-- EVDO_B -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5208,7 +5208,7 @@
       bearer="12"
   />
 
-<!-- IS95A -->
+  <!-- IS95A -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5220,7 +5220,7 @@
       bearer="4"
   />
 
-<!-- IS95B -->
+  <!-- IS95B -->
   <apn carrier="Sprint"
       mcc="310"
       mnc="120"
@@ -5241,6 +5241,78 @@
       type="fota,ia"
       user="null"
       password="null"
+  />
+
+  <!-- GPRS -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="1"
+  />
+
+  <!-- EDGE -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="2"
+  />
+
+  <!-- UMTS -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="3"
+  />
+
+  <!-- HSDPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="9"
+  />
+
+  <!-- HSUPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="10"
+  />
+
+  <!-- HSPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="11"
+  />
+
+  <!-- HSPAP -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="15"
+  />
+
+  <!-- GSM -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      type="default"
+      bearer="16"
   />
 
   <apn carrier="My Multi Media"
