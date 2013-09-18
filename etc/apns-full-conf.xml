@@ -7045,6 +7045,34 @@
       type="mms"
   />
 
+  <apn carrier="Azercell"
+      mcc="400"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Bakcell"
+      mcc="400"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="FONEX"
+      mcc="400"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Nar Mobile"
+      mcc="400"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Beeline Internet"
       mcc="401"
       mnc="01"
@@ -7107,6 +7135,20 @@
       mmsproxy="10.1.26.10"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="B-Mobile"
+      mcc="402"
+      mnc="11"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="TashiCell"
+      mcc="402"
+      mnc="77"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="Vodafone live"
@@ -13039,6 +13081,76 @@
       type="mms"
   />
 
+  <apn carrier="AWCC"
+      mcc="412"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Roshan"
+      mcc="412"
+      mnc="20"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="412"
+      mnc="40"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Etisalat"
+      mcc="412"
+      mnc="50"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Mobitel"
+      mcc="413"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Dialog"
+      mcc="413"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Etisalat"
+      mcc="413"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="413"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Hutch"
+      mcc="413"
+      mnc="08"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MPT"
+      mcc="414"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Alfa Internet"
       mcc="415"
       mnc="01"
@@ -13297,6 +13409,13 @@
       type="mms"
   />
 
+  <apn carrier="SanaTel"
+      mcc="418"
+      mnc="08"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="ZAIN-GPRS"
       mcc="418"
       mnc="20"
@@ -13318,6 +13437,13 @@
       mmsproxy="172.29.11.12"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="ZainHURI - SNPT"
+      mcc="418"
+      mnc="30"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="Korek 9595"
@@ -13354,6 +13480,27 @@
       mmsproxy="192.168.18.187"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Mobitel"
+      mcc="418"
+      mnc="45"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Itisaluna"
+      mcc="418"
+      mnc="62"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Omnnea"
+      mcc="418"
+      mnc="92"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="MI"
@@ -13532,6 +13679,33 @@
       type="mms"
   />
 
+  <apn carrier="SabaFon"
+      mcc="421"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="421"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Yemen Mobile"
+      mcc="421"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="HiTS-UNITEL"
+      mcc="421"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
 
   <apn carrier="Oman Mobile MMS"
       mcc="422"
@@ -13943,6 +14117,62 @@
       type="mms"
   />
 
+  <apn carrier="Unitel"
+      mcc="428"
+      mnc="88"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Skytel"
+      mcc="428"
+      mnc="91"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="G.Mobile"
+      mcc="428"
+      mnc="98"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MobiCom"
+      mcc="428"
+      mnc="99"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Namaste / NT Mobile"
+      mcc="429"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Ncell"
+      mcc="429"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Sky/C-Phone"
+      mcc="429"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="SmartCell"
+      mcc="429"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="MCI-GPRS"
       mcc="432"
       mnc="11"
@@ -14101,6 +14331,13 @@
       type="mms"
   />
 
+  <apn carrier="Perfectum Mobile"
+      mcc="434"
+      mnc="06"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="MTS-UZB Internet"
       mcc="434"
       mnc="07"
@@ -14119,6 +14356,90 @@
       mmsproxy="10.10.0.10"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Tcell"
+      mcc="436"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tcell"
+      mcc="436"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Megafon"
+      mcc="436"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Babilon-M"
+      mcc="436"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tacom"
+      mcc="436"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tcell"
+      mcc="436"
+      mnc="12"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Beeline"
+      mcc="437"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Fonex"
+      mcc="437"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MegaCom"
+      mcc="437"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="O!"
+      mcc="437"
+      mnc="09"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTS (BARASH Communication)"
+      mcc="438"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="TM-Cell"
+      mcc="438"
+      mnc="02"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="mopera U"
@@ -15103,6 +15424,97 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="Cellcard"
+      mcc="456"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Smart"
+      mcc="456"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="qb"
+      mcc="456"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Star-Cell"
+      mcc="456"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Smart"
+      mcc="456"
+      mnc="06"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Metfone"
+      mcc="456"
+      mnc="08"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Beeline"
+      mcc="456"
+      mnc="09"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Excell"
+      mcc="456"
+      mnc="11"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Cellcard"
+      mcc="456"
+      mnc="18"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="LTC"
+      mcc="457"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="ETL"
+      mcc="457"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Unitel"
+      mcc="457"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Beeline"
+      mcc="457"
+      mnc="08"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="中国移动 (China Mobile) GPRS"
       mcc="460"
       mnc="00"
@@ -15361,6 +15773,20 @@
       mmsproxy="10.1.1.2"
       mmsport="80"
       type="mms"
+  />
+
+  <apn carrier="Dhiraagu"
+      mcc="472"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Wataniya"
+      mcc="472"
+      mnc="02"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="DiGi Internet"
@@ -15956,6 +16382,27 @@
       type="mms"
   />
 
+  <apn carrier="Telin"
+      mcc="514"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Timor Telecom"
+      mcc="514"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Viettel Timor-Leste"
+      mcc="514"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="myGlobe Internet"
       mcc="515"
       mnc="02"
@@ -16314,6 +16761,20 @@
       type="mms"
   />
 
+  <apn carrier="B-Mobile"
+      mcc="528"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="DSTCom"
+      mcc="528"
+      mnc="11"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="VFNZ Gateway"
       mcc="530"
       mnc="01"
@@ -16374,6 +16835,20 @@
       type="mms"
   />
 
+  <apn carrier="Digicel"
+      mcc="536"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="BeMobile"
+      mcc="537"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="PNG WAP"
       mcc="537"
       mnc="03"
@@ -16398,6 +16873,160 @@
       mmsproxy="10.149.83.116"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="U-Call"
+      mcc="539"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Shoreline Communication"
+      mcc="539"
+      mnc="43"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Digicel"
+      mcc="539"
+      mnc="88"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="BREEZE"
+      mcc="540"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="BeMobile"
+      mcc="540"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="AIL"
+      mcc="541"
+      mnc="00"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="SMILE"
+      mcc="541"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Digicel"
+      mcc="541"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Vodafone"
+      mcc="542"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Digicel"
+      mcc="542"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Bluesky"
+      mcc="544"
+      mnc="11"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Kiribati - TSKL"
+      mcc="545"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Kiribati - Frigate Net"
+      mcc="545"
+      mnc="09"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Mobilis"
+      mcc="546"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Vini"
+      mcc="547"
+      mnc="20"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Telecom Cook"
+      mcc="548"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Digicel"
+      mcc="549"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Bluesky"
+      mcc="549"
+      mnc="27"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="FSMTC"
+      mcc="550"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MINTA"
+      mcc="551"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="PNCC"
+      mcc="552"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Palau Mobile"
+      mcc="552"
+      mnc="80"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="Mobinil Web"
@@ -16723,6 +17352,69 @@
       type="mms"
   />
 
+  <apn carrier="Libyana"
+      mcc="606"
+      mnc="00"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Madar"
+      mcc="606"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Al-Jeel Phone"
+      mcc="606"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Libya Phone"
+      mcc="606"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Hatef Libya"
+      mcc="606"
+      mnc="06"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Gamcel"
+      mcc="607"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Africel"
+      mcc="607"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Comium"
+      mcc="607"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="QCell"
+      mcc="607"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
     <apn carrier="Orange MMS SN"
       mcc="608"
       mnc="01"
@@ -16773,6 +17465,27 @@
       type="default"
   />
 
+  <apn carrier="Mattel"
+      mcc="609"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Chinguitel"
+      mcc="609"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Mauritel"
+      mcc="609"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Orange ML MMS"
       mcc="610"
       mnc="02"
@@ -16794,6 +17507,41 @@
       proxy="10.109.4.35"
       port="8080"
       type="default"
+  />
+
+  <apn carrier="Orange S.A."
+      mcc="611"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Sotelgui"
+      mcc="611"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Telecel Guinee"
+      mcc="611"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="611"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Cellcom"
+      mcc="611"
+      mnc="05"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="Moov Internet CI"
@@ -16850,6 +17598,27 @@
       type="default"
   />
 
+  <apn carrier="Telmob"
+      mcc="613"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="613"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Telecel Faso"
+      mcc="613"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Orange MMS"
       apn="orange.mms"
       user="orange"
@@ -16869,6 +17638,55 @@
       type="default"
   />
 
+  <apn carrier="Togo Cell"
+      mcc="615"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Moov"
+      mcc="615"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Libercom"
+      mcc="616"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Moov"
+      mcc="616"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="616"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="BBCOM"
+      mcc="616"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Glo"
+      mcc="616"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Orange MMS"
       apn="orangemms"
       user="mmsc"
@@ -16886,6 +17704,83 @@
       mcc="617"
       mnc="01"
       type="default"
+  />
+
+  <apn carrier="Lonestar Cell"
+      mcc="618"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Libercell"
+      mcc="618"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Comium"
+      mcc="618"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Cellcom"
+      mcc="618"
+      mnc="07"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="LIBTELCO"
+      mcc="618"
+      mnc="20"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="619"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tigo"
+      mcc="619"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Africell"
+      mcc="619"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Comium"
+      mcc="619"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Africell"
+      mcc="619"
+      mnc="05"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Mobitel"
+      mcc="619"
+      mnc="25"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="MTN Internet GH"
@@ -16933,7 +17828,7 @@
   <apn carrier="Airtel Internet"
       mcc="621"
       mnc="20"
-      apn="internet.ng.airtel.com"
+      apn="internet.ng.zain.com"
       user="internet"
       password="internet"
       authtype="1"
@@ -17036,6 +17931,139 @@
       type="mms"
   />
 
+  <apn carrier="Airtel"
+      mcc="622"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tawali"
+      mcc="622"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tigo"
+      mcc="622"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Salam"
+      mcc="622"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="CTP"
+      mcc="623"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="TC"
+      mcc="623"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Orange"
+      mcc="623"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Nationlink"
+      mcc="623"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="CVMOVEL"
+      mcc="625"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="T+"
+      mcc="625"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="CSTmovel"
+      mcc="626"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Orange GQ"
+      mcc="627"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Hits GQ"
+      mcc="627"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Libertis"
+      mcc="628"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Moov"
+      mcc="628"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="628"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Azur"
+      mcc="628"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="629"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Libertis Telecom"
+      mcc="629"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Vodacom Internet CD"
       mcc="630"
       mnc="01"
@@ -17049,6 +18077,195 @@
       mnc="89"
       apn="wap.tigo.cd"
       type="default"
+  />
+
+  <apn carrier="UNITEL"
+      mcc="631"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MOVICEL"
+      mcc="631"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Areeba"
+      mcc="632"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Orange"
+      mcc="632"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Guinetel"
+      mcc="632"
+      mnc="07"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Cable &amp; Wireless"
+      mcc="633"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Mediatech International"
+      mcc="633"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="633"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Zain SD"
+      mcc="634"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="634"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Sudani One"
+      mcc="634"
+      mnc="07"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Privet Network"
+      mcc="634"
+      mnc="09"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="635"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Rwandatel"
+      mcc="635"
+      mnc="12"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tigo"
+      mcc="635"
+      mnc="13"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="635"
+      mnc="14"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="ETH-MTN"
+      mcc="636"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Telesom"
+      mcc="637"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Somafone"
+      mcc="637"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Nationlink"
+      mcc="637"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Hormuud"
+      mcc="637"
+      mnc="25"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Golis"
+      mcc="637"
+      mnc="30"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Unittel"
+      mcc="637"
+      mnc="57"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Nationlink Telecom"
+      mcc="637"
+      mnc="60"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Somtel"
+      mcc="637"
+      mnc="71"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Telcom"
+      mcc="637"
+      mnc="82"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Evatis"
+      mcc="638"
+      mnc="01"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="safaricom GPRS"
@@ -17225,6 +18442,90 @@
       type="default"
   />
 
+  <apn carrier="Spacetel"
+      mcc="642"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Tempo"
+      mcc="642"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Onatel"
+      mcc="642"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Smart Mobile"
+      mcc="642"
+      mnc="07"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="HiTs Telecom"
+      mcc="642"
+      mnc="08"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Leo"
+      mcc="642"
+      mnc="82"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="mCel"
+      mcc="643"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Movitel"
+      mcc="643"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Vodacom"
+      mcc="643"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="645"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTN"
+      mcc="645"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="ZAMTEL"
+      mcc="645"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Orange World re"
       mcc="647"
       mnc="00"
@@ -17322,6 +18623,55 @@
       mvno_type="gid"
   />
 
+  <apn carrier="Telecel"
+      mcc="648"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Econet"
+      mcc="648"
+      mnc="04"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="MTC"
+      mcc="649"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="switch"
+      mcc="649"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Leo"
+      mcc="649"
+      mnc="03"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="TNM"
+      mcc="650"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Airtel"
+      mcc="650"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="VCL Internet GPRS"
       mcc="651"
       mnc="01"
@@ -17337,6 +18687,20 @@
       mmsproxy="10.113.63.11"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Swazi MTN"
+      mcc="653"
+      mnc="10"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="HURI - SNPT"
+      mcc="654"
+      mnc="01"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="LTE.Vodacom"
@@ -17499,6 +18863,27 @@
       mmsproxy="196.11.240.241"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Eritel"
+      mcc="657"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="DigiCell"
+      mcc="702"
+      mnc="67"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="Smart"
+      mcc="702"
+      mnc="99"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="INTERNET CLARO"
@@ -18896,6 +20281,20 @@
       type="mms"
   />
 
+  <apn carrier="Digicel"
+      mcc="738"
+      mnc="01"
+      apn="default"
+      type="default,supl"
+  />
+
+  <apn carrier="GT&amp;T Cellink Plus"
+      mcc="738"
+      mnc="02"
+      apn="default"
+      type="default,supl"
+  />
+
   <apn carrier="Movistar INTERNET"
       mcc="740"
       mnc="00"
@@ -19074,6 +20473,13 @@
       mmsc="http://mms"
       authtype="1"
       type="mms"
+  />
+
+  <apn carrier="Telesur"
+      mcc="746"
+      mnc="02"
+      apn="default"
+      type="default,supl"
   />
 
   <apn carrier="wapANCEL"
