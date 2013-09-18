@@ -15788,7 +15788,7 @@
       type="default,supl"
   />
 
-  <apn carrier="Cable & Wireless"
+  <apn carrier="Cable &amp; Wireless"
       mcc="633"
       mnc="01"
       apn="default"
@@ -17953,7 +17953,7 @@
       type="default,supl"
   />
 
-  <apn carrier="GT&T Cellink Plus"
+  <apn carrier="GT&amp;T Cellink Plus"
       mcc="738"
       mnc="02"
       apn="default"
