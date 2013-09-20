@@ -1621,7 +1621,7 @@
       apn="internet.windmobile.ca"
       type="default,supl"
       protocol="IPV4V6"
-      mvno_match_data="FFFF"
+      mvno_match_data="FFFFFF00"
       mvno_type="gid"
   />
 
@@ -1633,7 +1633,7 @@
       mmsproxy="74.115.197.70"
       mmsport="8080"
       type="mms"
-      mvno_match_data="FFFF"
+      mvno_match_data="FFFFFF00"
       mvno_type="gid"
   />
 
@@ -1684,7 +1684,7 @@
       apn="internet.windmobile.ca"
       type="default,supl"
       protocol="IPV4V6"
-      mvno_match_data="FFFF"
+      mvno_match_data="FFFFFF00"
       mvno_type="gid"
   />
 
@@ -1696,7 +1696,7 @@
       mmsproxy="74.115.197.70"
       mmsport="8080"
       type="mms"
-      mvno_match_data="FFFF"
+      mvno_match_data="FFFFFF00"
       mvno_type="gid"
   />
 
@@ -2252,7 +2252,7 @@
       type="mms"
   />
 
-  <apn carrier="O2 PREPAY"
+  <apn carrier="O2 Pay &amp; Go"
       mcc="234"
       mnc="10"
       apn="payandgo.o2.co.uk"
@@ -2466,13 +2466,6 @@
   <apn carrier="EE Internet"
       mcc="234"
       mnc="30"
-      apn=""
-      type="ia"
-  />
-
-  <apn carrier="EE Internet"
-      mcc="234"
-      mnc="30"
       apn="everywhere"
       user="eesecure"
       password="secure"
@@ -2537,13 +2530,6 @@
       mmsport="8080"
       authtype="1"
       type="mms"
-  />
-
-  <apn carrier="EE Internet"
-      mcc="234"
-      mnc="33"
-      apn=""
-      type="ia"
   />
 
   <apn carrier="EE Internet"
@@ -4114,6 +4100,30 @@
       type="default,supl,mms"
   />
 
+  <apn carrier="T-Mobile Internet"
+      mcc="262"
+      mnc="01"
+      apn=""
+      type="ia"
+      mvno_match_data="debitel"
+      mvno_type="spn"
+  />
+
+  <apn carrier="T-Mobile Internet"
+      mcc="262"
+      mnc="01"
+      apn="internet.t-mobile"
+      user="t-mobile"
+      password="tm"
+      authtype="1"
+      mmsc="http://mms.t-mobile.de/servlets/mms"
+      mmsproxy="172.28.23.131"
+      mmsport="8008"
+      type="default,supl,mms"
+      mvno_match_data="debitel"
+      mvno_type="spn"
+  />
+
   <apn carrier="Vodafone DE"
       mcc="262"
       mnc="02"
@@ -4236,6 +4246,13 @@
       type="mms"
       mvno_match_data="ZON"
       mvno_type="spn"
+  />
+
+  <apn carrier="PortalOptimus"
+      mcc="268"
+      mnc="03"
+      apn=""
+      type="ia"
   />
 
   <apn carrier="PortalOptimus"
@@ -4709,6 +4726,29 @@
       type="mms"
   />
 
+  <apn carrier="Tusmobil Internet"
+      mcc="293"
+      mnc="70"
+      apn="internet.tusmobil.si"
+      user="tusmobil"
+      password="internet"
+      authtype="1"
+      type="default,supl"
+  />
+
+  <apn carrier="Tusmobil MMS"
+      mcc="293"
+      mnc="70"
+      apn="mms.tusmobil.si"
+      user="tusmobil"
+      password="mms"
+      authtype="1"
+      mmsc="http://mms.tusmobil.si:8002"
+      mmsproxy="91.185.221.85"
+      mmsport="8080"
+      type="mms"
+  />
+
   <apn carrier="T-Mobile MK Internet"
       mcc="294"
       mnc="01"
@@ -4912,16 +4952,6 @@
       type="default,supl,dun"
   />
 
-  <apn carrier="Fido Internet"
-      mcc="302"
-      mnc="370"
-      apn="fido-core-appl1.apn"
-      mmsc="http://mms.fido.ca"
-      mmsproxy="205.151.11.13"
-      mmsport="80"
-      type="default,supl,mms"
-  />
-
   <apn carrier="Internet"
       mcc="302"
       mnc="490"
@@ -4988,16 +5018,6 @@
       mvno_type="gid"
   />
 
-  <apn carrier="MTS"
-      mcc="302"
-      mnc="660"
-      apn="sp.mts"
-      mmsc="http://mmsc2.mts.net/"
-      mmsproxy="209.4.229.90"
-      mmsport="9401"
-      type="default,supl,mms"
-  />
-
   <apn carrier="MTS-Roaming"
       mcc="302"
       mnc="370"
@@ -5024,14 +5044,24 @@
       roaming_protocol="IPV4V6"
   />
 
+  <apn carrier="Fido Internet"
+      mcc="302"
+      mnc="370"
+      apn="fido-core-appl1.apn"
+      mmsc="http://mms.fido.ca"
+      mmsproxy="205.151.11.13"
+      mmsport="80"
+      type="default,supl,mms"
+  />
+
   <apn carrier="MTS"
       mcc="302"
       mnc="660"
       apn="sp.mts"
       type="default,mms,supl"
       mmsc="http://mmsc2.mts.net/"
-      mmsproxy="209.4.229.90"
-      mmsport="9401"
+      mmsproxy="wapgw1.mts.net"
+      mmsport="9201"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_match_data="2C"
