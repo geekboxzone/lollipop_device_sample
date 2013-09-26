@@ -5244,7 +5244,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="1"
   />
 
@@ -5253,7 +5256,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="2"
   />
 
@@ -5262,7 +5268,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="3"
   />
 
@@ -5271,7 +5280,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="9"
   />
 
@@ -5280,7 +5292,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="10"
   />
 
@@ -5289,7 +5304,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="11"
   />
 
@@ -5298,7 +5316,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="15"
   />
 
@@ -5307,7 +5328,10 @@
       mcc="310"
       mnc="120"
       apn="cinet.spcs"
-      type="default"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
       bearer="16"
   />
 
