@@ -5030,16 +5030,6 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Fido Internet"
-      mcc="302"
-      mnc="370"
-      apn="fido-core-appl1.apn"
-      mmsc="http://mms.fido.ca"
-      mmsproxy="205.151.11.13"
-      mmsport="80"
-      type="default,supl,mms"
-  />
-
   <apn carrier="MTS"
       mcc="302"
       mnc="660"
@@ -5064,16 +5054,6 @@
       mmsport="80"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
-  />
-
-  <apn carrier="Rogers"
-      mcc="302"
-      mnc="720"
-      apn="rogers-core-appl1.apn"
-      mmsc="http://mms.gprs.rogers.com"
-      mmsproxy="10.128.1.69"
-      mmsport="80"
-      type="default,supl,mms"
   />
 
   <apn carrier="Chatr Internet"
