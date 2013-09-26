@@ -14704,7 +14704,7 @@
   <apn carrier="KT LTE INTERNET"
       mcc="450"
       mnc="08"
-      apn="lte.ktfwing.com"
+      apn="lte150.ktfwing.com"
       type="ia,default,mms,supl,fota,cbs"
       mmsc="http://mmsc.ktfwing.com:9082"
       port="80"
