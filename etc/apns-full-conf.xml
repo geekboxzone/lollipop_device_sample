@@ -5011,14 +5011,14 @@
       mvno_type="gid"
   />
 
-  <apn carrier="MTS-Roaming"
+  <apn carrier="MTS"
       mcc="302"
       mnc="370"
       apn="sp.mts"
       type="default,mms,supl"
       mmsc="http://mmsc2.mts.net/"
-      mmsproxy="209.4.229.90"
-      mmsport="9401"
+      mmsproxy="wapgw1.mts.net"
+      mmsport="9201"
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       mvno_match_data="2C"
@@ -5063,7 +5063,7 @@
       roaming_protocol="IPV4V6"
   />
 
-  <apn carrier="Chatr Internet"
+  <apn carrier="chatr"
       mcc="302"
       mnc="720"
       apn="chatrweb.apn"
