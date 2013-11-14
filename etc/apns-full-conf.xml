@@ -14017,13 +14017,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="DUN"
-      mcc="425"
-      mnc="01"
-      apn="modem.orange.net.il"
-      type="default,supl"
-  />
-
   <apn carrier="Cellcom Internet"
       mcc="425"
       mnc="02"
@@ -16507,7 +16500,7 @@
       mnc="18"
       apn="mms"
       mmsc="http://mms.dtac.co.th:8002/"
-      mmsproxy="10.10.10.10"
+      mmsproxy="203.155.200.133"
       mmsport="8080"
       type="mms"
   />
