@@ -17979,7 +17979,7 @@
   <apn carrier="Tigo Internet CD"
       mcc="630"
       mnc="89"
-      apn="wap.tigo.cd"
+      apn="tigo.web"
       type="default"
   />
 
