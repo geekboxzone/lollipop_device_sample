@@ -4209,7 +4209,7 @@
       type="mms"
   />
 
-  <apn carrier="o2"
+  <apn carrier="o2 Internet"
       mcc="262"
       mnc="07"
       apn="internet"
@@ -4223,8 +4223,6 @@
       mcc="262"
       mnc="07"
       apn="pinternet.interkom.de"
-      proxy="82.113.100.6"
-      port="8080"
       mmsc="http://10.81.0.7:8002"
       mmsproxy="82.113.100.6"
       mmsport="8080"
