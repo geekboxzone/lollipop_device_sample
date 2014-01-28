@@ -347,7 +347,7 @@
       mcc="206"
       mnc="01"
       apn="wisp.mobi.eastlink.ca"
-      type="default,supl,dun"
+      type="default,supl"
       mvno_match_data="B6"
       mvno_type="gid"
   />
@@ -1556,7 +1556,7 @@
       mcc="204"
       mnc="04"
       apn="pda.stm.sk.ca"
-      type="default,mms,supl,dun"
+      type="default,mms,supl"
       mmsc="http://mms.sasktel.com/"
       mmsproxy="mig.sasktel.com"
       mmsport="80"
@@ -2180,7 +2180,7 @@
       mcc="234"
       mnc="01"
       apn="internet"
-      type="default,supl,mms"
+      type="default,supl"
   />
 
   <apn carrier="O2 MOBILE WEB"
@@ -2456,7 +2456,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -2479,7 +2479,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -2502,7 +2502,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -2525,7 +2525,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -2548,7 +2548,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -2647,7 +2647,7 @@
       user="eesecure"
       password="secure"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="EE MMS"
@@ -4035,15 +4035,6 @@
       type="mms"
   />
 
-  <apn carrier="Orange IMO"
-      apn="wap.orange.md"
-      proxy="192.168.127.124"
-      mmsport="3128"
-      mcc="259"
-      mnc="01"
-      type="mms"
-  />
-
   <apn carrier="Plus Internet"
       mcc="260"
       mnc="01"
@@ -4904,7 +4895,7 @@
       mcc="302"
       mnc="220"
       apn="sp.koodo.com"
-      type="default,mms,supl,dun"
+      type="default,mms,supl"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
@@ -4940,7 +4931,7 @@
       mcc="302"
       mnc="221"
       apn="sp.koodo.com"
-      type="default,mms,supl,dun"
+      type="default,mms,supl"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
@@ -4993,7 +4984,7 @@
       mcc="302"
       mnc="270"
       apn="wisp.mobi.eastlink.ca"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Internet"
@@ -5034,7 +5025,7 @@
       mcc="302"
       mnc="610"
       apn="pda.bell.ca"
-      type="default,mms,dun,supl"
+      type="default,mms,supl"
       mmsc="http://mms.bell.ca/mms/wapenc"
   />
 
@@ -5110,7 +5101,7 @@
       mcc="302"
       mnc="780"
       apn="pda.stm.sk.ca"
-      type="default,mms,supl,dun"
+      type="default,mms,supl"
       mmsc="http://mms.sasktel.com/"
       mmsproxy="mig.sasktel.com"
       mmsport="80"
@@ -6259,7 +6250,7 @@
       mcc="330"
       mnc="110"
       apn="internet.claropr.com"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS CLARO"
@@ -6280,7 +6271,7 @@
       user="webgprs"
       password="webgprs2002"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
 
@@ -6305,7 +6296,7 @@
       user="movistar"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -6328,7 +6319,7 @@
       user="movistar"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -6350,7 +6341,7 @@
       apn="web.iusacellgsm.mx"
       user="iusacellgsm"
       password="iusacellgsm"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Iusacell MMS"
@@ -6367,7 +6358,7 @@
       mcc="338"
       mnc="05"
       apn="web"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Digicel"
@@ -6384,7 +6375,7 @@
       mcc="338"
       mnc="050"
       apn="web"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Digicel"
@@ -6401,7 +6392,7 @@
       mcc="338"
       mnc="18"
       apn="internet"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6418,7 +6409,7 @@
       mcc="338"
       mnc="18"
       apn="ppinternet"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Prepaid MMS"
@@ -6435,7 +6426,7 @@
       mcc="338"
       mnc="180"
       apn="internet"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6452,7 +6443,7 @@
       mcc="338"
       mnc="180"
       apn="ppinternet"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Prepaid MMS"
@@ -6472,7 +6463,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Claro MMS"
@@ -6495,7 +6486,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6550,7 +6541,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6571,7 +6562,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6592,7 +6583,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6613,7 +6604,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6634,7 +6625,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6655,7 +6646,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6676,7 +6667,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6697,7 +6688,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6718,7 +6709,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6740,7 +6731,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Digicel"
@@ -6763,7 +6754,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Digicel"
@@ -6785,7 +6776,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6806,7 +6797,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -6826,7 +6817,7 @@
       mcc="368"
       mnc="01"
       apn="internet"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
 
@@ -6844,14 +6835,14 @@
       mcc="370"
       mnc="01"
       apn="orangeinternet"
-      type="ia,default,supl,dun"
+      type="ia,default,supl"
   />
 
   <apn carrier="Orange net (3G)"
       mcc="370"
       mnc="01"
       apn="orangenet.com.do"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Orange MMS"
@@ -6871,7 +6862,7 @@
       mcc="370"
       mnc="02"
       apn="internet.ideasclaro.com.do"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -6886,7 +6877,7 @@
       mcc="370"
       mnc="020"
       apn="internet.ideasclaro.com.do"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -6906,7 +6897,7 @@
       user="viva"
       password="viva"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Viva MMS"
@@ -6929,7 +6920,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -6952,7 +6943,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -6975,7 +6966,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -6998,7 +6989,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7021,7 +7012,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7044,7 +7035,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7067,7 +7058,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7090,7 +7081,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7113,7 +7104,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7136,7 +7127,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7159,7 +7150,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Bmobile mms"
@@ -7182,7 +7173,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Trinidad"
@@ -7205,7 +7196,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Trinidad"
@@ -7227,7 +7218,7 @@
       apn="internet"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Lime Postpaid MMS"
@@ -14655,7 +14646,7 @@
       user=""
       server=""
       password=""
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="b-mobile 3G・4G 1GB/Fair"
@@ -14666,7 +14657,7 @@
       server=""
       password="bmobile"
       authtype="3"
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="b-mobile 3G・4G U300"
@@ -14677,7 +14668,7 @@
       server=""
       password="bmobile"
       authtype="3"
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="b-mobile スマホ電話"
@@ -14688,7 +14679,7 @@
       server=""
       password="bmobile"
       authtype="3"
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="b-mobile 4G カメレオンSIM"
@@ -14699,7 +14690,7 @@
       server=""
       password="bmobile"
       authtype="3"
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="IIJmio"
@@ -14710,7 +14701,7 @@
       server=""
       password="iij"
       authtype="3"
-      mmsc=""
+      type="default,supl"
   />
 
   <apn carrier="Application"
@@ -15933,6 +15924,7 @@
       mcc="505"
       mnc="02"
       apn="yesbusiness"
+      type="default,supl"
   />
 
   <apn carrier="Optus Internet"
@@ -18801,7 +18793,7 @@
       mcc="704"
       mnc="01"
       apn="internet.ideasclaro"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS CLARO"
@@ -18818,7 +18810,7 @@
       mcc="704"
       mnc="02"
       apn="broadband.tigo.gt"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS TIGO"
@@ -18838,7 +18830,7 @@
       user="movistargt"
       password="movistargt"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -18861,7 +18853,7 @@
       user="movistargt"
       password="movistargt"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -18881,7 +18873,7 @@
       mcc="706"
       mnc="01"
       apn="internet.ideasclaro"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS CLARO"
@@ -18898,7 +18890,7 @@
       mcc="706"
       mnc="02"
       apn="web.digicelsv.com"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -18915,7 +18907,7 @@
       mcc="706"
       mnc="03"
       apn="internet.tigo.sv"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Tigo"
@@ -18935,7 +18927,7 @@
       user="movistarsv"
       password="movistarsv"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -18958,7 +18950,7 @@
       user="movistarsv"
       password="movistarsv"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -18978,7 +18970,7 @@
       mcc="708"
       mnc="00"
       apn="internet.ideasclaro"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -18995,7 +18987,7 @@
       mcc="708"
       mnc="001"
       apn="internet.ideasclaro"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -19012,7 +19004,7 @@
       mcc="708"
       mnc="02"
       apn="internet.tigo.hn"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS TIGO"
@@ -19029,7 +19021,7 @@
       mcc="708"
       mnc="020"
       apn="internet.tigo.hn"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS TIGO"
@@ -19049,7 +19041,7 @@
       user="internet"
       password="internet"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
 
@@ -19073,7 +19065,7 @@
       user="movistarni"
       password="movistarni"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19096,7 +19088,7 @@
       user="movistarni"
       password="movistarni"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19119,7 +19111,7 @@
       user="internet"
       password="internet"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
 
@@ -19143,7 +19135,7 @@
       user="internet"
       password="internet"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
 
@@ -19164,7 +19156,7 @@
       mcc="712"
       mnc="01"
       apn="kolbi3g"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Kolbi_Multimedia"
@@ -19181,7 +19173,7 @@
       mcc="712"
       mnc="02"
       apn="kolbi3g"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Kolbi_Multimedia"
@@ -19200,7 +19192,7 @@
       apn="internet.ideasclaro"
       user=""
       password=""
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS CLARO CR"
@@ -19222,7 +19214,7 @@
       user="movistarcr"
       password="movistarcr"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19242,7 +19234,7 @@
       mcc="712"
       mnc="019"
       apn="tm7datos"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Tuyo"
@@ -19259,7 +19251,7 @@
       mcc="712"
       mnc="190"
       apn="tm7datos"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Tuyo"
@@ -19276,14 +19268,14 @@
       mcc="712"
       mnc="20"
       apn="datos.fulmovil.cr"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Internet"
       mcc="714"
       mnc="01"
       apn="apn01.cwpanama.com.pa"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -19303,7 +19295,7 @@
       user="movistarpa"
       password="movistarpa"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19326,7 +19318,7 @@
       user="movistarpa"
       password="movistarpa"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19349,7 +19341,7 @@
       user="CLAROWEB"
       password="CLAROWEB"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -19369,7 +19361,7 @@
       mcc="714"
       mnc="04"
       apn="web.digicelpanama.com"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -19389,7 +19381,7 @@
       user="movistar@datos"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19412,7 +19404,7 @@
       user="claro"
       password="claro"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="CLARO MMS"
@@ -19437,7 +19429,7 @@
       proxy="200.5.68.10"
       port="8080"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19458,7 +19450,7 @@
       mnc="31"
       apn="igprs.claro.com.ar"
       mmsc="http://mms.claro.com.ar"
-      type="default,supl,dun,mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="Claro AR"
@@ -19466,7 +19458,7 @@
       mnc="310"
       apn="igprs.claro.com.ar"
       mmsc="http://mms.claro.com.ar"
-      type="default,supl,dun,mms"
+      type="default,supl,mms"
   />
 
   <apn carrier="Personal Datos"
@@ -19476,7 +19468,7 @@
       user="datos"
       password="datos"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Personal MMS"
@@ -19499,7 +19491,7 @@
       user="datos"
       password="datos"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Personal MMS"
@@ -19731,7 +19723,7 @@
       user="entelpcs"
       password="entelpcs"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Entel"
@@ -19754,7 +19746,7 @@
       user="entelpcs"
       password="entelpcs"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Entel"
@@ -19777,7 +19769,7 @@
       user="wap"
       password="wap"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19800,7 +19792,7 @@
       user="clarochile"
       password="clarochile"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -19823,7 +19815,7 @@
       user="webgtd"
       password="webgtd"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Internet"
@@ -19833,7 +19825,7 @@
       user="vtrmovil"
       password="vtrmovil"
       authtype="2"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Wap"
@@ -19845,7 +19837,7 @@
       user=""
       password=""
       authtype="0"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -19868,7 +19860,7 @@
       user="entelpcs"
       password="entelpcs"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Entel PCS"
@@ -19891,7 +19883,7 @@
       user="COMCELWEB"
       password="COMCELWEB"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Comcel 3GSM"
@@ -19914,7 +19906,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="TIGO Multimedia"
@@ -19937,7 +19929,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="TIGO Multimedia"
@@ -19960,7 +19952,7 @@
       user="movistar"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -19980,7 +19972,7 @@
       mcc="734"
       mnc="01"
       apn="internet.digitel.ve"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -19997,7 +19989,7 @@
       mcc="734"
       mnc="02"
       apn="internet.digitel.ve"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -20014,7 +20006,7 @@
       mcc="734"
       mnc="03"
       apn="internet.digitel.ve"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -20031,7 +20023,7 @@
       mcc="734"
       mnc="04"
       apn="internet.movistar.ve"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -20050,14 +20042,14 @@
       apn="wap.movistar.ve"
       mmsproxy="200.35.64.73"
       mmsport="9001"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MODEM"
       mcc="734"
       mnc="06"
       apn="int.movilnet.com.ve"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS"
@@ -20079,7 +20071,7 @@
       proxy="192.168.101.4"
       port="3128"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="VIVAMMS"
@@ -20104,7 +20096,7 @@
       proxy="172.27.7.10"
       port="8080"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="ENTEL MMS GPRS"
@@ -20129,7 +20121,7 @@
       proxy="172.25.100.8"
       port="8080"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMSTIGO"
@@ -20166,7 +20158,7 @@
       user="movistar"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -20186,7 +20178,7 @@
       mcc="740"
       mnc="01"
       apn="internet.claro.com.ec"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -20206,7 +20198,7 @@
       mcc="740"
       mnc="010"
       apn="internet.claro.com.ec"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Claro"
@@ -20226,7 +20218,7 @@
       mcc="740"
       mnc="02"
       apn="internet3gsp.alegro.net.ec"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="CNT MMS"
@@ -20244,7 +20236,7 @@
       mnc="01"
       apn="vox.internet"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="VOX MMS"
@@ -20267,7 +20259,7 @@
       user="ctigprs"
       password="ctigprs999"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS GPRS PY"
@@ -20288,7 +20280,7 @@
       mnc="04"
       apn="internet.tigo.py"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS Tigo"
@@ -20311,7 +20303,7 @@
       user="personal"
       password="personal"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Personal MMS Py"
@@ -20343,7 +20335,7 @@
       user=""
       password=""
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="mmsANCEL"
@@ -20364,7 +20356,7 @@
       mnc="01"
       apn="gprs.ancel"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar INTERNET"
@@ -20374,7 +20366,7 @@
       user="movistar"
       password="movistar"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="Movistar MMS"
@@ -20397,7 +20389,7 @@
       user="ctigprs"
       password="ctigprs999"
       authtype="1"
-      type="default,supl,dun"
+      type="default,supl"
   />
 
   <apn carrier="MMS GPRS UY"
