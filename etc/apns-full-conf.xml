@@ -21924,7 +21924,19 @@
       type="default,supl"
   />
 
-  <apn carrier="IIJmio"
+  <apn carrier="IIJmio (LTE端末)"
+      mcc="440"
+      mnc="10"
+      apn="iijmio.jp"
+      user="mio@iij"
+      server=""
+      password="iij"
+      authtype="3"
+      protocol="IPV4V6"
+      type="default,supl"
+  />
+
+  <apn carrier="IIJmio (3G端末)"
       mcc="440"
       mnc="10"
       apn="iijmio.jp"
