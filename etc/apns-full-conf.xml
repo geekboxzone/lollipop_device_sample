@@ -5180,6 +5180,78 @@
       type="default,supl"
   />
 
+  <!-- 1xRTT -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="6"
+  />
+
+  <!-- EVDO_0 -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="7"
+  />
+
+  <!-- EVDO_A -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="8"
+  />
+
+  <!-- EVDO_B -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="12"
+  />
+
+  <!-- IS95A -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="4"
+  />
+
+  <!-- IS95B -->
+  <apn carrier="Sprint"
+      mcc="310"
+      mnc="120"
+      apn="sprint"
+      type="default,supl,mms,ims,cbs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      bearer="5"
+  />
+
   <!-- this APN will be deleted and replaced by a new ia APN by the HFA provisioning process.
        This is just a bootstrap APN to enable HFA -->
   <apn carrier="OTA"
@@ -5189,6 +5261,102 @@
       type="fota,ia"
       user="null"
       password="null"
+  />
+
+  <!-- GPRS -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="1"
+  />
+
+  <!-- EDGE -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="2"
+  />
+
+  <!-- UMTS -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="3"
+  />
+
+  <!-- HSDPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="9"
+  />
+
+  <!-- HSUPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="10"
+  />
+
+  <!-- HSPA -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="11"
+  />
+
+  <!-- HSPAP -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="15"
+  />
+
+  <!-- GSM -->
+  <apn carrier="SPCS Global"
+      mcc="310"
+      mnc="120"
+      apn="cinet.spcs"
+      mmsc="http://mms.sprintpcs.com"
+      mmsproxy="68.28.31.7"
+      mmsport="80"
+      type="default,supl,mms"
+      bearer="16"
   />
 
   <apn carrier="My Multi Media"
