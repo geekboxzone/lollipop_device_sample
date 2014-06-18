@@ -14710,6 +14710,17 @@
       type="default,supl"
   />
 
+  <apn carrier="b-mobile for Nexus"
+      mcc="440"
+      mnc="10"
+      apn="bmobile.ne.jp"
+      user="bmobile@nx"
+      server=""
+      password="bmobile"
+      authtype="3"
+      type="default,supl"
+  />
+
   <apn carrier="b-mobile 3G・4G 1GB/Fair"
       mcc="440"
       mnc="10"
@@ -14764,6 +14775,27 @@
       authtype="3"
       type="default,supl"
   />
+
+  <apn carrier="OCN モバイル ONE (3G)"
+      mcc="440"
+      mnc="10"
+      apn="3g-d-2.ocn.ne.jp"
+      user="mobileid@ocn"
+      server=""
+      password="mobile"
+      authtype="2"
+  />
+
+  <apn carrier="OCN モバイル ONE (LTE)"
+      mcc="440"
+      mnc="10"
+      apn="lte-d.ocn.ne.jp"
+      user="mobileid@ocn"
+      server=""
+      password="mobile"
+      authtype="2"
+  />
+
 
   <apn carrier="Application"
       mcc="440"
