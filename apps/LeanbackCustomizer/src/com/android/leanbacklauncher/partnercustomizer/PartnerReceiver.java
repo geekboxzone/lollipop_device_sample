@@ -53,7 +53,12 @@ import java.util.List;
  * Packages using this broadcast receiver must also be a system app to be used for
  * partner customization.
  */
-public class BootReceiver extends BroadcastReceiver {
+public class PartnerReceiver extends BroadcastReceiver {
+    private static final String ACTION_PARTNER_CUSTOMIZATION =
+            "com.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION";
+
+    private static final String EXTRA_ROW_WRAPPING_CUTOFF =
+            "com.android.leanbacklauncher.extra.ROW_WRAPPING_CUTOFF";
 
     private static final String PARTNER_GROUP = "partner_row_entry";
     private static final String BLACKLIST_PACKAGE = "com.android.leanbacklauncher.replacespackage";
@@ -64,6 +69,11 @@ public class BootReceiver extends BroadcastReceiver {
     private Context mContext;
     private NotificationManager mNotifMan;
     private PackageManager mPkgMan;
+    
+    // Cutoff value for when the Launcher displayes the Partner row as a single
+    // row, or a two row grid. Can be used for correctly positioning the partner
+    // app entries.
+    private int mRowCutoff = 0;
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -78,7 +88,8 @@ public class BootReceiver extends BroadcastReceiver {
         if (Intent.ACTION_PACKAGE_ADDED.equals(action)||
                 Intent.ACTION_PACKAGE_REMOVED.equals(action)) {
             postNotification(getPackageName(intent));
-        } else {
+        } else if (ACTION_PARTNER_CUSTOMIZATION.equals(action)) {
+            mRowCutoff = intent.getIntExtra(EXTRA_ROW_WRAPPING_CUTOFF, 0);
             postNotification(TED_PKG_NAME);
             postNotification(PLAY_MOVIES_PKG_NAME);
         }
