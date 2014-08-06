@@ -7,12 +7,12 @@
 
     <application android:label="@string/app_label">
 
-        <receiver android:name=".BootReceiver">
+        <receiver android:name=".PartnerReceiver">
             <intent-filter>
                 <action android:name="com.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION" />
-                <action android:name="android.intent.action.BOOT_COMPLETED"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
+
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
                 <action android:name="android.intent.action.PACKAGE_REMOVED" />
