@@ -20668,20 +20668,6 @@
       type="default,supl,mms"
   />
 
-  <apn carrier="Crazy Internet"
-      mcc="505"
-      mnc="03"
-      apn="purtona.wap"
-      authtype="0"
-      mmsproxy="10.202.2.20"
-      mmsc="http://purtona.mms/mmssend"
-      mmsport="8080"
-      mvno_match_data="Crazy John's"
-      mvno_type="spn"
-      protocol="IP"
-  />
-
-
   <apn carrier="Planet 3"
       mcc="505"
       mnc="06"
