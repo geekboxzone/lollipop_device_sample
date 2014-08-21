@@ -20253,32 +20253,32 @@
       type="mms"
   />
 
-  <apn carrier="威寶電信(VIBO) (vibo)"
+  <apn carrier="VIBO-vibo"
       mcc="466"
       mnc="89"
       apn="vibo"
       type="default,supl"
   />
 
-  <apn carrier="威寶電信(VIBO) (internet)"
+  <apn carrier="T Star-internet"
       mcc="466"
       mnc="89"
       apn="internet"
       type="default,supl"
   />
 
-  <apn carrier="威寶電信(VIBO) (viboone)"
+  <apn carrier="VIBOONE"
       mcc="466"
       mnc="89"
       apn="viboone"
       type="default,supl"
   />
 
-  <apn carrier="威寶電信(VIBO) (MMS)"
+  <apn carrier="T Star-MMS"
       mcc="466"
       mnc="89"
-      apn="vibo"
-      mmsc="http://mms"
+      apn="internet"
+      mmsc="http://mms.vibo.net.tw"
       mmsproxy="172.24.128.36"
       mmsport="8080"
       type="mms"
