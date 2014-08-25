@@ -5710,17 +5710,6 @@
       type="mms"
   />
 
-  <apn carrier="Vodafone Live"
-      mcc="286"
-      mnc="02"
-      apn="vflive"
-      user="vodafone"
-      password="vodafone"
-      proxy="212.65.136.226"
-      port="9401"
-      type="default,supl"
-  />
-
   <apn carrier="AVEA INTERNET"
       mcc="286"
       mnc="03"
