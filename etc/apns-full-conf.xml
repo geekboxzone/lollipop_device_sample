@@ -20018,6 +20018,15 @@
       type="mms"
   />
 
+  <apn carrier="3G Portal"
+      mcc="425"
+      mnc="10"
+      apn="uwap.orange.co.il"
+      mmsc="http://192.168.220.15/servlets/mms"
+      mmsport="8080"
+      type="default,supl,mms"
+  />
+
   <apn carrier="Alon Internet"
       mcc="425"
       mnc="14"
