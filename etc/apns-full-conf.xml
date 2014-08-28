@@ -7458,6 +7458,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 160"
@@ -7468,6 +7469,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 160 DUN"
@@ -7479,6 +7481,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 160"
@@ -7541,6 +7544,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 200"
@@ -7551,6 +7555,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 200 DUN"
@@ -7560,7 +7565,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7584,6 +7589,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 210"
@@ -7594,6 +7600,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 210 DUN"
@@ -7603,7 +7610,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7627,6 +7634,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 220"
@@ -7637,6 +7645,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 220 DUN"
@@ -7646,7 +7655,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7670,6 +7679,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 230"
@@ -7680,6 +7690,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 230 DUN"
@@ -7689,7 +7700,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7713,6 +7724,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 240"
@@ -7723,6 +7735,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 240 DUN"
@@ -7732,7 +7745,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7756,6 +7769,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 250"
@@ -7766,6 +7780,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 250 DUN"
@@ -7775,7 +7790,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7799,6 +7814,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile GPRS"
@@ -7809,6 +7825,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US DUN"
@@ -7818,7 +7835,7 @@
       user="none"
       server="*"
       password="none"
-      mtusize="1440"
+      mtu="1440"
       protocol="IP"
       type="dun"
   />
@@ -7894,6 +7911,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 270"
@@ -7904,6 +7922,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 270 DUN"
@@ -7915,6 +7934,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 270"
@@ -7937,6 +7957,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 300 DUN"
@@ -7948,6 +7969,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 300"
@@ -7984,6 +8006,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 310"
@@ -7994,6 +8017,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 310 DUN"
@@ -8005,6 +8029,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 310"
@@ -8079,7 +8104,7 @@
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
       type="default,mms,supl,hipri"
-      mtusize="1410"
+      mtu="1410"
       mvno_type="gid"
       mvno_match_data="2AC9"
   />
@@ -8260,6 +8285,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 490"
@@ -8270,6 +8296,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 490 DUN"
@@ -8281,6 +8308,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 490"
@@ -8323,6 +8351,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 530 DUN"
@@ -8334,6 +8363,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 530"
@@ -8382,6 +8412,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 580"
@@ -8392,6 +8423,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 580 DUN"
@@ -8403,6 +8435,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 580"
@@ -8435,6 +8468,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 590 DUN"
@@ -8446,6 +8480,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 590"
@@ -8485,6 +8520,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 640 DUN"
@@ -8517,6 +8553,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 660"
@@ -8527,6 +8564,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 660 DUN"
@@ -8538,6 +8576,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 660"
@@ -8607,6 +8646,7 @@
       type="ia"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 800"
@@ -8617,6 +8657,7 @@
       type="default,supl,mms"
       protocol="IPV6"
       roaming_protocol="IP"
+      mtu="1440"
   />
 
   <apn carrier="T-Mobile US 800 DUN"
@@ -8628,6 +8669,7 @@
       password="none"
       protocol="IP"
       type="dun"
+      mtu="1440"
   />
 
   <apn carrier="MetroPCS 800"
