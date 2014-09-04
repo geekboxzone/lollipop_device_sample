@@ -33,7 +33,7 @@
       mmsproxy="proxy.mobile.att.net"
       mmsport="80"
       type="default,mms,supl,hipri,fota,dun"
-      mtusize="1410"
+      mtu="1410"
   />
 
   <apn carrier="T-Mobie TEST SIM"
@@ -45,7 +45,22 @@
       proxy=""
       port=""
       type="default,supl,hipri,dun"
-      mtusize="1440"
+      mtu="1440"
+  />
+
+  <apn carrier="U.S.Cellular TEST SIM"
+      mcc="001"
+      mnc="01"
+      apn="usccinternet"
+      user=""
+      password=""
+      proxy=""
+      port=""
+      mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+      type="default,mms,hipri,dun,fota"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+      mtu="1422"
   />
 
   <apn carrier="Test 800"
@@ -7219,6 +7234,7 @@
       server="*"
       password="*"
       mmsc="http://mmsc1.uscc.net/mmsc/MMS"
+      mtu="1422"
   />
 
   <apn carrier="Corr Wap"
@@ -8836,6 +8852,7 @@
       authtype="3"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -8847,6 +8864,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -8858,6 +8876,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -8869,6 +8888,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9477,6 +9497,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9488,6 +9509,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9499,6 +9521,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9510,6 +9533,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9521,6 +9545,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9532,6 +9557,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9543,6 +9569,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9554,6 +9581,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9565,6 +9593,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9576,6 +9605,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9587,6 +9617,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9599,6 +9630,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9611,6 +9643,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9622,6 +9655,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9633,6 +9667,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9644,6 +9679,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9655,6 +9691,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9666,6 +9703,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9677,6 +9715,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9688,6 +9727,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9699,6 +9739,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9710,6 +9751,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9721,6 +9763,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9732,6 +9775,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -9743,6 +9787,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="CSpire ota"
@@ -10256,6 +10301,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10267,6 +10313,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10278,6 +10325,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10289,6 +10337,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10300,6 +10349,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10311,6 +10361,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10322,6 +10373,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10333,6 +10385,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10344,6 +10397,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10355,6 +10409,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10366,6 +10421,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10377,6 +10433,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10388,6 +10445,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10399,6 +10457,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10410,6 +10469,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10421,6 +10481,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10432,6 +10493,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10443,6 +10505,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10454,6 +10517,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10465,6 +10529,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10476,6 +10541,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10487,6 +10553,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10498,6 +10565,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10509,6 +10577,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10520,6 +10589,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10531,6 +10601,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10542,6 +10613,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10553,6 +10625,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10564,6 +10637,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      mtu="1422"
   />
 
   <apn carrier="U.S. Cellular"
@@ -10575,6 +10649,7 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="6"
+      mtu="1422"
   />
 
   <apn carrier="TelAlaska Cellular"
