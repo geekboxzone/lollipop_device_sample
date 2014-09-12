@@ -9489,13 +9489,6 @@
       max_conns_time="300"
   />
 
-  <apn carrier="INTERNET CLARO"
-      mcc="330"
-      mnc="110"
-      apn="internet.claropr.com"
-      type="default,supl"
-  />
-
   <apn carrier="U.S. Cellular"
       mcc="311"
       mnc="221"
@@ -11032,11 +11025,12 @@
       type="default"
   />
 
-  <apn carrier="INTERNET CLARO"
+  <apn carrier="Puerto Rico:Claro:LTE"
       mcc="330"
       mnc="110"
-      apn="internet.claropr.com"
-      type="default,supl"
+      apn="lte.claropr.com"
+      type="default"
+      authtype="1"
   />
 
   <apn carrier="Puerto Rico:Claro:Banda Ancha"
