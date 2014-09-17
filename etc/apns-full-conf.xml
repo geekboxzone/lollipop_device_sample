@@ -91,6 +91,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test FOTA"
@@ -101,6 +105,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -111,6 +119,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -121,6 +133,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -131,6 +147,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -141,6 +161,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -165,6 +189,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -176,6 +204,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test 800"
@@ -206,6 +238,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test FOTA"
@@ -216,6 +252,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -226,6 +266,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -236,6 +280,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -246,6 +294,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -256,6 +308,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -280,6 +336,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -291,6 +351,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Cosmote Wireless Internet"
@@ -422,6 +486,10 @@
       bearer="13"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="LTE - VZW Roaming Internet"
@@ -433,6 +501,10 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="EHRPD - VZW Roaming FOTA"
@@ -445,6 +517,10 @@
       bearer="13"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="LTE - VZW Roaming FOTA"
@@ -456,6 +532,10 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="LTE - VZW Roaming IMS"
@@ -467,6 +547,10 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="EHRPD - VZW Roaming IMS"
@@ -479,6 +563,10 @@
       bearer="13"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="LTE - VZW Roaming CBS"
@@ -491,6 +579,10 @@
       roaming_protocol="IPV4V6"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="EHRPD - VZW Roaming CBS"
@@ -504,6 +596,10 @@
       bearer="13"
       mvno_type="gid"
       mvno_match_data="BAE0000000000000"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="KPN/Hi 4G LTE Mobiel internet"
@@ -4819,6 +4915,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -4830,6 +4930,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test 800"
@@ -4860,6 +4964,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test FOTA"
@@ -4870,6 +4978,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -4880,6 +4992,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test CBS"
@@ -4890,6 +5006,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -4900,6 +5020,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test IMS"
@@ -4910,6 +5034,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -4934,6 +5062,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Test Internet"
@@ -4945,6 +5077,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="LMT Internet"
@@ -9760,6 +9896,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM Internet"
@@ -9771,6 +9911,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="0"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM FOTA"
@@ -9781,6 +9925,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM FOTA"
@@ -9791,6 +9939,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="3"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM IMS"
@@ -9801,6 +9953,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM IMS"
@@ -9811,6 +9967,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="2"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM CBS"
@@ -9822,6 +9982,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="14"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Ericsson Test-SIM CBS"
@@ -9833,6 +9997,10 @@
       protocol="IPV4V6"
       roaming_protocol="IPV4V6"
       bearer="13"
+      profile_id="4"
+      modem_cognitive="true"
+      max_conns="1023"
+      max_conns_time="300"
   />
 
   <apn carrier="Sprint"
