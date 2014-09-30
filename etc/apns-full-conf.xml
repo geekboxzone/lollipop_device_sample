@@ -1200,19 +1200,11 @@
       mcc="208"
       mnc="09"
       apn="sl2sfr"
-      protocol="IP"
-      type="default,supl,agps,fota"
-  />
-
-  <apn carrier="SFR MMS"
-      mcc="208"
-      mnc="09"
-      apn="mmssfr"
       mmsc="http://mms1"
       mmsproxy="10.151.0.1"
       mmsport="8080"
       protocol="IP"
-      type="mms"
+      type="default,mms,supl,agps,fota"
   />
 
   <apn carrier="SFR option modem"
@@ -1234,7 +1226,10 @@
       mcc="208"
       mnc="10"
       apn="sl2sfr"
-      type="default,supl"
+      mmsc="http://mms1"
+      mmsproxy="10.151.0.1"
+      mmsport="8080"
+      type="default,mms,supl"
   />
 
   <apn carrier="SFR option Modem"
@@ -1243,16 +1238,6 @@
       apn="websfr"
       authtype="0"
       type="dun"
-  />
-
-  <apn carrier="MMS"
-      mcc="208"
-      mnc="10"
-      apn="sl2sfr"
-      mmsc="http://mms1"
-      mmsproxy="10.151.0.1"
-      mmsport="8080"
-      type="mms"
   />
 
   <apn carrier="NRJWEB"
@@ -1514,20 +1499,10 @@
       mnc="10"
       apn="sl2sfr"
       authtype="0"
-      type="default,supl,agps,fota"
-      mvno_type="gid"
-      mvno_match_data="53"
-  />
-
-  <apn carrier="MMS Joe"
-      mcc="208"
-      mnc="10"
-      apn="mmssfr"
-      authtype="0"
       mmsc="http://mms1"
       mmsproxy="10.151.0.1"
       mmsport="8080"
-      type="mms"
+      type="default,mms,supl,agps,fota"
       mvno_type="gid"
       mvno_match_data="53"
   />
