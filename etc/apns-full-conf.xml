@@ -1665,6 +1665,31 @@
       mvno_match_data="2140359"
   />
 
+  <apn carrier="Carrefour"
+      mcc="214"
+      mnc="03"
+      apn="CARREFOURINTERNET"
+      authtype="1"
+      type="default,supl"
+      mvno_type="imsi"
+      mvno_match_data="2140352xxxxxxxx"
+  />
+
+  <apn carrier="Carrefour MMS"
+      mcc="214"
+      mnc="03"
+      apn="CARREFOURMMS"
+      user="CARREFOUR"
+      password="CARREFOUR"
+      authtype="1"
+      mmsc="http://mms.orange.es"
+      mmsproxy="172.022.188.025"
+      mmsport="8080"
+      mvno_type="imsi"
+      mvno_match_data="2140352xxxxxxxx"
+      type="mms"
+  />
+
   <apn carrier="Yoigo Internet"
       mcc="214"
       mnc="04"
@@ -1908,6 +1933,30 @@
       user="MOVISTAR"
       password="MOVISTAR"
       type="dun"
+  />
+
+  <apn carrier="T-2"
+      mcc="214"
+      mnc="07"
+      apn="internet.t-2.net"
+      mmsc="http://www.mms.t-2.net:8002"
+      mmsproxy="172.20.18.137"
+      mmsport="8080"
+      mvno_type="imsi"
+      mvno_match_data="2140759577xxxxx"
+      type="default,ims,mms,supl"
+  />
+
+  <apn carrier="T-2"
+      mcc="214"
+      mnc="07"
+      apn="internet.t-2.net"
+      mmsc="http://www.mms.t-2.net:8002"
+      mmsproxy="172.20.18.137"
+      mmsport="8080"
+      type="default,ims,mms,supl"
+      mvno_type="imsi"
+      mvno_match_data="2140796692xxxxx"
   />
 
   <apn carrier="Euskaltel MMS"
@@ -6306,6 +6355,20 @@
       type="mms"
   />
 
+  <apn carrier="bulsatcom"
+      mcc="284"
+      mnc="11"
+      apn="bulsat.com"
+      type="default,supl"
+  />
+
+  <apn carrier="MAX TELECOM"
+      mcc="284"
+      mnc="13"
+      apn="apn.maxtelecom.bg"
+      type="default,supl"
+  />
+
   <apn carrier="TURKCELL INTERNET"
       mcc="286"
       mnc="01"
@@ -6454,6 +6517,18 @@
       mmsproxy="91.185.221.85"
       mmsport="8080"
       type="mms"
+  />
+
+  <apn carrier="Telemach Internet"
+      mcc="293"
+      mnc="70"
+      apn="telemach.net"
+      mmsc="http://mms.telemach.net:8002"
+      mmsproxy="91.185.221.85"
+      mmsport="8080"
+      mvno_type="imsi"
+      mvno_match_data="29370029xxxxxxx"
+      type="default,supl,mms"
   />
 
   <apn carrier="T-Mobile MK Internet"
