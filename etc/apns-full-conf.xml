@@ -9739,7 +9739,7 @@
       type="mms"
   />
 
-  <apn carrier="ATT Phone"
+  <apn carrier="ATT Nextgenphone"
       mcc="310"
       mnc="410"
       apn="nxtgenphone"
