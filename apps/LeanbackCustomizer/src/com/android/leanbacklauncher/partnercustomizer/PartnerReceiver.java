@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.android.leanbacklauncher.partnercustomizer;
+package com.google.android.leanbacklauncher.partnercustomizer;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -55,13 +55,13 @@ import java.util.List;
  */
 public class PartnerReceiver extends BroadcastReceiver {
     private static final String ACTION_PARTNER_CUSTOMIZATION =
-            "com.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION";
+            "com.google.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION";
 
     private static final String EXTRA_ROW_WRAPPING_CUTOFF =
-            "com.android.leanbacklauncher.extra.ROW_WRAPPING_CUTOFF";
+            "com.google.android.leanbacklauncher.extra.ROW_WRAPPING_CUTOFF";
 
     private static final String PARTNER_GROUP = "partner_row_entry";
-    private static final String BLACKLIST_PACKAGE = "com.android.leanbacklauncher.replacespackage";
+    private static final String BLACKLIST_PACKAGE = "com.google.android.leanbacklauncher.replacespackage";
 
     private static final String TED_PKG_NAME = "com.ted.android.tv";
     private static final String PLAY_MOVIES_PKG_NAME = "com.google.android.videos";
@@ -69,7 +69,7 @@ public class PartnerReceiver extends BroadcastReceiver {
     private Context mContext;
     private NotificationManager mNotifMan;
     private PackageManager mPkgMan;
-    
+
     // Cutoff value for when the Launcher displayes the Partner row as a single
     // row, or a two row grid. Can be used for correctly positioning the partner
     // app entries.

@@ -1,4 +1,4 @@
-package com.android.leanbacklauncher.partnercustomizer;
+package com.google.android.leanbacklauncher.partnercustomizer;
 
 import android.app.Activity;
 

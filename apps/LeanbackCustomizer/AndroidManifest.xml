@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.leanbacklauncher.partnercustomizer">
+    package="com.google.android.leanbacklauncher.partnercustomizer">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +9,7 @@
 
         <receiver android:name=".PartnerReceiver">
             <intent-filter>
-                <action android:name="com.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION" />
+                <action android:name="com.google.android.leanbacklauncher.action.PARTNER_CUSTOMIZATION" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
 
