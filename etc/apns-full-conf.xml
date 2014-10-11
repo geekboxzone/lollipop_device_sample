@@ -7913,20 +7913,6 @@
       bearer="12"
   />
 
-  <!-- EHRPD - CDMA -->
-  <apn carrier="Verizon Internet"
-      mcc="310"
-      mnc="004"
-      apn="VZWINTERNET"
-      type="default"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer="13"
-      profile_id="0"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
-  />
   <apn carrier="Verizon Internet"
       mcc="310"
       mnc="004"
@@ -14266,19 +14252,6 @@
   />
 
   <!-- EHRPD - CDMA -->
-  <apn carrier="EHRPD - Verizon Internet"
-      mcc="311"
-      mnc="480"
-      apn="VZWINTERNET"
-      type="default,supl"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-      bearer="13"
-      profile_id="0"
-      modem_cognitive="true"
-      max_conns="1023"
-      max_conns_time="300"
-  />
   <apn carrier="EHRPD - Verizon Internet"
       mcc="311"
       mnc="480"
