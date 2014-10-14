@@ -9252,18 +9252,6 @@
       mtu="1440"
   />
 
-  <apn carrier="T-Mobile US DUN"
-      mcc="310"
-      mnc="260"
-      apn="pcweb.tmobile.com"
-      user="none"
-      server="*"
-      password="none"
-      mtu="1440"
-      protocol="IP"
-      type="dun"
-  />
-
   <apn carrier="MetroPCS"
       mcc="310"
       mnc="260"
