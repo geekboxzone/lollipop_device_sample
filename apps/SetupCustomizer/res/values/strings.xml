@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_label">SetupCustomizer</string>
+
+    <!-- Welcome messgae -->
+    <string name="welcome_message">welcome_message</string>
+
+</resources>
