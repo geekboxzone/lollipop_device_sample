@@ -6715,7 +6715,7 @@
       mcc="302"
       mnc="220"
       apn="sp.koodo.com"
-      type="default,mms,supl"
+      type="default,mms,supl,dun"
       mmsc="http://aliasredirect.net/proxy/koodo/mmsc"
       mmsproxy="74.49.0.18"
       mmsport="80"
@@ -6896,18 +6896,6 @@
       mvno_match_data="2C"
   />
 
-  <apn carrier="Fido LTE"
-      mcc="302"
-      mnc="370"
-      apn="ltemobile.apn"
-      type="default,mms,supl"
-      mmsc="http://mms.fido.ca"
-      mmsproxy="mmsproxy.fido.ca"
-      mmsport="80"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
-  />
-
   <apn carrier="Internet"
       mcc="302"
       mnc="490"
@@ -6981,18 +6969,6 @@
       roaming_protocol="IP"
       mvno_type="gid"
       mvno_match_data="2C"
-  />
-
-  <apn carrier="Rogers LTE"
-      mcc="302"
-      mnc="720"
-      apn="ltemobile.apn"
-      type="default,mms,supl"
-      mmsc="http://mms.gprs.rogers.com"
-      mmsproxy="mmsproxy.rogers.com"
-      mmsport="80"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="chatr"
@@ -32703,17 +32679,6 @@
       password='1212'
   />
 
-  <apn carrier='Nextel GPS'
-      mcc='724'
-      mnc='39'
-      apn='gps.nextel3g.net.br'
-      server='http://supl.nextel3g.net.br'
-      authtype='0'
-      type='supl'
-      protocol='IPV4V6'
-      roaming_protocol='IPV4V6'
-  />
-
   <apn carrier='Nextel MMS'
       mcc='724'
       mnc='39'
@@ -32727,22 +32692,12 @@
       roaming_protocol='IPV4V6'
   />
 
-  <apn carrier='Nextel Modem'
-      mcc='724'
-      mnc='39'
-      apn='modem.nextel3g.net.br'
-      authtype='0'
-      type='dun'
-      protocol='IPV4V6'
-      roaming_protocol='IPV4V6'
-  />
-
   <apn carrier='Nextel WAP'
       mcc='724'
       mnc='39'
       apn='wap.nextel3g.net.br'
       authtype='0'
-      type='default'
+      type='default,dun'
       protocol='IPV4V6'
       roaming_protocol='IPV4V6'
   />
