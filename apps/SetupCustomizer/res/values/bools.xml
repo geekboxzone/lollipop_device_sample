@@ -5,4 +5,7 @@
     <!-- Display "SKIP" in network selection screen -->
     <bool name="show_skip_network">true</bool>
 
+    <!-- Allow user to skip Google signin at signin setup step -->
+    <bool name="show_skip_signin">true</bool>
+
 </resources>
