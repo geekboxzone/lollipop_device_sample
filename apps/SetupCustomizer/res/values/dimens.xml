@@ -3,6 +3,6 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Welcome text font size -->
-    <!-- dimen name="welcome_font_size">12dp</dimen -->
+    <dimen name="welcome_font_size">12dp</dimen>
 
 </resources>
