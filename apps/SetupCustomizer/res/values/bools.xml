@@ -11,4 +11,6 @@
     <!-- Show wifi WPS option at top of list -->
     <bool name="show_wps_at_top">true</bool>
 
+    <!-- Prevent users from returning to the pre-setup oem customization hook -->
+    <bool name="prevent_prehook_replay">true</bool>
 </resources>
