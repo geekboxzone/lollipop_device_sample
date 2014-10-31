@@ -2,7 +2,7 @@
 <!-- Copyright 2012-2014 Google Inc. All Rights Reserved. -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Welcome text font size -->
-    <dimen name="welcome_font_size">12dp</dimen>
+    <!-- Welcome text font size; can use dp, sp, pt, etc. -->
+    <dimen name="welcome_font_size">12sp</dimen>
 
 </resources>
