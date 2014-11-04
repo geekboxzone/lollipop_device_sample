@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_gravity="top|end">
+    android:layout_height="match_parent">
 
     <TextClock
         android:id="@+id/clock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
         android:format12Hour="@string/widget_12_hours_format"
         android:format24Hour="@string/widget_24_hours_format"
         android:fontFamily="@string/light_font"
         android:textColor="@color/clock_text_color"
-        android:textSize="@dimen/clock_text_size"
-        android:layout_gravity="top|end" />
+        android:textSize="@dimen/clock_text_size" />
 
-</FrameLayout>
+    <ImageView
+        android:id="@+id/connectivity_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toStartOf="@+id/clock"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@null" />
+
+</RelativeLayout>

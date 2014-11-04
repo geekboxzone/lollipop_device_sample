@@ -6,11 +6,17 @@
         android:minSdkVersion="19"
         android:targetSdkVersion="19" />
 
-    <application android:label="@string/app_label">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
+    <application android:label="@string/app_label">
         <receiver android:name=".ClockWidgetProvider" >
             <intent-filter>
-                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <!-- broadcasts that could indicate our internet connection status has changed -->
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.RSSI_CHANGED" />
+                <action android:name="com.google.android.gcm.CONNECTED" />
+                <action android:name="com.google.android.gcm.DISCONNECTED" />
+
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
 
@@ -18,5 +24,6 @@
                 android:name="android.appwidget.provider"
                 android:resource="@xml/clock_widget_info" />
         </receiver>
+
     </application>
 </manifest>
