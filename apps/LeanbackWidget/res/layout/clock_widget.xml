@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|end">
+
+    <TextClock
+        android:id="@+id/clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:format12Hour="@string/widget_12_hours_format"
+        android:format24Hour="@string/widget_24_hours_format"
+        android:fontFamily="@string/light_font"
+        android:textColor="@color/clock_text_color"
+        android:textSize="@dimen/clock_text_size"
+        android:layout_gravity="top|end" />
+
+</FrameLayout>
