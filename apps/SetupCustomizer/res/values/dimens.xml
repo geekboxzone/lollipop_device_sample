@@ -5,4 +5,7 @@
     <!-- Welcome text font size; can use dp, sp, pt, etc. -->
     <dimen name="welcome_font_size">12sp</dimen>
 
+    <!-- Offset (positive or negative) for the welcome message -->
+    <dimen name="welcome_message_offset">-100dp</dimen>
+
 </resources>
