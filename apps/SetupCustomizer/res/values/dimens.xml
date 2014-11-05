@@ -2,10 +2,10 @@
 <!-- Copyright 2012-2014 Google Inc. All Rights Reserved. -->
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <!-- Welcome text font size; can use dp, sp, pt, etc. -->
-    <dimen name="welcome_font_size">12sp</dimen>
+    <!-- Max width for welcome text (default: 536dp) -->
+    <dimen name="welcome_message_max_width">400dp</dimen>
 
-    <!-- Offset (positive or negative) for the welcome message -->
+    <!-- Offset (positive or negative) for the welcome message (default: 0) -->
     <dimen name="welcome_message_offset">-100dp</dimen>
 
 </resources>
