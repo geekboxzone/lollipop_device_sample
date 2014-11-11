@@ -9826,6 +9826,16 @@
       mmsport="80"
   />
 
+  <apn carrier="ATT Phone"
+      mcc="310"
+      mnc="410"
+      apn="phone"
+      type="default,mms,supl,fota,hipri"
+      mmsc="http://mmsc.mobile.att.net"
+      mmsproxy="proxy.mobile.att.net"
+      mmsport="80"
+  />
+
   <apn carrier="ATT WAP"
       mcc="310"
       mnc="410"
