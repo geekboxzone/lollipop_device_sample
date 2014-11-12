@@ -7,6 +7,9 @@
         com.google.android.leanbacklauncher.partnerwidget/.ClockWidgetProvider
     </string>
 
+    <!-- DO NOT TRANSLATE -->
+    <string name="partner_search_icon" translatable="false">ic_launcher</string>
+
     <!--
         DO NOT TRANSLATE
         List showing default out of box ordering for the launcher.
