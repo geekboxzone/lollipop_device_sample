@@ -46,9 +46,9 @@ public class ClockWidgetProvider extends AppWidgetProvider {
 
         int resId = 0;
         if (info == null || !info.isAvailable()) {
-            resId = R.drawable.ic_settings_wifi_not_connected;
+            resId = R.drawable.ic_widget_wifi_not_connected;
         } else if (!info.isConnected()) {
-            resId = R.drawable.ic_settings_wifi_no_internet;
+            resId = R.drawable.ic_widget_wifi_no_internet;
         } else {
             // internet is connected and working, show nothing
             resId = android.R.color.transparent;
