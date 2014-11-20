@@ -17298,10 +17298,11 @@
   <apn carrier="MMS CLARO"
       mcc="330"
       mnc="110"
-      apn="mms.claropr.com"
+      apn="mmslte.claropr.com"
       mmsproxy="10.50.38.3"
       mmsport="8799"
       mmsc="http://mmsg.claropr.com:10021/mmsc"
+      authtype='1'
       type="mms"
   />
 
