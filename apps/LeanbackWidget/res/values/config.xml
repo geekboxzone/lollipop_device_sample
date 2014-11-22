@@ -11,5 +11,4 @@
     <string name="widget_12_hours_format" translatable="false">h:mm</string>
     <string name="widget_24_hours_format" translatable="false">kk:mm</string>
 
-    <item name="icon_alpha" format="float" type="raw">0.6</item>
 </resources>
