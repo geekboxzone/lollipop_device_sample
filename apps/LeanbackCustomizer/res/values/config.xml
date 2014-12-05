@@ -52,5 +52,8 @@
     <item type="drawable" name="settings_row_icon">@drawable/ic_title_settings</item>
 
     <!-- DO NOT TRANSLATE -->
+    <string name="partner_font" translatable="false">sans-serif-bold</string>
+
+    <!-- DO NOT TRANSLATE -->
     <string name="launcher_category" translatable="false">android.intent.category.LEANBACK_LAUNCHER</string>
 </resources>
