@@ -5854,9 +5854,7 @@
       mcc="260"
       mnc="06"
       apn="mms"
-      mmsc="http://10.10.28.164/mms/wapenc"
-      mmsproxy="10.10.25.5"
-      mmsport="8080"
+      mmsc="http://mmsc.play.pl/mms/wapenc"
       type="mms"
   />
 
