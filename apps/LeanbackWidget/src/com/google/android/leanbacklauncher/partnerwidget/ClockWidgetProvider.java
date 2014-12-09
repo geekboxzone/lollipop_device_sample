@@ -78,7 +78,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
 
     private static boolean readConnectivity(Context context) {
         return context.getSharedPreferences(SHARED_PREFS, Context.MODE_PRIVATE).getBoolean(
-                EXTRA_INET_CONDITION, false);
+                EXTRA_INET_CONDITION, true);
     }
 
 }
