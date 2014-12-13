@@ -27724,6 +27724,24 @@
       type="mms"
   />
 
+  <apn carrier="China Unicom 3G"
+      apn="3gnet"
+      mcc="460"
+      mnc="09"
+      port="80"
+      type="default, supl"/>
+
+  <apn carrier="China Unicom wap"
+      apn="3gwap"
+      mcc="460"
+      mnc="09"
+      proxy="10.0.0.172"
+      port="80"
+      mmsproxy="10.0.0.172"
+      mmsport="80"
+      mmsc="http://mmsc.myuni.com.cn"
+      type="default, mms"/>
+
   <apn carrier="遠傳電信(Far EasTone) (MMS)"
       mcc="466"
       mnc="01"
