@@ -7071,7 +7071,7 @@
 
   <apn carrier="Verizon CDMA HRPD"
      mcc="310"
-     mnc="00"
+     mnc="000"
      mmsc="http://mms.vzwreseller.com/servlets/mms"
      type="default,mms,hipri,dun,supl"
      mvno_type="spn"
