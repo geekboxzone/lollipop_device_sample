@@ -6120,11 +6120,11 @@
       type="mms"
   />
 
-  <apn carrier="Vox Mobile"
+  <apn carrier="Orange"
       mcc="270"
       mnc="99"
-      apn="vox.lu"
-      mmsc="http://mms.vox.lu"
+      apn="orange.lu"
+      mmsc="http://mms.orange.lu"
       mmsproxy="212.88.139.44"
       mmsport="8080"
       type="default,supl,mms"
@@ -32979,7 +32979,7 @@
       mvno_type="spn"
   />
 
-  <apn carrier="Internet Éito"
+  <apn carrier="Internet Éxito"
       mcc="732"
       mnc="103"
       apn="movilexito.net.co"
@@ -33046,7 +33046,7 @@
       mvno_type="spn"
   />
 
-  <apn carrier="Internet Éito"
+  <apn carrier="Internet Éxito"
       mcc="732"
       mnc="111"
       apn="movilexito.net.co"
@@ -33115,6 +33115,14 @@
       mcc="732"
       mnc="130"
       apn="lte.avantel.com.co"
+      authtype="0"
+      type="default"
+  />
+
+  <apn carrier="ETB 4G"
+      mcc="732"
+      mnc="187"
+      apn="internetmovil.etb.net.co"
       authtype="0"
       type="default"
   />
