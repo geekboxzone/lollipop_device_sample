@@ -4097,48 +4097,6 @@
       type="mms"
   />
 
-  <apn carrier="BiBoB Internet profil"
-      mcc="238"
-      mnc="02"
-      apn="internet.bibob.dk"
-      type="default,supl"
-      mvno_type="spn"
-      mvno_match_data="BiBoB"
-  />
-
-  <apn carrier="BiBoB"
-      mcc="238"
-      mnc="02"
-      apn="mms.bibob.dk"
-      mmsproxy="212.88.64.8"
-      mmsport="8080"
-      mmsc="http://mms.telenor.dk"
-      type="mms"
-      mvno_type="spn"
-      mvno_match_data="BiBoB"
-  />
-
-  <apn carrier="CBB Internet"
-      mcc="238"
-      mnc="02"
-      apn="internet"
-      type="default,supl"
-      mvno_type="spn"
-      mvno_match_data="CBB Mobil"
-  />
-
-  <apn carrier="CBB MMS"
-      mcc="238"
-      mnc="02"
-      apn="telenor"
-      mmsproxy="212.88.64.8"
-      mmsport="8080"
-      mmsc="http://mms.telenor.dk"
-      type="mms"
-      mvno_type="spn"
-      mvno_match_data="CBB Mobil"
-  />
-
   <apn carrier="3"
       mcc="238"
       mnc="06"
