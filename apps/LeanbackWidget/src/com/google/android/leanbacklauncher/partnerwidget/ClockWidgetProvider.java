@@ -1,4 +1,3 @@
-
 package com.google.android.leanbacklauncher.partnerwidget;
 
 import android.appwidget.AppWidgetManager;
@@ -8,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
+import android.os.Bundle;
 import android.widget.RemoteViews;
 
 public class ClockWidgetProvider extends AppWidgetProvider {
@@ -20,16 +20,28 @@ public class ClockWidgetProvider extends AppWidgetProvider {
     @Override
     public void onReceive(Context context, Intent intent) {
         String intentAction = intent.getAction();
-        if (INET_CONDITION_ACTION.equals(intentAction)) {
-            // a broadcast with this intent action is only fired when we are actually connected
-            // (i.e connectionStatus = 100).  So, clearing connectivity status when changing
-            // networks is required
-            int connectionStatus = intent.getIntExtra(EXTRA_INET_CONDITION, -551);
-            writeConnectivity(context, connectionStatus > INET_CONDITION_THRESHOLD);
+
+        if (INET_CONDITION_ACTION.equals(intentAction) ||
+                ConnectivityManager.CONNECTIVITY_ACTION.equals(intentAction)) {
+
+            if (INET_CONDITION_ACTION.equals(intentAction)) {
+                // a broadcast with this intent action is only fired when we are actually connected
+                // (i.e connectionStatus = 100).  So, clearing connectivity status when changing
+                // networks is required
+                int connectionStatus = intent.getIntExtra(EXTRA_INET_CONDITION, -551);
+                writeConnectivity(context, connectionStatus > INET_CONDITION_THRESHOLD);
+            }
+
+            update(context);
         }
 
-        update(context);
         super.onReceive(context, intent);
+    }
+
+    @Override
+    public void onAppWidgetOptionsChanged(Context context, AppWidgetManager appWidgetManager,
+            int appWidgetId, Bundle newOptions) {
+        update(context);
     }
 
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
@@ -44,8 +56,7 @@ public class ClockWidgetProvider extends AppWidgetProvider {
     }
 
     private RemoteViews getRemoteViews(Context context) {
-        RemoteViews remoteViews = new RemoteViews(context.getPackageName(),
-                R.layout.clock_widget);
+        RemoteViews remoteViews = new RemoteViews(context.getPackageName(), R.layout.clock_widget);
         remoteViews.setImageViewResource(R.id.connectivity_indicator, getConnectedResId(context));
 
         return remoteViews;
