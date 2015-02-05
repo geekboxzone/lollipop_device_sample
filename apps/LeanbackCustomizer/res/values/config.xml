@@ -3,6 +3,8 @@
     <bool name="partner_show_live_tv_on_start_up">true</bool>
 
     <!-- DO NOT TRANSLATE -->
+    <string name="partner_app_sorting_mode" translatable="false">fixed</string>
+    <!-- DO NOT TRANSLATE -->
     <string name="partner_wallpaper" translatable="false">bg_custom</string>
     <!-- DO NOT TRANSLATE -->
     <string name="partner_widget_provider_component_name" translatable="false">
